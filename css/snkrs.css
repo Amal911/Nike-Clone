@@ -19,7 +19,7 @@ hr {
   margin: 0;
   color: var(--nav-color);
 }
-footer{
+footer {
   height: 57vh;
 }
 .nav-return-link {
@@ -37,7 +37,7 @@ footer{
 }
 .nav-return-link img {
   width: 15px;
-  height: 15px;
+  height: 10px;
 }
 .nav-return-link,
 .nav-links {
@@ -91,10 +91,10 @@ footer{
 .nav-link:hover {
   color: black;
 }
-.active{
+.active {
   font-weight: 100 !important;
 }
-.snkrs-toogle-view {
+.snkrs-toggle-view {
   width: 10%;
   display: flex;
   justify-content: center;
@@ -102,23 +102,23 @@ footer{
 }
 .snkrs-logo,
 .snkrs-tabs,
-.snkrs-toogle-view {
+.snkrs-toggle-view {
   cursor: pointer;
 }
 #feed-container {
   display: flex;
   padding-top: 22px;
   padding-left: 30px;
-  padding-right: 30px;  
+  padding-right: 30px;
   height: 100vh;
 }
-.card {
+.feed-card {
   border: transparent;
   border-radius: 0;
   height: 432px;
   width: 425px !important;
 }
-.card img {
+.feed-card img {
   height: 440px;
   width: 390px;
 }
@@ -126,10 +126,27 @@ footer{
   font-family: var(--snkrs-font);
   font-weight: 500;
 }
-.card-p {
+.card-title-p {
   padding-bottom: 0 !important;
   padding-top: 18px;
 }
-.card-h {
+.card-title-h3 {
   padding: 0 !important;
+}
+#grid-container {
+  display: flex;
+  padding-top: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100vh;  
+}
+.grid-card {
+  border: transparent;
+  border-radius: 0;
+  height: 336px;
+  width: 300px !important;
+}
+.grid-card img{
+  height: 336px;
+  width: 291px; 
 }
