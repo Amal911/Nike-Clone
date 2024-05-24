@@ -1,0 +1,135 @@
+:root {
+  --nav-color: #808080;
+  --snkrs-font: Arial, Helvetica, sans-serif;
+}
+nav {
+  width: 199vh;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--snkrs-font);
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 56px;
+  font-family: var(--snkrs-font);
+}
+hr {
+  margin: 0;
+  color: var(--nav-color);
+}
+footer{
+  height: 57vh;
+}
+.nav-return-link {
+  font-size: 12px;
+  color: var(--nav-color);
+  display: flex;
+  padding-left: 27px;
+}
+.arrow-head {
+  padding-top: 9px;
+  padding-right: 3px;
+}
+.nav-return-link p {
+  padding-top: 10px;
+}
+.nav-return-link img {
+  width: 15px;
+  height: 15px;
+}
+.nav-return-link,
+.nav-links {
+  width: 50%;
+  cursor: pointer;
+}
+.nav-links {
+  display: flex;
+  justify-content: end;
+  padding-top: 9px;
+  padding-right: 35px;
+}
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.nav-links ul li {
+  font-size: 13px;
+  color: var(--nav-color);
+}
+.nav-link-hover:hover {
+  color: black;
+}
+.snkrs-logo {
+  width: 10%;
+  display: flex;
+  padding-left: 32px;
+  padding-top: 9px;
+}
+.snkrs-tabs {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.snkrs-tabs ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+}
+.tab-items {
+  position: relative;
+  top: 5px;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: black;
+}
+.active{
+  font-weight: 100 !important;
+}
+.snkrs-toogle-view {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.snkrs-logo,
+.snkrs-tabs,
+.snkrs-toogle-view {
+  cursor: pointer;
+}
+#feed-container {
+  display: flex;
+  padding-top: 22px;
+  padding-left: 30px;
+  padding-right: 30px;  
+  height: 100vh;
+}
+.card {
+  border: transparent;
+  border-radius: 0;
+  height: 432px;
+  width: 425px !important;
+}
+.card img {
+  height: 440px;
+  width: 390px;
+}
+.card-title {
+  font-family: var(--snkrs-font);
+  font-weight: 500;
+}
+.card-p {
+  padding-bottom: 0 !important;
+  padding-top: 18px;
+}
+.card-h {
+  padding: 0 !important;
+}
