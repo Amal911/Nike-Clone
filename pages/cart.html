@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://www.nike.com/favicon.ico?v=1"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://www.nike.com/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/fonts/fontStylesheet.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+  </head>
+  <body>
+    <section id="navbar"></section>
+    <section id="cart">
+      <div class="d-flex">
+        <div id="cart-bag">
+          <p id="bag-heading">Bag</p>
+          <div id="cart-items-container">
+            <div class="d-flex justify-content-between product-card">
+              <div class="d-flex">
+                <div>
+                  <img
+                    class="cart-product-img"
+                    src="https://static.nike.com/a/images/f_jpg,b_rgb:F5F5F5,q_auto,e_sharpen:100,w_592/7d8ca40f-a751-464a-98e9-b82f0e20be0c/553558_060"
+                    alt=""
+                  />
+                </div>
+                <div class="product-details d-flex flex-column justify-content-between">
+                  <div>
+                    <p class="product-name">Air Jordan 1 Low</p>
+                    <p class="product-category">Men's Shoes</p>
+                    <p class="product-color">Black/Cement Grey/White/Fire Red</p>
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <p class="my-auto">Size</p>
+                      <select class="product-size" name="size" id="">
+                        <option value="">6</option>
+                        <option value="">6.5</option>
+                        <option value="">7</option>
+                        <option value="">7.5</option>
+                        <option value="">8</option>
+                        <option value="">8.5</option>
+                        <option value="">9</option>
+                        <option value="">9.5</option>
+                        <option value="">10</option>
+                        <option value="">10.5</option>
+                      </select>
+                      <p class="my-auto">Quantity</p>
+                      <select class="product-quantity" name="quantity" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="d-flex gap-4">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      role="img"
+                      width="24px"
+                      height="24px"
+                      fill="none"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"
+                      ></path>
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      role="img"
+                      width="24px"
+                      height="24px"
+                      fill="none"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-miterlimit="10"
+                        stroke-width="1.5"
+                        d="M14.25 7.5v12m-4.5-12v12M5.25 6v13.5c0 1.24 1.01 2.25 2.25 2.25h9c1.24 0 2.25-1.01 2.25-2.25V5.25h2.75m-2.75 0H21m-12-3h5.25c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5H3"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <p class="product-price">MRP: ₹ 8 995.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cart-summary">
+          <p id="summery-heading">Summary</p>
+          <div>
+            <div>
+              <div id="subtotal" class="d-flex justify-content-between mb-1">
+                <p class="my-auto">Subtotal</p>
+                <p class="my-auto">₹ 23 937.00</p>
+              </div>
+              <div id="delivery-charge" class="d-flex justify-content-between">
+                <p class="my-auto">Estimated Delivery & Handling</p>
+                <p class="my-auto">₹ 1 250.00</p>
+              </div>
+            </div>
+            <hr />
+            <div id="total" class="d-flex justify-content-between">
+              <p class="my-auto">Total</p>
+              <p class="my-auto">₹ 25 187.00</p>
+            </div>
+            <hr />
+            <div class="summery-btns d-flex flex-column gap-3">
+              <button class="btn checkout-btns">Guest Checkout</button>
+              <button class="btn checkout-btns">Member Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="favourites">
+      <p id="favourites-heading">Favourites</p>
+      <p id="favourites-tagline">
+        Want to view your favourites? <span>Join Us</span> or
+        <span>Sign in</span>
+      </p>
+    </section>
+    <section id="find-next">
+      <div id="find-next-fav-header">
+        <p id="find-next-fav-header-text">You Might Also Like</p>
+        <div class="d-flex justify-content-end" id="carosal-btn-container">
+          <button class="btn carosal-arrow-btn" id="left">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="btn carosal-arrow-btn" id="right">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <!-- <i id="left" class="fa-solid fas fa-angle-left"></i> -->
+        <ul class="carousel">
+          <li class="card carousel-card">
+            <div class="find-fav-product-card">
+              <div>
+                <img
+                  class="find-fav-product-image"
+                  src="https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f82558ed-76b4-488e-9bf7-06f687478a23/luka-2-pf-basketball-shoes-LM9ScX.png"
+                  alt=""
+                />
+              </div>
+              <div class="find-next-fav-product-description">
+                <div>
+                  <p class="find-next-fav-product-name">Luka 2 PF</p>
+                  <p class="find-next-fav-product-category">Basketball Shoes</p>
+                </div>
+                <p class="find-next-fav-product-price">MRP : ₹ 11 297.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="card carousel-card">
+            <div class="find-fav-product-card">
+              <div>
+                <img
+                  class="find-fav-product-image"
+                  src="https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/336d84ef-2d85-4f94-a112-015e700ac40c/gt-cut-academy-ep-basketball-shoes-DTdMPk.png"
+                  alt=""
+                />
+              </div>
+              <div class="find-next-fav-product-description">
+                <div>
+                  <p class="find-next-fav-product-name">Luka 2 PF</p>
+                  <p class="find-next-fav-product-category">Basketball Shoes</p>
+                </div>
+                <p class="find-next-fav-product-price">MRP : ₹ 11 297.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="card carousel-card">
+            <div class="find-fav-product-card">
+              <div>
+                <img
+                  class="find-fav-product-image"
+                  src="https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f82558ed-76b4-488e-9bf7-06f687478a23/luka-2-pf-basketball-shoes-LM9ScX.png"
+                  alt=""
+                />
+              </div>
+              <div class="find-next-fav-product-description">
+                <div>
+                  <p class="find-next-fav-product-name">Luka 2 PF</p>
+                  <p class="find-next-fav-product-category">Basketball Shoes</p>
+                </div>
+                <p class="find-next-fav-product-price">MRP : ₹ 11 297.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="card carousel-card">
+            <div class="find-fav-product-card">
+              <div>
+                <img
+                  class="find-fav-product-image"
+                  src="https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/336d84ef-2d85-4f94-a112-015e700ac40c/gt-cut-academy-ep-basketball-shoes-DTdMPk.png"
+                  alt=""
+                />
+              </div>
+              <div class="find-next-fav-product-description">
+                <div>
+                  <p class="find-next-fav-product-name">Luka 2 PF</p>
+                  <p class="find-next-fav-product-category">Basketball Shoes</p>
+                </div>
+                <p class="find-next-fav-product-price">MRP : ₹ 11 297.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="card carousel-card">
+            <div class="find-fav-product-card">
+              <div>
+                <img
+                  class="find-fav-product-image"
+                  src="https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f82558ed-76b4-488e-9bf7-06f687478a23/luka-2-pf-basketball-shoes-LM9ScX.png"
+                  alt=""
+                />
+              </div>
+              <div class="find-next-fav-product-description">
+                <div>
+                  <p class="find-next-fav-product-name">Luka 2 PF</p>
+                  <p class="find-next-fav-product-category">Basketball Shoes</p>
+                </div>
+                <p class="find-next-fav-product-price">MRP : ₹ 11 297.00</p>
+              </div>
+            </div>
+          </li>
+          <li class="card carousel-card">
+            <div class="find-fav-product-card">
+              <div>
+                <img
+                  class="find-fav-product-image"
+                  src="https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/336d84ef-2d85-4f94-a112-015e700ac40c/gt-cut-academy-ep-basketball-shoes-DTdMPk.png"
+                  alt=""
+                />
+              </div>
+              <div class="find-next-fav-product-description">
+                <div>
+                  <p class="find-next-fav-product-name">Luka 2 PF</p>
+                  <p class="find-next-fav-product-category">Basketball Shoes</p>
+                </div>
+                <p class="find-next-fav-product-price">MRP : ₹ 11 297.00</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- <i id="right" class="fa-solid fas fa-angle-right"></i> -->
+      </div>
+    </section>
+    <section id="demo-sec"></section>
+
+    <script src="../js/cart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
