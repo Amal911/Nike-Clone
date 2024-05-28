@@ -89,7 +89,7 @@ section {
     font-size: 1rem;
   }
   .wrapper .carousel {
-    grid-template-columns: 70%  70%  70%  70% 70% 70%;
+    grid-template-columns: 70%  70%  70%  70% 70% 70% 70%  70%  70% 70% 70%;
   }
 
 }
@@ -245,7 +245,7 @@ section {
   font-size: 1.31rem;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);
   }
@@ -255,4 +255,4 @@ section {
   .wrapper .carousel {
     grid-auto-columns: 100%;
   }
-}
+} */
