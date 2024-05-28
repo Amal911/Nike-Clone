@@ -19,17 +19,17 @@
   </head>
   <body>
     <nav>
-      <div class="nav-return-link">
+      <a href="../index.html" class="nav-return-link">
         <div class="arrow-head">
           <img src="../assets/images/snkrs/arrow-head.svg" alt="arrow-head" />
         </div>
         <p>Visit Nike.com</p>
-      </div>
+      </a>
 
       <div class="nav-links">
         <ul>
-          <li class="nav-link-hover">Join/Log In</li>
-          <li class="nav-link-hover">Help</li>
+          <li class="nav-link-hover"><a href="">Join/Log In</a></li>
+          <li class="nav-link-hover"><a href="">Help</a></li>
           <li>
             <img src="../assets/images/snkrs/cart.svg" alt="cart" />
           </li>
@@ -67,12 +67,12 @@
       </div>
       <div class="snkrs-toggle-view" id="toggle-view">
         <img
-          src="../assets/images/snkrs/feed.svg"
+          src="../assets/images/snkrs/grid.svg"
           id="toggle"
           alt="grid|feed"
           width="18px"
           height="18px"
-          data-logo="grid"
+          data-logo="feed"
         />
       </div>
     </header>
@@ -84,13 +84,15 @@
           class="card-img-top"
           alt=""
         />
+
+        <div class="card-body card-title-p d-flex justify-content-center">
+          <p>Card title</p>
+        </div>
+        <div class="card-body card-title-h3 d-flex justify-content-center">
+          <h3>Card title</h3>
+        </div>
         <div class="hover-button">
-          <div class="card-body card-title-p d-flex justify-content-center">
-            <p class="card-title">Card title</p>
-          </div>
-          <div class="card-body card-title-h3 d-flex justify-content-center">
-            <h3 class="card-title">Card title</h3>
-          </div>
+          <a href="" class="button">Buy</a>
         </div>
       </div>
       <div class="card feed-card" style="width: 18rem">
@@ -144,6 +146,90 @@
         />
       </div>
     </section>
+    <footer class="bg-black text-white">
+      <div class="footer-body">
+        <div class="row footer-menu">
+          <div class="col-md-3 menu">
+            <ul>
+              <li class="menu-item text-white"><b>FIND A STORE</b></li>
+              <li class="menu-item text-white"><b>BECOME A MEMBER</b></li>
+              <li class="menu-item text-white"><b>Send us a Feedback</b></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 menu">
+            <ul>
+              <li class="menu-heading"><b>HELP</b></li>
+              <li class="menu-item">Get Help</li>
+              <li class="menu-item">Order Status</li>
+              <li class="menu-item">Delivery</li>
+              <li class="menu-item">Returns</li>
+              <li class="menu-item">Payment Options</li>
+              <li class="menu-item">Contact Us On Nike.com Inquiries</li>
+              <li class="menu-item">Contact Us On All Other Inquiries</li>
+            </ul>
+          </div>
+          <div class="col-md-3 menu">
+            <ul>
+              <li class="menu-heading"><b>COMPANY</b></li>
+              <li class="menu-item">About Nike</li>
+              <li class="menu-item">News</li>
+              <li class="menu-item">Careers</li>
+              <li class="menu-item">Investors</li>
+              <li class="menu-item">Sustainability</li>
+            </ul>
+          </div>
+          <div class="col-md-3 social-links">
+            <ul>
+              <img
+                src="../assets/images/snkrs/twitter.svg"
+                alt="twitter"
+                width="30px"
+                height="30px"
+              />
+              <img
+                src="../assets/images/snkrs/facebook.svg"
+                alt="facebook"
+                width="30px"
+                height="30px"
+              />
+              <img
+                src="../assets/images/snkrs/youtube.svg"
+                alt="youtube"
+                width="30px"
+                height="30px"
+              />
+              <img
+                src="../assets/images/snkrs/instagram.svg"
+                alt="instagram"
+                width="30px"
+                height="30px"
+              />
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <div class="location">
+          <img
+            src="../assets/images/snkrs/location-dark.svg"
+            alt=""
+            width="18px"
+            height="15px"
+          />
+          <span>India</span>
+          <span class="copy">&copy; 2024 Nike, Inc. All rights reserved</span>
+        </div>
+        <div class="sub-footer-menu">
+          <ul>
+            <li>Guides</li>
+            <li>Terms of Sale</li>
+            <li>Terms of Use</li>
+            <li>Nike Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="../js/snkrs.js"></script>
 </html>
