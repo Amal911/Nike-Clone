@@ -1,0 +1,75 @@
+{
+  "favourites":[
+    {
+        "id":1,
+        "name":"Nike Dunk Low SE",
+        "category":"Women's Shoes",
+        "price":"MRP : ₹ 9 207.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/819e1729-b5fa-4c31-8df5-12bf73bc6cc4/dunk-low-se-shoes-7fnM7D.png"
+    },
+    {
+        "id":2,
+        "name":"Nike Air Force 1 PLT.AF.ORM",
+        "category":"Women's Shoes",
+        "price":"MRP : ₹ 8 257.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/91f481e7-5887-454a-8d04-c485c70052fe/air-force-1-pltaform-shoes-pwWPHX.png"
+    },
+    {
+        "id":3,
+        "name":"Air Jordan 1 Mid",
+        "category":"Shoes",
+        "price":"MRP : ₹ 11 495.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9666574d-f12c-46c8-b04b-fc50b3581e91/air-jordan-1-mid-shoes-BpARGV.png"
+    },
+    {
+        "id":4,
+        "name":"Jordan Nu Retro 1 Low",
+        "category":"Men's Shoes",
+        "price":"MRP : ₹ 9 195.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a7ef34f4-4883-41ff-abe5-fe27c57866d7/jordan-nu-retro-1-low-shoes-8294mJ.png"
+    },
+    {
+        "id":5,
+        "name":"Nike Air Force 1 '07",
+        "category":"Women's Shoes",
+        "price":"MRP : ₹ 8 195.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/e777c881-5b62-4250-92a6-362967f54cca/air-force-1-07-shoes-NMmm1B.png"
+    },
+    {
+        "id":6,
+        "name":"Air Jordan 1 Low",
+        "category":"Women's Shoes",
+        "price":"MRP : ₹ 8 295.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/192bd1e3-9fd1-4f94-9f0e-799e443357e9/air-jordan-1-low-shoes-459b4T.png"
+    },
+    {
+        "id":7,
+        "name":"Nike Dunk Low",
+        "category":"Older Kids' Shoes",
+        "price":"MRP : ₹ 6 695.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/24e6bbc2-64af-4449-ace6-09d154a69484/dunk-low-older-shoes-mxH1lh.png"
+    },
+    {
+        "id":8,
+        "name":"Nike Dunk Low",
+        "category":"Women's Shoes",
+        "price":"MRP : ₹ 8 295.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/d14fc386-1067-4a72-961e-9f8134680703/dunk-low-shoes-r8QXCd.png"
+    },
+    {
+        "id":9,
+        "name":"Nike Dunk Low Retro",
+        "category":"Men's Shoe",
+        "price":"MRP : ₹ 8 295.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/a3e7dead-1ad2-4c40-996d-93ebc9df0fca/dunk-low-retro-shoe-66RGqF.png"
+    },
+    {
+        "id":10,
+        "name":"Nike Life",
+        "category":"Men's Carpenter Trousers",
+        "price":"MRP : ₹ 5 697.00",
+        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/3225dde3-c1a2-4696-9441-fd28b9faf31b/life-carpenter-trousers-cK2f7Q.png"
+    }
+  ]
+
+}
