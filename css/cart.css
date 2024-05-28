@@ -29,42 +29,40 @@ section {
   padding: 40px;
 }
 
-
-#bag-heading{
+#bag-heading {
   font-size: 1.6rem;
   font-weight: 500;
 }
 
-.product-card p{
+.product-card p {
   margin-bottom: 0;
 }
-.cart-product-img{
-  width: 150px;
+.cart-product-img {
+  width: 170px;
   object-fit: cover;
 }
-.product-size, .product-quantity{
+.product-size,
+.product-quantity {
   border: none;
 }
-.product-details{
+.product-details {
   padding: 0 1rem;
   font-size: 1.1rem;
   color: var(--secondary-font-color);
 }
-.product-name, .product-price{
+.product-details select {
+  color: var(--secondary-font-color);
+  font-size: 1rem;
+}
+.product-name,
+.product-price {
   color: var(--primary-font-clor);
   font-weight: 500;
 }
 
-
-
-
-
-
-
-
 #cart-summary {
   padding: 40px 0;
-  width: 35%;
+  width: 30%;
   font-size: 1.1rem;
 }
 
@@ -80,15 +78,47 @@ section {
   background-color: #3d3d3d;
 }
 
+@media screen and (max-width: 960px) {
+  #cart-body {
+    display: block !important;
+  }
+  #cart-bag {
+    width: 100%;
+  }
+  #cart-summary {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  .product-color{
+    display: none;
+  }
+  #bag-desc{
+    text-align: center;
+    padding: 3rem 0;
+  }
+  #bag-desc p{
+    margin-bottom: 0;
+  }
+  #bag-text{
+    display: block !important;
+  }
 
-
-
-
-
-
-
-
-
+  .summery-btns{
+    position: fixed;
+    bottom: 0;
+    padding: 1%;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    background-color: #fff;
+  }
+  #guest-checkout-btn, #member-checkout-btn{
+    display: none !important;
+  }
+  #go-to-checkout-btn{
+    display: block !important;
+  }
+}
 
 #favourites {
   padding: 4% 6%;
@@ -135,8 +165,6 @@ section {
 }
 
 #find-next-fav-carousal {
-  /* display: inline-block; */
-  /* flex-wrap: nowrap; */
   display: flex;
   width: 100%;
   overflow-x: scroll;
@@ -175,11 +203,6 @@ section {
   width: 1000px;
 }
 
-.wrapper {
-  /* max-width: 1100px;  */
-  /* width: 100%;  */
-  /* position: relative;  */
-}
 
 .wrapper .carousel {
   display: grid;
@@ -237,20 +260,6 @@ section {
   border: none;
 }
 
-.card .img {
-  /* background: green; 
-      width: 145px; 
-      height: 145px; 
-      border-radius: 50%;  */
-}
-
-/* .card .img img { 
-      width: 140px; 
-      height: 140px; 
-      object-fit: cover; 
-      border-radius: 50%; 
-      border: 4px solid #fff; 
-  }  */
 
 .card h2 {
   font-weight: 500;
