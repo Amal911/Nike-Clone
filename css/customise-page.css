@@ -1,0 +1,661 @@
+body{
+    margin: 0;
+}
+.secondarynavbar{
+    display: grid;
+    grid-template-columns: 1.2fr 1.8fr;
+    align-items: baseline;
+    padding: 26px 29px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+}
+.secondarynavbar #textnikemembership{
+    font-family: 'Helvetica Now Display';
+    font-weight: 500;
+    font-size: 24px;
+    color: #111111;
+    margin: 0px 0px 0px;
+}
+.secondarynavbar #textsignup{
+    text-decoration: none;
+    color: #111111;
+    font-family: 'Helvetica Now Display';
+    font-weight: 400;
+    font-size: 16px;
+    text-shadow: 0px 0px 0.3px #111111;
+}
+#customise-video-box #videobox{
+    padding: 0;
+}
+#customise-video-box #videobox video{
+    width: 100%;
+}
+#customise-firstcontent{
+    margin: 4%;
+    width: 56%;
+    margin-left: 25%;
+}
+#customise-firstcontent h6{
+    font-family: 'Helvetica Now Display';
+    font-weight: 600;
+    font-size: 16px;
+    color: #111111;
+    /* color: black; */
+    /* text-shadow: 0px 0px 0.3px #111111; */
+    font-weight: 500;
+}
+#customise-firstcontent h4{
+    font-family: 'Helvetica Now Display';
+    font-size: 24px;
+    color: #111111;
+    /* text-shadow: 0px 0px 0.3px black; */
+    /* color: black; */
+    font-weight: 500;
+}
+#customise-firstcontent #nikebyyoucontent{
+    font-family: 'Helvetica Now Display';
+    font-size: 20.5px;
+    color: #111111;
+    /* color: black; */
+    font-weight: 400;
+}
+#customise-firstcontent #shopbutton{
+    margin-top: 24px;
+    border-style: none;
+    width: 70px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #111111;
+}
+#customise-firstcontent #shopbutton a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Helvetica Now Display';
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nikestyle-carousel{
+    margin: 3%;
+}
+.nikestyle-carousel-header{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    align-items: baseline;
+    margin: 40px;
+    margin-bottom: 0px;
+}
+.nikestyle-carousel-header h2{
+    font-family: 'Helvetica Now Display';
+    font-size: 24px;
+    color: #111111;
+}
+.nikestyle-carousel .nav-btn-wraper button{
+    border-style: none;
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+}
+.nikestyle-carousel .nav-btn-wraper a{
+    text-decoration: none;
+    color: #111111;
+    font-family: 'Helvetica Now Display';
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nikestyle-carousel #carosal-btn-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+ 
+.nikestyle-carousel  .carosal-arrow-btn {
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+
+.nikestyle-carousel-card{
+    list-style: none;
+    display: inline-block;
+    width: 365.55px;
+    padding: 6px;
+}
+
+.nikestyle-carousel-card-image{
+    height: 365.55px;
+    width: 365.55px;
+    padding: 5px;
+}
+
+.nikestyle-carousel-card-details{
+    font-family: 'Helvetica Now Display';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+}
+.nikestyle-carousel-card-details p{
+    margin: 0px;
+}
+
+.nikestyle-carousel-card-details-title{
+    color: #99470a;
+    font-size: 16px;
+}
+.nikestyle-carousel-card-details-customise{
+    font-size: 16px;
+    /* background-image: linear-gradient(to right, red, orange, yellow, green, violet, indigo, blue); */
+    background-image: linear-gradient(to right, red 0ch, red 1ch, orange, orange 2ch, orange 2ch, green 3ch, green 3ch, green 4ch, rgb(48, 99, 24) 4ch, rgb(35, 78, 24) 5ch, Green 5ch, Green 6ch, #293579 6ch, blue 7ch);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+.nikestyle-carousel-card-details-name{
+    font-size: 16px;
+    color: #111111;
+    font-weight: 460;
+}
+.nikestyle-carousel-card-details-type{
+    font-size: 16px;
+    font-weight: 400;
+    color: #707072;
+}
+.nikestyle-carousel-card-details-price{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111;
+}
+
+.info{
+    display: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    /* background-image: linear-gradient(to right, red, orange, yellow, green, violet, indigo, blue); */
+    background-image: linear-gradient(to right, rgb(183, 60, 11) 0ch, rgb(147, 73, 13) 1ch, rgb(160, 105, 3), orange 2ch, orange 2ch, orange, rgb(147, 147, 8) 3ch, rgb(163, 163, 23) 4ch, rgb(111, 137, 27) 4ch, rgb(96, 116, 20) 4ch, rgb(68, 106, 11) 5ch, green 5ch, rgb(35, 78, 24) 6ch, rgb(13, 132, 71) 8ch, rgb(22, 34, 143) 5ch);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    overflow: hidden;
+    transition: width 0.01s ease-in;
+}
+
+.nikestyle-carousel-card #customise-icon{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+}
+.nikestyle-carousel-card:hover .nikestyle-carousel-card-image{
+    opacity: 15%;
+}
+
+.nikestyle-carousel-card:hover .info{
+    display: block;
+    width: 365.55px;
+}
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 360px;
+    /* grid-auto-columns: calc((100% / 3));  */
+    gap: 10px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    /* scrollbar-width: 0;  */
+}
+ 
+.carousel::-webkit-scrollbar {
+    height: 8px;
+}
+.carousel::-webkit-scrollbar-thumb{
+    background-color: #707072;
+}
+ 
+.carousel :where(.card, .img) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+ 
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+ 
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+ 
+.carousel .card {
+    scroll-snap-align: start;
+    /* width: fit-content; */
+    /* height: 340px;  */
+    list-style: none;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    /* width: 98%;  */
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+}
+ 
+ 
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+ 
+    }
+}
+ 
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+ 
+    }
+}
+
+#customise-secondcontent{
+    margin: 6%;
+    width: 56%;
+    margin-left: 25%;
+}
+
+#customise-secondcontent h4{
+    font-family: 'Helvetica Now Display';
+    font-size: 24px;
+    color: #111111;
+    /* color: black; */
+    font-weight: 500;
+}
+#customise-secondcontent #choosesoyoushoe-content{
+    font-family: 'Helvetica Now Display';
+    font-size: 20px;
+    color: #111111;
+    /* color: black; */
+    font-weight: 400;
+}
+#customise-secondcontent #startcustomising-button{
+    margin-top: 24px;
+    border-style: none;
+    width: 170px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #111111;
+}
+#customise-secondcontent #startcustomising-button a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Helvetica Now Display';
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#customise-thirdcontent-video #first-customise{
+    /* display: flex; */
+    width: 90%;
+    /* height: auto; */
+}
+
+#customise-thirdcontent-video #second-customise{
+    width: 90%;
+    /* height: auto;
+    color: transparent;
+    border: none; */
+    margin-left: 5%
+}
+
+#customise-thirdcontent{
+    margin-bottom: 6%;
+    width: 56%;
+    margin-left: 25%;
+}
+
+#customise-thirdcontent h4{
+    font-family: 'Helvetica Now Display';
+    font-size: 24px;
+    color: #111111;
+    text-shadow: 0px 0px 0.3px black;
+    /* color: black; */
+    font-weight: 500;
+    margin-top: 4%;
+}
+#customise-thirdcontent #howtonikebyyou-content{
+    font-family: 'Helvetica Now Display';
+    font-size: 20px;
+    color: #111111;
+    /* color: black; */
+    font-weight: 400;
+}
+
+#customise-thirdcontent #explore-button{
+    margin-top: 24px;
+    border-style: none;
+    width: 70px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #111111;
+}
+#customise-thirdcontent #explore-button a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Helvetica Now Display';
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+#customise-thirdcontent #customise-button{
+    margin-top: 24px;
+    border-style: none;
+    width: 100px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #111111;
+}
+#customise-thirdcontent #customise-button a{
+    text-decoration: none;
+    text-align: center;
+    /* vertical-align: middle; */
+    font-family: 'Helvetica Now Display';
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.horizontal-image img{
+    margin-top: 4%;
+    height: 27px;
+    width: 100%;
+    margin-bottom: 6%;
+}
+
+.explorebenefits{
+    margin: 4%;
+}
+.explorebenefits h4{
+    margin-bottom: 2.5%;
+    font-family: 'Helvetica Now Display';
+    font-size: 24px;
+    font-weight: 500;
+}
+.explorebenefits .member-benefit-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.explorebenefits .card1{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_476,c_limit/37b262a3-c8c7-49e8-a29f-8d46bc8ab950/nike-by-you-custom-shoes.jpg);
+    background-size: cover;
+}
+.explorebenefits .card2{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_476,c_limit/cb28c551-b85b-479f-8fc3-40ad4e7c9ca4/nike-by-you-custom-shoes.jpg);
+    background-size: cover;
+}
+.explorebenefits .card3{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_476,c_limit/39412611-0af5-4770-8c2e-ef5c23bc6a3d/nike-by-you-custom-shoes.jpg);
+    background-size: cover;
+}
+.explorebenefits .member-cards{
+    /* width: 365px; */
+    height: 460px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    padding: 50px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+ 
+.explorebenefits .member-cards button{
+    font-family: 'Helvetica Now Display';
+    font-weight: 500;
+    padding: 4px 15px;
+    border-radius: 50px;
+}
+
+.explorebenefits .member-cards img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.footer {
+    /* background-color: #f8f9fa; */
+    /* padding: 20px 0; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0;
+    padding: 2%;
+}
+.footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.footer #footer-element h6 {
+    font-family: 'Helvetica Now Display';
+    font-size: 14px;
+    font-weight: 530;
+    color: #111111;
+    margin: 6%;
+    margin-bottom: 10px;
+    cursor: pointer; /* Add pointer cursor for better UX */
+}
+.footer .col-md-3 li {
+    font-family: 'Helvetica Now Display';
+    font-size: 14px;
+    font-weight: 500;
+    color: #707072;
+    margin: 6%;
+}
+#fourthcolumn {
+    margin-top: 1%;
+    text-align: end;
+}
+/* #fourthcolumn svg {
+    margin-right: 3%;
+} */
+.footer-last, .footer-last li {
+    display: flex;
+    padding: 10px;
+    font-weight: 400;
+    color: #707072;
+}
+
+.footer-last ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+.dropup-button {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    border-radius: 8px;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropup-content a {
+    color: #707072;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 520;
+}
+
+.dropup-content a:hover {
+    /* background-color: #ddd; */
+    background-color: #f7f7f893;
+    color: #111111;
+    font-weight: 600;
+}
+
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+@media (max-width: 960px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer #footer-element {
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 5px;
+    }
+
+    .footer-heading {
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .collapse-content {
+        display: none;
+    }
+
+    .footer-heading::after {
+        /* content: '▼'; */
+        float: right;
+        font-size: 12px;
+    }
+
+    .footer-heading.active::after {
+        /* content: '▲'; */
+    }
+
+    .footer-heading.active + .collapse-content {
+        display: block;
+    }
+
+    .footer-last ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-last ul li {
+        border-top: 1px solid #e0e0e0;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .explorebenefits .member-benefit-cards {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 20px;
+    }
+
+    .explorebenefits .member-cards {
+        flex: 0 0 auto;
+        width: 80%;
+        max-width: 600px;
+        scroll-snap-align: start;
+        margin-right: 10px;
+        height: 460px;
+    }
+
+    .explorebenefits .member-cards img {
+        height: auto;
+    }
+}
+.explorebenefits .member-benefit-cards::-webkit-scrollbar {
+    height: 8px;
+}
+
+.explorebenefits .member-benefit-cards::-webkit-scrollbar-thumb {
+    background: #4e4e53;
+    border-radius: 10px;
+}
+
+.explorebenefits .member-benefit-cards::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+    /* #customise-secondcontent, #customise-thirdcontent, .explorebenefits {
+        margin: 2%;
+    } */
+
+    /* #customise-secondcontent h4, #customise-thirdcontent h4, .explorebenefits h4 {
+        font-family: 'Helvetica Now Display';
+        font-size: 18px;
+        color: #111111;
+        font-weight: 500;
+    }
+
+    #customise-secondcontent #choosesoyoushoe-content,
+    #customise-thirdcontent #howtonikebyyou-content,
+    .explorebenefits h3 {
+        font-size: 14px;
+        font-weight: 400;
+    } */
+
+    /* #customise-secondcontent #startcustomising-button,
+    #customise-thirdcontent #explore-button,
+    #customise-thirdcontent #customise-button {
+        width: auto;
+        font-size: 12px;
+        height: 32px;
+    }
+
+    #customise-secondcontent #startcustomising-button,
+    #customise-thirdcontent #explore-button,
+    #customise-thirdcontent #customise-button a{
+        font-size: 10px;
+        font-weight: 300;
+    } */
+
+    .horizontal-image img {
+        width: 100%;
+        height: auto;
+    }
+}
