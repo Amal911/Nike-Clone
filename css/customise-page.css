@@ -159,7 +159,7 @@ body{
     color: #111111;
     font-weight: 460;
 }
-.nikestyle-carousel-card-details-type{
+.nikestyle-carousel-card-details-category{
     font-size: 16px;
     font-weight: 400;
     color: #707072;
@@ -544,8 +544,15 @@ body{
     }
 
     .footer #footer-element {
-        border-bottom: 1px solid #e0e0e0;
+        /* border-bottom: 1px solid #e0e0e0; */
+        box-shadow: inset 0 -1px 0 0 #70707296;
         margin-bottom: 5px;
+    }
+
+    .footer #fourthcolumn{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 5%;
     }
 
     .footer-heading {
@@ -578,7 +585,8 @@ body{
     }
 
     .footer-last ul li {
-        border-top: 1px solid #e0e0e0;
+        /* border-top: 1px solid #e0e0e0; */
+        /* box-shadow: inset 0 -1px 0 0 #707072; */
         width: 100%;
         padding: 10px 0;
     }
@@ -621,38 +629,6 @@ body{
 }
 
 @media (max-width: 480px) {
-    /* #customise-secondcontent, #customise-thirdcontent, .explorebenefits {
-        margin: 2%;
-    } */
-
-    /* #customise-secondcontent h4, #customise-thirdcontent h4, .explorebenefits h4 {
-        font-family: 'Helvetica Now Display';
-        font-size: 18px;
-        color: #111111;
-        font-weight: 500;
-    }
-
-    #customise-secondcontent #choosesoyoushoe-content,
-    #customise-thirdcontent #howtonikebyyou-content,
-    .explorebenefits h3 {
-        font-size: 14px;
-        font-weight: 400;
-    } */
-
-    /* #customise-secondcontent #startcustomising-button,
-    #customise-thirdcontent #explore-button,
-    #customise-thirdcontent #customise-button {
-        width: auto;
-        font-size: 12px;
-        height: 32px;
-    }
-
-    #customise-secondcontent #startcustomising-button,
-    #customise-thirdcontent #explore-button,
-    #customise-thirdcontent #customise-button a{
-        font-size: 10px;
-        font-weight: 300;
-    } */
 
     .horizontal-image img {
         width: 100%;

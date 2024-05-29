@@ -70,6 +70,79 @@
         "price":"MRP : ₹ 5 697.00",
         "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/3225dde3-c1a2-4696-9441-fd28b9faf31b/life-carpenter-trousers-cK2f7Q.png"
     }
-  ]
+  ],
 
+ "featured-nikestyle":[
+        {
+            "id":1,
+            "name":"Nike Dunk Low By You",
+            "category":"Custom Shoes",
+            "price":"MRP : ₹ 10,555",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/8cbb6c3e-bf4a-43a0-96f7-18a10d722f02/custom-nike-dunk-low-by-you-su24.png"
+        },
+        {
+            "id":2,
+            "name":"Nike Air Force 1 Low By You",
+            "category":"Custom Men's Shoes",
+            "price":"MRP: ₹11,895",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/1defaebe-cdc7-49ec-8530-acd53889a052/hispl-quxm-tvxus.png"
+        },
+        {
+            "id":3,
+            "name":"Nike Air Force 1 Low By You",
+            "category":"Custom Shoes",
+            "price":"MRP : ₹ 11,895",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/bd156e13-4888-4999-926e-727b32e8bfd7/hispl-quxm-tvxus.png"
+        },
+        {
+            "id":4,
+            "name":"Nike Air Force 1 Low By You",
+            "category":"Custom Women's Shoes",
+            "price":"MRP : ₹ 11,895",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/7107b5de-78e1-43f8-899e-232a88c8bd53/hispl-quxm-tvxus.png"
+        },
+        {
+            "id":5,
+            "name":"Nike Dunk Low Unlocked By You",
+            "category":"Custom Shoes",
+            "price":"MRP : ₹ 14,995",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/ec93b093-f277-441f-973a-4d5797cd1369/custom-dunk-low-unlocked-by-you.png"
+        },
+        {
+            "id":6,
+            "name":"Nike Dunk Low Unlocked By You",
+            "category":"Custom Shoes",
+            "price":"MRP : ₹ 14,995",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/2c7b65b4-26ce-4279-a0fd-9620a9be25fb/custom-dunk-low-unlocked-by-you.png"
+        },
+        {
+            "id":7,
+            "name":"Nike G.T. Cut Academy By You",
+            "category":"Custom Basketball Shoes",
+            "price":"MRP : ₹ 10,795",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/5ef7c8f7-c103-4654-ab0c-62419ded889f/custom-nike-gt-cut-academy.png"
+        },
+        {
+            "id":8,
+            "name":"Nike Phantom Luna 2 Elite By You",
+            "category":"Custom FG High-Top Football Boot",
+            "price":"MRP : ₹ 26,995",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/893b13a4-3a10-4947-b72d-960034bb1d86/custom-phantom-luna-2-elite-by-you.png"
+        },
+        {
+            "id":9,
+            "name":"Nike Mercurial Vapor 15 Elite By You",
+            "category":"Custom Firm-Ground Football Boot",
+            "price":"MRP : ₹ 24,895",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/a6195f4a-c153-43a9-8c35-c1e4ee6d80f5/custom-mercurial-vapor-15-elite-shoes-by-you.png"
+        },
+        {
+            "id":10,
+            "name":"Nike Air Force 1 Mid By You",
+            "category":"Men's Custom Shoes",
+            "price":"MRP : ₹ 12,795",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/0c7f91e6-4cf2-4bb5-991e-c19390a2b5de/custom-nike-air-force-1-mid-by-you-shoes.png"
+        }
+
+    ]
 }
