@@ -566,13 +566,13 @@ body{
     }
 
     .footer-heading::after {
-        /* content: '▼'; */
+        content: '▼';
         float: right;
         font-size: 12px;
     }
 
     .footer-heading.active::after {
-        /* content: '▲'; */
+        content: '▲';
     }
 
     .footer-heading.active + .collapse-content {
