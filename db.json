@@ -1,75 +1,136 @@
 {
-  "favourites":[
+  "favourites": [
     {
-        "id":1,
-        "name":"Nike Dunk Low SE",
-        "category":"Women's Shoes",
-        "price":"MRP : ₹ 9 207.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/819e1729-b5fa-4c31-8df5-12bf73bc6cc4/dunk-low-se-shoes-7fnM7D.png"
+      "id": 1,
+      "name": "Nike Dunk Low SE",
+      "category": "Women's Shoes",
+      "price": "MRP : ₹ 9 207.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/819e1729-b5fa-4c31-8df5-12bf73bc6cc4/dunk-low-se-shoes-7fnM7D.png"
     },
     {
-        "id":2,
-        "name":"Nike Air Force 1 PLT.AF.ORM",
-        "category":"Women's Shoes",
-        "price":"MRP : ₹ 8 257.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/91f481e7-5887-454a-8d04-c485c70052fe/air-force-1-pltaform-shoes-pwWPHX.png"
+      "id": 2,
+      "name": "Nike Air Force 1 PLT.AF.ORM",
+      "category": "Women's Shoes",
+      "price": "MRP : ₹ 8 257.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/91f481e7-5887-454a-8d04-c485c70052fe/air-force-1-pltaform-shoes-pwWPHX.png"
     },
     {
-        "id":3,
-        "name":"Air Jordan 1 Mid",
-        "category":"Shoes",
-        "price":"MRP : ₹ 11 495.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9666574d-f12c-46c8-b04b-fc50b3581e91/air-jordan-1-mid-shoes-BpARGV.png"
+      "id": 3,
+      "name": "Air Jordan 1 Mid",
+      "category": "Shoes",
+      "price": "MRP : ₹ 11 495.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9666574d-f12c-46c8-b04b-fc50b3581e91/air-jordan-1-mid-shoes-BpARGV.png"
     },
     {
-        "id":4,
-        "name":"Jordan Nu Retro 1 Low",
-        "category":"Men's Shoes",
-        "price":"MRP : ₹ 9 195.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a7ef34f4-4883-41ff-abe5-fe27c57866d7/jordan-nu-retro-1-low-shoes-8294mJ.png"
+      "id": 4,
+      "name": "Jordan Nu Retro 1 Low",
+      "category": "Men's Shoes",
+      "price": "MRP : ₹ 9 195.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a7ef34f4-4883-41ff-abe5-fe27c57866d7/jordan-nu-retro-1-low-shoes-8294mJ.png"
     },
     {
-        "id":5,
-        "name":"Nike Air Force 1 '07",
-        "category":"Women's Shoes",
-        "price":"MRP : ₹ 8 195.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/e777c881-5b62-4250-92a6-362967f54cca/air-force-1-07-shoes-NMmm1B.png"
+      "id": 5,
+      "name": "Nike Air Force 1 '07",
+      "category": "Women's Shoes",
+      "price": "MRP : ₹ 8 195.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/e777c881-5b62-4250-92a6-362967f54cca/air-force-1-07-shoes-NMmm1B.png"
     },
     {
-        "id":6,
-        "name":"Air Jordan 1 Low",
-        "category":"Women's Shoes",
-        "price":"MRP : ₹ 8 295.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/192bd1e3-9fd1-4f94-9f0e-799e443357e9/air-jordan-1-low-shoes-459b4T.png"
+      "id": 6,
+      "name": "Air Jordan 1 Low",
+      "category": "Women's Shoes",
+      "price": "MRP : ₹ 8 295.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/192bd1e3-9fd1-4f94-9f0e-799e443357e9/air-jordan-1-low-shoes-459b4T.png"
     },
     {
-        "id":7,
-        "name":"Nike Dunk Low",
-        "category":"Older Kids' Shoes",
-        "price":"MRP : ₹ 6 695.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/24e6bbc2-64af-4449-ace6-09d154a69484/dunk-low-older-shoes-mxH1lh.png"
+      "id": 7,
+      "name": "Nike Dunk Low",
+      "category": "Older Kids' Shoes",
+      "price": "MRP : ₹ 6 695.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/24e6bbc2-64af-4449-ace6-09d154a69484/dunk-low-older-shoes-mxH1lh.png"
     },
     {
-        "id":8,
-        "name":"Nike Dunk Low",
-        "category":"Women's Shoes",
-        "price":"MRP : ₹ 8 295.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/d14fc386-1067-4a72-961e-9f8134680703/dunk-low-shoes-r8QXCd.png"
+      "id": 8,
+      "name": "Nike Dunk Low",
+      "category": "Women's Shoes",
+      "price": "MRP : ₹ 8 295.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/d14fc386-1067-4a72-961e-9f8134680703/dunk-low-shoes-r8QXCd.png"
     },
     {
-        "id":9,
-        "name":"Nike Dunk Low Retro",
-        "category":"Men's Shoe",
-        "price":"MRP : ₹ 8 295.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/a3e7dead-1ad2-4c40-996d-93ebc9df0fca/dunk-low-retro-shoe-66RGqF.png"
+      "id": 9,
+      "name": "Nike Dunk Low Retro",
+      "category": "Men's Shoe",
+      "price": "MRP : ₹ 8 295.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/a3e7dead-1ad2-4c40-996d-93ebc9df0fca/dunk-low-retro-shoe-66RGqF.png"
     },
     {
-        "id":10,
-        "name":"Nike Life",
-        "category":"Men's Carpenter Trousers",
-        "price":"MRP : ₹ 5 697.00",
-        "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/3225dde3-c1a2-4696-9441-fd28b9faf31b/life-carpenter-trousers-cK2f7Q.png"
+      "id": 10,
+      "name": "Nike Life",
+      "category": "Men's Carpenter Trousers",
+      "price": "MRP : ₹ 5 697.00",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/3225dde3-c1a2-4696-9441-fd28b9faf31b/life-carpenter-trousers-cK2f7Q.png"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Nike G.T. Cut 3 EP",
+      "price": "MRP : ₹ 16 617.00 ",
+      "category":"Women's Shoes",
+      "description": "How can you separate your game when it's winning time? Start by lacing up in the G.T. Cut 3. Designed to help you create space for stepback jumpers and backdoor cuts, its sticky multi-court traction helps you stop in an instant and shift gears at will. And when you're making all those game-changing plays, the newly added, ultra-responsive ZoomX foam helps keep you fresh for all four quarters. With its extra-durable rubber outsole, this version gives you traction for outdoor courts.",
+      "colors":" Ashen Slate/Football Grey/Barely Grape/Metallic Silver",
+      "style":"DX9176-103",
+      "imgUrl":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7f33a9a3-f910-4e1d-b86c-55bfa1838c37/gt-cut-3-ep-basketball-shoes-DGJp2L.png",
+      "images":{
+        "1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7f33a9a3-f910-4e1d-b86c-55bfa1838c37/gt-cut-3-ep-basketball-shoes-DGJp2L.png",
+        "2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/72940006-aba1-4509-920e-0720955c610c/gt-cut-3-ep-basketball-shoes-DGJp2L.png",
+        "3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0db67c9e-e801-4ce8-84d1-409d83811e48/gt-cut-3-ep-basketball-shoes-DGJp2L.png",
+        "4":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/70e93842-3e48-48e7-84a6-04be6d34fef4/gt-cut-3-ep-basketball-shoes-DGJp2L.png",
+        "5":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bb9e28d7-2980-46fd-8d20-1a70700327fa/gt-cut-3-ep-basketball-shoes-DGJp2L.png",
+        "6":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/76a9efea-06ca-4331-9062-7f7691e57599/gt-cut-3-ep-basketball-shoes-DGJp2L.png",
+        "7":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1d38f041-a86a-4dec-a879-d081fc4f87f2/gt-cut-3-ep-basketball-shoes-DGJp2L.png",
+        "8":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/165743d7-cc5b-49ee-8e58-5797e2e70963/gt-cut-3-ep-basketball-shoes-DGJp2L.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Force 1 '07 LV8",
+      "price": "MRP : ₹ 10 795.00",
+      "category":"Men's Shoes",
+      "description": "Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction is paired with golf-inspired details for style that tracks whether you're on court or on the go.",
+      "colors":"Colour Shown: White/Medium Soft Pink/Malachite/White",
+      "style":"Style: HF1937-100",
+      "imgUrl":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/22cce236-9223-4916-abd8-ad7267d9f4ac/air-force-1-07-lv8-shoes-g2c8Rd.png",
+      "images":{
+        "1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/22cce236-9223-4916-abd8-ad7267d9f4ac/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d38decfd-9b87-4a52-8b42-d7d575632584/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/91068b0f-9ec5-481d-b31c-5c34201db49d/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "4":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8e7de3a9-12d5-4774-92b6-92dec631b7d1/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "5":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4fbfde04-ab8b-4f21-a03f-8b3fd5f463fb/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "6":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a03052d9-d7c4-45d3-bdae-808811357bb8/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "7":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9cde9d5-92fe-4e8b-b77f-4c62d3f9f1c5/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "8":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d83775af-b20d-4768-ab39-f8ab91a55cac/air-force-1-07-lv8-shoes-g2c8Rd.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Max Plus",
+      "price": "MRP : ₹ 15 995.00",
+      "category": "Men's Shoes",
+      "description": "Let your attitude have the edge with flame-like caging that adds heat to the streets while airy mesh keeps you cool. The Air Max Plus gives you a tuned Nike Air experience that offers premium stability and unbelievable cushioning.",
+      "colors":"Colour Shown: Dark Obsidian/Monarch/Black/White",
+      "style": "Style: FN6949-400",
+      "imgUrl":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dfb51f39-5c14-4f31-9d9a-a25b880a3988/air-max-plus-shoes-dz4jLD.png",
+      "images":{
+        "1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dfb51f39-5c14-4f31-9d9a-a25b880a3988/air-max-plus-shoes-dz4jLD.png  ",
+        "2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/126bf10e-0172-4487-a42e-51405cbf0e68/air-max-plus-shoes-dz4jLD.png",
+        "3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/719b8c50-85b7-4e61-aaba-75aaa10b9984/air-max-plus-shoes-dz4jLD.png",
+        "4":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/719b8c50-85b7-4e61-aaba-75aaa10b9984/air-max-plus-shoes-dz4jLD.png",
+        "5":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d76bfa2-2586-4b83-b5b9-540537a30e9c/air-max-plus-shoes-dz4jLD.png",
+        "6":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/58b082e6-1bfa-4c58-ab69-77f3e0dd47b8/air-max-plus-shoes-dz4jLD.png",
+        "7":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f920b929-28c0-447b-bebc-c30222b74eee/air-max-plus-shoes-dz4jLD.png",
+        "8":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/00ec97ff-347e-4625-a9cb-625684408f48/air-max-plus-shoes-dz4jLD.png"
+      }
     }
   ]
-
 }
