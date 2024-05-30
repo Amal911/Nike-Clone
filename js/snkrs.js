@@ -31,3 +31,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// To open and close the footer headings
+document.addEventListener("DOMContentLoaded", () => {
+  const headings = document.querySelectorAll(".menu-heading");
+
+  headings.forEach((heading) => {
+    heading.addEventListener("click", () => {
+      this.classList.toggle("active");
+      const content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  });
+});
