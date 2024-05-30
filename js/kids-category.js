@@ -4,9 +4,6 @@ const fetchData = async () => {
     const data = await result.json();
     return data;
 };
-git add. 
-git commit - m "Kids-category-page api-integration"
-git push origin feature/kids-category-api-integration
 // Arrow button event listeners
 const attachCarouselEventListeners = () => {
     document.querySelectorAll(".wrapper").forEach(wrapper => {
