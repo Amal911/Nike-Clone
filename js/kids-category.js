@@ -4,9 +4,6 @@ const fetchData = async () => {
     const data = await result.json();
     return data;
 };
-git add. 
-git commit - m "Kids-category-page api-integration"
-git push origin feature/kids-category-api-integration
 // Arrow button event listeners
 const attachCarouselEventListeners = () => {
     document.querySelectorAll(".wrapper").forEach(wrapper => {
@@ -47,7 +44,7 @@ const popularRightNowFn = async () => {
             </div>`;
         carousel.appendChild(productCard);
     });
-    attachCarouselEventListeners();
+    // attachCarouselEventListeners();
 };
 
 //Icons For Any Season Carousel Function
@@ -77,11 +74,14 @@ const iconsForAnySeasonFn = async () => {
       </div>`;
         carousel.appendChild(productCard);
     });
-    attachCarouselEventListeners();
-};
 
-popularRightNowFn();
-iconsForAnySeasonFn();
+};
+const addData =async ()=>{
+    await popularRightNowFn();
+    await iconsForAnySeasonFn();
+};
+addData().then(attachCarouselEventListeners)
+
 
 // Carousel Function 
 document.addEventListener("DOMContentLoaded", function () {
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
     carousels.forEach(wrapper => {
         const carousel = wrapper.querySelector(".carousel");
         const firstCard = carousel.querySelector(".card");
-        const firstCardWidth = firstCard.offsetWidth;
+        // const firstCardWidth = firstCard.offsetWidth;    
 
         let isDragging = false,
             startX,
