@@ -10,7 +10,7 @@ body {
   width: 66%;
 }
 #desc {
-  width: 24%;
+  width: 36%;
 }
 .product-card{
     border: transparent;
@@ -20,4 +20,7 @@ body {
     position: relative;
     overflow: hidden;
     transition: transform 0.3s;
+}
+.button{
+  width: 74%;
 }

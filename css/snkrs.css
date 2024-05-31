@@ -172,7 +172,7 @@ ul {
 #feed-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 5rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 #feed-container a {
   color: var(--text-color);
@@ -247,8 +247,16 @@ ul {
 .button {
   padding: 10px 20px;
   background-color: var(--btn-color);
-  font-family: var(--snkrs-font);
-  color: white;
+  font-family: var(--snkrs-font);  
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button-so {
+  padding: 10px 20px;
+  background-color: #666768;
+  font-family: var(--snkrs-font);  
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -257,8 +265,8 @@ ul {
 .button:hover {
   background-color: var(--btn-color);
 }
-.footer-container {
-  height: 57vh;
+.button-so:hover{
+  background-color: #666768;
 }
 .sub-footer {
   display: flex;
@@ -326,10 +334,10 @@ ul {
 }
 .social-links {
   padding-top: 1rem;
-  padding-left: 17rem;
+  padding-left: 14rem;
   display: flex;
   justify-content: space-evenly;
-  width: 43%;
+  width: 39%;
 }
 .link:hover {
   color: white;
@@ -372,6 +380,7 @@ ul {
   }
   .social-links {
     padding-left: 2rem;
+    width: 30%;
   }
   .feed-card img {
     height: 22rem;
@@ -419,8 +428,8 @@ ul {
     padding-top: 1.5rem !important;
   }
   .social-links {
-    padding-top: 1rem;
-    padding-left: 0;
+    width: 25%;
+    padding-left: 0rem;
   }
   #feed-container {
     flex-wrap: wrap;
@@ -522,7 +531,6 @@ ul {
   }
   #grid-container {
     flex-wrap: wrap;
-    height: 190vh;
     padding-right: 0rem;
   }
   .grid-card {
@@ -625,7 +633,6 @@ ul {
   #grid-container {
     padding-right: 0;
     padding-left: 0;
-    height: 100vh;
   }
   .grid-card {
     width: 11.5rem !important;
