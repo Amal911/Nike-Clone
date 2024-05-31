@@ -16,10 +16,12 @@ body {
 #navbar {
   height: 6rem;
   background-color: rgb(220, 220, 220);
+
 }
-section {
+.wishlist-sec {
   padding: 0 4%;
 }
+
 #favourites {
   padding-top: 3rem;
 }
