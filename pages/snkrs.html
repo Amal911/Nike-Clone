@@ -9,6 +9,16 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      href="https://www.nike.com/favicon.ico?v=1"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://www.nike.com/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
 
     <link rel="stylesheet" href="../css/snkrs.css" />
     <title>Nike SNKRS. Release Dates and Launch Calendars IN</title>
@@ -32,11 +42,18 @@
               <li class="nav-link-hover"><a href="">Join/Log In</a></li>
               <li class="nav-link-hover"><a href="">Help</a></li>
               <li>
-                <img src="../assets/images/snkrs/cart.svg" alt="cart" />
+                <a href=""
+                  ><img src="../assets/images/snkrs/cart.svg" alt="cart"
+                /></a>
               </li>
               <li>
-                <img src="../assets/images/snkrs/location.svg" alt="location" />
-                India
+                <a href="" class="text-body-tertiary"
+                  ><img
+                    src="../assets/images/snkrs/location.svg"
+                    alt="location"
+                  />
+                  India
+                </a>
               </li>
             </ul>
           </div>
@@ -85,14 +102,16 @@
               </div>
               <div class="offcanvas-body">
                 <ul class="text-white">
-                  <li class="hammenu-item">Join/Log In</li>
-                  <li class="hammenu-item">Vist Nike.com</li>
-                  <li class="hammenu-item">Help</li>
+                  <li class="hammenu-item"><a href="">Join/Log In</a></li>
+                  <li class="hammenu-item"><a href="">Vist Nike.com</a></li>
+                  <li class="hammenu-item"><a href="">Help</a></li>
                   <li class="hammenu-location">
-                    <img
-                      src="../assets/images/snkrs/location.svg"
-                      alt=""
-                    />&nbsp;India
+                    <a href="">
+                      <img
+                        src="../assets/images/snkrs/location.svg"
+                        alt=""
+                      />&nbsp;India
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -138,122 +157,53 @@
         </div>
       </div>
     </header>
-    <section id="feed-container">
-      <div class="card feed-card" style="width: 18rem">
-        <img
-          src="../assets/images/snkrs/air-180.jpg"
-          class="card-img-top"
-          alt=""
-        />
-
-        <div
-          class="card-body card-title-p d-flex align-items-center flex-column"
-        >
-          <p>Card title</p>
-          <h3>Card title</h3>
-        </div>
-        <div class="hover-button">
-          <a href="" class="button">Buy</a>
-        </div>
-      </div>
-      <div class="card feed-card" style="width: 18rem">
-        <img
-          src="../assets/images/snkrs/air-180.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div
-          class="card-body card-title-p d-flex align-items-center flex-column"
-        >
-          <p>Card title</p>
-          <h3>Card title</h3>
-        </div>
-        <div class="hover-button">
-          <a href="" class="button">Buy</a>
-        </div>
-      </div>
-      <div class="card feed-card" style="width: 18rem">
-        <img
-          src="../assets/images/snkrs/air-180.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div
-          class="card-body card-title-p d-flex align-items-center flex-column"
-        >
-          <p>Card title</p>
-          <h3>Card title</h3>
-        </div>
-        <div class="hover-button">
-          <a href="" class="button">Buy</a>
-        </div>
-      </div>
-    </section>
-    <section id="grid-container" style="display: none">
-      <div class="card grid-card" style="width: 18rem">
-        <img
-          src="../assets/images/snkrs/air-180.jpg"
-          class="card-img-top"
-          alt=""
-        />
-      </div>
-      <div class="card grid-card" style="width: 18rem">
-        <img
-          src="../assets/images/snkrs/air-180.jpg"
-          class="card-img-top"
-          alt=""
-        />
-      </div>
-      <div class="card grid-card" style="width: 18rem">
-        <img
-          src="../assets/images/snkrs/air-180.jpg"
-          class="card-img-top"
-          alt=""
-        />
-      </div>
-      <div class="card grid-card" style="width: 18rem">
-        <img
-          src="../assets/images/snkrs/air-180.jpg"
-          class="card-img-top"
-          alt=""
-        />
-      </div>
-    </section>
+    <section id="feed-container"></section>
+    <section id="grid-container" style="display: none"></section>
     <footer>
       <div class="footer-container bg-black text-white">
         <div class="row footer-menu">
           <div class="col-md-3 menu">
             <ul>
-              <li class="menu-link text-white"><b>FIND A STORE</b></li>
-              <li class="menu-link text-white"><b>BECOME A MEMBER</b></li>
-              <li class="menu-link text-white"><b>Send us a Feedback</b></li>
+              <li class="menu-link">
+                <b><a href="" class="text-white">FIND A STORE</a></b>
+              </li>
+              <li class="menu-link">
+                <b><a href="" class="text-white">BECOME A MEMBER</a></b>
+              </li>
+              <li class="menu-link">
+                <b><a href="" class="text-white">Send us a Feedback</a></b>
+              </li>
             </ul>
           </div>
           <hr class="footer-line bg-white" />
           <div class="col-md-3 menu">
             <h6 class="menu-heading"><b>HELP</b></h6>
             <ul class="collapse-content">
-              <li class="menu-item">Get Help</li>
-              <li class="menu-item">Order Status</li>
-              <li class="menu-item">Delivery</li>
-              <li class="menu-item">Returns</li>
-              <li class="menu-item">Payment Options</li>
-              <li class="menu-item">Contact Us On Nike.com Inquiries</li>
-              <li class="menu-item">Contact Us On All Other Inquiries</li>
+              <li class="menu-item"><a href="">Get Help</a></li>
+              <li class="menu-item"><a href="">Order Status</a></li>
+              <li class="menu-item"><a href="">Delivery</a></li>
+              <li class="menu-item"><a href="">Returns</a></li>
+              <li class="menu-item"><a href="">Payment Options</a></li>
+              <li class="menu-item">
+                <a href="">Contact Us On Nike.com Inquiries</a>
+              </li>
+              <li class="menu-item">
+                <a href="">Contact Us On All Other Inquiries</a>
+              </li>
             </ul>
           </div>
           <div class="col-md-3 menu">
             <h6 class="menu-heading"><b>COMPANY</b></h6>
             <ul class="collapse-content">
-              <li class="menu-item">About Nike</li>
-              <li class="menu-item">News</li>
-              <li class="menu-item">Careers</li>
-              <li class="menu-item">Investors</li>
-              <li class="menu-item">Sustainability</li>
+              <li class="menu-item"><a href="">About Nike</a></li>
+              <li class="menu-item"><a href="">News</a></li>
+              <li class="menu-item"><a href="">Careers</a></li>
+              <li class="menu-item"><a href="">Investors</a></li>
+              <li class="menu-item"><a href="">Sustainability</a></li>
             </ul>
           </div>
           <div class="row social-links">
-            <div class="col">
+            <div class="col">              
               <img
                 src="../assets/images/snkrs/twitter.svg"
                 alt="twitter"
@@ -294,13 +244,15 @@
         <div class="sub-footer">
           <div class="location">
             <div class="country">
-              <img
-                src="../assets/images/snkrs/location-dark.svg"
-                alt=""
-                width="18px"
-                height="15px"
-              />
-              <span>India</span>
+              <a href="">
+                <img
+                  src="../assets/images/snkrs/location-dark.svg"
+                  alt=""
+                  width="18px"
+                  height="15px"
+                />
+                <span class="text-white">India</span>
+              </a>
             </div>
             <span class="copy">&copy; 2024 Nike, Inc. All rights reserved</span>
           </div>
