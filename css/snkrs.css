@@ -220,14 +220,14 @@ ul {
   height: 20.5rem;
   width: 18rem;
 }
-.card img {
+.card-hover img {
   transition: opacity 0.3s;
 }
 .card-body {
   padding: 15px;
   transition: opacity 0.3s;
 }
-.card:hover img {
+.card-hover:hover img {
   opacity: 0.5;
 }
 .card .hover-button {

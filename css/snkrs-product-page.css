@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-section {  
+  width: 100%;
+}
+#imageSection {
+  width: 66%;
+}
+#desc {
+  width: 24%;
+}
+.product-card{
+    border: transparent;
+    border-radius: 0;
+    height: 27.5rem;
+    width: 25rem !important;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+}

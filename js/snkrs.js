@@ -78,7 +78,7 @@ const loadFeedCard = (cardData) => {
     let feedCard = document.createElement("div");
     feedCard.innerHTML = `
     <a href="snkrs-product-page">
-      <div class="card feed-card" style="width: 18rem">
+      <div class="card feed-card card-hover" style="width: 18rem">
           <img src="${card.cardImage}" class="card-img-top" alt="feedCardImage"/>
 
           <div class="card-body card-title-p d-flex align-items-center flex-column">
@@ -104,7 +104,7 @@ const loadGridCard = (cardData) => {
     let gridCard = document.createElement("div");
     gridCard.innerHTML = `
     <a href="snkrs-product-page">
-      <div class="card grid-card" style="width: 18rem">
+      <div class="card grid-card card-hover" style="width: 18rem">
           <img
             src="${card.cardImage}"
             class="card-img-top"
