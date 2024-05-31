@@ -139,7 +139,24 @@ font-weight: 500;
   color: var(--primary-font-clor);
 }
 
-
+.accordion-item{
+  border: none !important;
+}
+.accordion-item:focus{
+  border: none !important;
+}
+.accordion-button{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #111111 !important;
+  background-color: white !important;
+  box-shadow: none !important;
+}
 
 
 
