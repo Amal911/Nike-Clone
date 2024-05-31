@@ -341,5 +341,200 @@
       ],
       "status": "Buy"
     }
-  ]
+  ],
+
+ "featured-nikestyle":[
+        {
+            "id":1,
+            "name":"Nike Dunk Low By You",
+            "category":"Custom Shoes",
+            "price":"MRP : ₹ 10,555",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/8cbb6c3e-bf4a-43a0-96f7-18a10d722f02/custom-nike-dunk-low-by-you-su24.png"
+        },
+        {
+            "id":2,
+            "name":"Nike Air Force 1 Low By You",
+            "category":"Custom Men's Shoes",
+            "price":"MRP: ₹11,895",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/1defaebe-cdc7-49ec-8530-acd53889a052/hispl-quxm-tvxus.png"
+        },
+        {
+            "id":3,
+            "name":"Nike Air Force 1 Low By You",
+            "category":"Custom Shoes",
+            "price":"MRP : ₹ 11,895",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/bd156e13-4888-4999-926e-727b32e8bfd7/hispl-quxm-tvxus.png"
+        },
+        {
+            "id":4,
+            "name":"Nike Air Force 1 Low By You",
+            "category":"Custom Women's Shoes",
+            "price":"MRP : ₹ 11,895",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/7107b5de-78e1-43f8-899e-232a88c8bd53/hispl-quxm-tvxus.png"
+        },
+        {
+            "id":5,
+            "name":"Nike Dunk Low Unlocked By You",
+            "category":"Custom Shoes",
+            "price":"MRP : ₹ 14,995",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/ec93b093-f277-441f-973a-4d5797cd1369/custom-dunk-low-unlocked-by-you.png"
+        },
+        {
+            "id":6,
+            "name":"Nike Dunk Low Unlocked By You",
+            "category":"Custom Shoes",
+            "price":"MRP : ₹ 14,995",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/2c7b65b4-26ce-4279-a0fd-9620a9be25fb/custom-dunk-low-unlocked-by-you.png"
+        },
+        {
+            "id":7,
+            "name":"Nike G.T. Cut Academy By You",
+            "category":"Custom Basketball Shoes",
+            "price":"MRP : ₹ 10,795",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/5ef7c8f7-c103-4654-ab0c-62419ded889f/custom-nike-gt-cut-academy.png"
+        },
+        {
+            "id":8,
+            "name":"Nike Phantom Luna 2 Elite By You",
+            "category":"Custom FG High-Top Football Boot",
+            "price":"MRP : ₹ 26,995",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/893b13a4-3a10-4947-b72d-960034bb1d86/custom-phantom-luna-2-elite-by-you.png"
+        },
+        {
+            "id":9,
+            "name":"Nike Mercurial Vapor 15 Elite By You",
+            "category":"Custom Firm-Ground Football Boot",
+            "price":"MRP : ₹ 24,895",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/a6195f4a-c153-43a9-8c35-c1e4ee6d80f5/custom-mercurial-vapor-15-elite-shoes-by-you.png"
+        },
+        {
+            "id":10,
+            "name":"Nike Air Force 1 Mid By You",
+            "category":"Men's Custom Shoes",
+            "price":"MRP : ₹ 12,795",
+            "imgUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/0c7f91e6-4cf2-4bb5-991e-c19390a2b5de/custom-nike-air-force-1-mid-by-you-shoes.png"
+        }
+
+    ],
+  "kids-category":{
+    "popular-right-now":[
+        {
+            "id":1,
+            "name":"Tatum 2",
+            "category":"Older Kids' Basketball Shoes",
+            "price":"MRP : 6,995",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/a385191b-e2b7-40de-8293-b8fa50653183/jordan-nu-retro-1-low-older-shoes-tsJ6f8.png"
+        },
+        {
+            "id":2,
+            "name":"Jordan Nu Retro 1 Low",
+            "category":"Older Kids' Shoes",
+            "price":"MRP : 6,495",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/afb16b6d-c592-4810-b38c-aa094f12c514/blazer-low-77-older-shoes-J24TzH.png"
+        },
+        {
+            "id":3,
+            "name":"Nike Blazer Low '77",
+            "category":"Older Kids' Shoes",
+            "price":"MRP : ₹ 4,995",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/249c583f-a18f-4fe7-be1a-4f0b41550483/air-jordan-1-low-older-shoes-xLzJc6.png"
+        },
+        {
+            "id":4,
+            "name":"Air Jordan 1 Low",
+            "category":"Older Kids' Shoes",
+            "price":"MRP : 7,295",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/622d9c69-3cd7-4dff-ad4d-7fb732747414/air-jordan-1-mid-older-shoes-wqHdzW.png"
+        },
+        {
+            "id":5,
+            "name":"Air Jordan 1 Mid",
+            "category":"Older Kids' Shoes",
+            "price":"MRP : 7,995",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/0570af1d-2e79-42a6-ba8a-1365e397f033/jordan-spizike-low-older-shoes-40FbDq.png"
+        },
+        {
+            "id":6,
+            "name":"Jordan Spizike Low",
+            "category":"Older Kids' Shoes",
+            "price":"MRP : 9,295",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/82be71c5-8bb1-4eae-979c-40654587e39a/team-hustle-d-11-older-basketball-shoes-TBQxXL.png"
+        },
+        {
+            "id":7,
+            "name":"Nike Team Hustle D 11",
+            "category":"Older Kids' Basketball Shoes",
+            "price":"MRP : 4,995",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/c9f30a9e-9c86-4f07-ab0a-f90456215dec/revolution-7-younger-shoes-msfDML.png"
+        },
+        {
+            "id":8,
+            "name":"Nike Revolution 7",
+            "category":"Younger Kids' Shoes",
+            "price":"MRP : 3,495",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/f5f833e9-6220-4a29-9dcb-aeec8f4a3920/rift-2-shoes-8rQlhB.png"
+        },
+        {
+            "id":9,
+            "name":"Nike Rift 2",
+            "category":"Baby/Toddler Shoes",
+            "price":"MRP : 3,495",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/3c15f403-05be-4a9e-a893-617376a53b9f/flex-runner-3-younger-shoes-xBPnvT.png"
+        },
+        {
+            "id":10,
+            "name":"Nike Team Hustle D 11",
+            "category":"Older Kids' Basketball Shoes",
+            "price":"MRP : 4,995",
+            "imageUrl":"https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/26221b38-df8a-4c31-9dff-7258eb739d55/tatum-2-older-basketball-shoes-xBsSqd.png"
+        }
+
+    ],
+    "icons-for-any-season":[
+        {
+            "id":1,
+            "name":"Air Force 1",
+            "imageUrl":"https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_369,c_limit/b867ed90-18fc-4390-bacc-e39e9bb31f55/nike-kids.png"
+        },
+        {
+            "id":2,
+            "name":"Air Jordan 1",
+            "imageUrl":"https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_369,c_limit/33599edd-49ac-4f2f-b82c-f3552aee843c/nike-kids.png"
+        },
+        {
+            "id":3,
+            "name":"Dunk",
+            "imageUrl":"https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_369,c_limit/2e3e1dfb-f783-436c-82db-6e8cfdc1767c/nike-kids.png"
+        },
+        {
+            "id":4,
+            "name":"Air Max",
+            "imageUrl":"https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_369,c_limit/381ff2aa-aba1-47b8-a294-4ac6a5fa72d2/nike-kids.jpg"
+        },
+        {
+            "id":5,
+            "name":"Pegasus",
+            "imageUrl":"https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_369,c_limit/dfe74f40-d240-4edc-9a1c-2ddcf4e7812a/nike-kids.png"
+        },
+        {
+            "id":6,
+            "name":"Air Max 270",
+            "imageUrl":"https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_369,c_limit/b175dd04-14d0-44e4-b4a2-59cf8fe3f9bb/nike-kids.png"
+        },
+        {
+            "id":7,
+            "name":"Air Max 90",
+            "imageUrl":"https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_369,c_limit/19741955-7ef1-4865-872b-20130c62b03e/nike-kids.png"
+        },
+        {
+            "id":8,
+            "name":"Blazer",
+            "imageUrl":"https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_369,c_limit/a5b65e64-3b64-4381-ae84-9037c5432bb5/nike-kids.png"
+        } 
+
+    ]
+  }
+
+  
+    
 }
