@@ -1,12 +1,15 @@
 // function for collapsing nav bar and show only on scroll up
 let lastScrollTop = 0;
 const navbar = document.querySelector('.navbar');
+const jordanNav= document.querySelector('.jordan-wrapper');
 
 window.addEventListener('scroll', function () {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if (scrollTop > lastScrollTop) {
         // Scroll down
-        navbar.style.top = '-66px'; // Adjust this value based on navbar height
+        navbar.style.top = '-66px';
+        // jordanNav.style.display = 'none';
+        // -66px
     } else {
         // Scroll up
         navbar.style.top = '0';
@@ -135,7 +138,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const carousel = document.querySelector(".carousel");
     const arrowBtns = document.querySelectorAll("#carosal-btn-container button");
     const wrapper = document.querySelector(".wrapper");
-    console.log(arrowBtns);
     const firstCard = carousel.querySelector(".card");
     const firstCardWidth = firstCard.offsetWidth;
 
