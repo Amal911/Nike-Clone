@@ -18,7 +18,7 @@ const productImgMouseOverEvent = () => {
 };
 
 const fetchProductData = async () => {
-  const result = await fetch(`http://localhost:3000/product?id=${id}`);
+  const result = await fetch(`http://localhost:3000/${cat}?id=${id}`);
   let data = await result.json();
   data = data[0];
   // console.log(data);
