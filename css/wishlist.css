@@ -24,6 +24,7 @@ section {
   padding-top: 3rem;
 }
 #favourites-nav {
+  /* position: relative; */
   position: sticky;
   top: 0px;
   background-color: #fff;
@@ -46,6 +47,7 @@ section {
 }
 
 #fav-container {
+  /* height: 50vh; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -54,9 +56,11 @@ section {
 
 .fav-product-card {
   width: 32%;
+  /* width: fit-content; */
 }
 
 .fav-product-image {
+  /* height: 360px; */
   width: 100%;
   border-radius: 5px;
 }
@@ -126,7 +130,6 @@ section {
 }
 
 #find-next-fav-carousal {
-
   display: flex;
   width: 100%;
   overflow-x: scroll;
@@ -255,4 +258,5 @@ section {
   .wrapper .carousel {
     grid-auto-columns: 100%;
   }
+}
 } */
