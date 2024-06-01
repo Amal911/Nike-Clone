@@ -22,7 +22,7 @@
     background-color: white;
 }
 
-#login p, #login p a{
+#login .details p, #login .details p a{
     font-size: 17px;
     letter-spacing: 0.7px;
     color: grey;
@@ -38,10 +38,10 @@
     padding: 10px 20px;
     border-radius: 50px;
 }
-#login .email-label{
+#login .input-label{
     position: relative;
 }
-#login .email-label label{
+#login .input-label label{
     position: absolute;
     top: 50%;
     left: 12px;
@@ -55,6 +55,11 @@
     border: 1px solid black;
     width: 100%;
     outline: none;
+}
+.check-box{
+    font-size: 30px;
+    width: 40px !important;
+    accent-color: black;
 }
 #login input:focus~label,
 #login input:valid~label{
@@ -82,6 +87,46 @@
     color:#555;
     font-weight: 400;
     
+}
+.icon-end{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 20px;
+    transform: translateY(-50%);
+    /* height: 25px;
+    width: auto; */
+    color: #000000;
+    z-index: 1;
+}
+#login #signup-account p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+}
+#login .edit{
+    font-size: 16px;
+    color: #707072;
+    text-decoration: underline;
+}
+#login .full-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+#login #signup-account p span{
+    font-size: 13px;
+}
+select{
+    width: 100%;
+    padding: 16px 16px 16px 12px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    color: rgb(108, 108, 108);
+}
+input[type="date"]{
+    color: rgb(108, 108, 108);
 }
 
 @media screen and (max-width: 376px) {
