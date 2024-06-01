@@ -141,66 +141,16 @@
     </header>
     <section>
       <div class="top-section d-flex p-4 mb-5">
-        <div id="imageSection" class="row flex-wrap">
-          <div class="card product-card" style="width: 18rem">
-            <img
-              src="../assets/images/snkrs/ispa-link-axis-black-and-anthracite-fz3507-002-release-date.jpg"
-              alt=""
-            />
-          </div>
-          <div class="card product-card" style="width: 18rem">
-            <img
-              src="../assets/images/snkrs/ispa-link-axis-black-and-anthracite-fz3507-002-release-date.jpg"
-              alt=""
-            />
-          </div>
-          <div class="card product-card" style="width: 18rem">
-            <img
-              src="../assets/images/snkrs/ispa-link-axis-black-and-anthracite-fz3507-002-release-date.jpg"
-              alt=""
-            />
-          </div>
-          <div class="card product-card" style="width: 18rem">
-            <img
-              src="../assets/images/snkrs/ispa-link-axis-black-and-anthracite-fz3507-002-release-date.jpg"
-              alt=""
-            />
-          </div>
-          <div class="card product-card" style="width: 18rem">
-            <img
-              src="../assets/images/snkrs/ispa-link-axis-black-and-anthracite-fz3507-002-release-date.jpg"
-              alt=""
-            />
-          </div>
-          <div class="card product-card" style="width: 18rem">
-            <img
-              src="../assets/images/snkrs/ispa-link-axis-black-and-anthracite-fz3507-002-release-date.jpg"
-              alt=""
-            />
-          </div>
-        </div>
+        <div id="image-section" class="row flex-wrap"></div>
         <div id="desc" class="text-center px-5">
-          <p>ISPA Link Axis</p>
-          <h3>Black and Anthracite</h3>
-          <p>MRP: ₹26 795.00</p>
+          <p id="top-name"></p>
+          <h3 id="bottom-name"></h3>
+          <p id="price-top"></p>
           <p>incl. of all taxes</p>
           <p>(Also includes all applicable duties)</p>
-          <p class="text-center">
-            Step into the ISPA Link Axis, a continuation of our journey to push
-            the needle of footwear design. "Every part can be recycled", says
-            the ISPA team. "It represents progress over perfection—creating a
-            product with a second life in mind". Guided by the principles of
-            modularity and waste reduction, the design uses interlocking
-            components, zero glue and as few materials as possible. This results
-            in a new look and feel, too. One thing remains the same: Nike Air
-            cushioning adds responsiveness and the perfect amount of bounce.
-            When you've finished wearing these shoes, simply drop them off at a
-            participating Nike store for recycling. It's a reminder of our
-            promise: everlasting progress towards the forever shoe. Imagine what
-            comes next.
-          </p>
+          <p class="text-center" id="description"></p>
           <p>Product Information:</p>
-          <p>Country of Origin: Vietnam</p>
+          <p>Country of Origin: <span id="country"></span></p>
           <p>
             Declaration of Importer: Direct import by the individual customer
           </p>
@@ -211,16 +161,14 @@
             Singapore
           </p>
           <p>Net Quantity: 1 Pair</p>
-          <button class="btn btn-dark px-5 mb-4 rounded-pill button">
-            Buy
-          </button>
-          <p>MRP: ₹26 795.00</p>
+          <div id="button"></div>
+          <p id="price-bottom"></p>
           <p>incl. of all taxes</p>
           <p>(Also includes all applicable duties)</p>
         </div>
       </div>
-      <div class="bottom-section">
-        <img
+      <div id="bottom-section">
+        <!-- <img
           src="../assets/images/snkrs/ispa-link-axis-black-and-anthracite-fz3507-002-release-date (1).jpg"
           alt=""
           class="img-fluid mb-5"
@@ -234,7 +182,7 @@
           src="../assets/images/snkrs/ispa-link-axis-black-and-anthracite-fz3507-002-release-date (1).jpg"
           alt=""
           class="img-fluid mb-5"
-        />
+        /> -->
       </div>
     </section>
     <footer>
@@ -350,5 +298,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="../js/snkrs-product-page.js"></script>
   </body>
 </html>

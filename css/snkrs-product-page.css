@@ -2,25 +2,29 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.top-section {  
+.top-section {
   width: 100%;
 }
-#imageSection {
-  width: 66%;
+#image-section {
+  width: 68%;
 }
 #desc {
-  width: 36%;
+  width: 34%;
 }
-.product-card{
-    border: transparent;
-    border-radius: 0;
-    height: 27.5rem;
-    width: 25rem !important;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s;
+.product-card {
+  border: transparent;
+  border-radius: 0;
+  height: 27.5rem;
+  width: 25rem !important;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
 }
-.button{
+.snkrs-product-button {
   width: 74%;
+}
+.port-images {
+  width: 50%;
 }

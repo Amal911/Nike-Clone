@@ -247,7 +247,7 @@ ul {
 .button {
   padding: 10px 20px;
   background-color: var(--btn-color);
-  font-family: var(--snkrs-font);  
+  font-family: var(--snkrs-font);
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -256,7 +256,7 @@ ul {
 .button-so {
   padding: 10px 20px;
   background-color: #666768;
-  font-family: var(--snkrs-font);  
+  font-family: var(--snkrs-font);
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -265,7 +265,7 @@ ul {
 .button:hover {
   background-color: var(--btn-color);
 }
-.button-so:hover{
+.button-so:hover {
   background-color: #666768;
 }
 .sub-footer {
@@ -283,7 +283,7 @@ ul {
   justify-content: start;
 }
 .country {
-  width: 10%;
+  width: 20%;
 }
 .copy {
   width: 90%;
@@ -330,7 +330,7 @@ ul {
 }
 .menu {
   padding-top: 1rem;
-  width: 15rem;
+  width: 11rem;
 }
 .social-links {
   padding-top: 1rem;
@@ -428,8 +428,8 @@ ul {
     padding-top: 1.5rem !important;
   }
   .social-links {
-    width: 25%;
-    padding-left: 0rem;
+    width: 47%;
+    padding-left: 3rem;
   }
   #feed-container {
     flex-wrap: wrap;
