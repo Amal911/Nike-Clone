@@ -1,4 +1,4 @@
-// function for collapsing nav bar and show only on scroll up
+
 let lastScrollTop = 0;
 const navbar = document.querySelector(".navbar");
 // const navDropSection = document.querySelector(".nav-drop");
