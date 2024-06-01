@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+const addButtonListener= function () {
     const carousel = document.querySelector(".carousel");
     const arrowBtns = document.querySelectorAll("#carosal-btn-container button");
     const wrapper = document.querySelector(".wrapper");
@@ -92,23 +92,6 @@ document.addEventListener("DOMContentLoaded", function () {
       carousel.classList.remove("dragging");
     };
   
-    const autoPlay = () => {
-      // Return if window is smaller than 800
-      if (window.innerWidth < 800) return;
-  
-      // Calculate the total width of all cards
-      const totalCardWidth = carousel.scrollWidth;
-  
-      // Calculate the maximum scroll position
-      const maxScrollLeft = totalCardWidth - carousel.offsetWidth;
-  
-      // If the carousel is at the end, stop autoplay
-      if (carousel.scrollLeft >= maxScrollLeft) return;
-  
-      // Autoplay the carousel after every 2500ms
-      timeoutId = setTimeout(() => (carousel.scrollLeft += firstCardWidth), 2500);
-    };
-  
     carousel.addEventListener("mousedown", dragStart);
     carousel.addEventListener("mousemove", dragging);
     document.addEventListener("mouseup", dragStop);
@@ -123,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
           btn.id === "left" ? -firstCardWidth : firstCardWidth;
       });
     });
-  });
+  };
   
   const fetchData = async () => {
     const result = await fetch("http://localhost:3000/favourites");
@@ -155,5 +138,5 @@ document.addEventListener("DOMContentLoaded", function () {
       carousel.appendChild(productCard);
     });
   };
-  fetchData();
+  fetchData().then(addButtonListener);
   

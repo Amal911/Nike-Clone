@@ -328,7 +328,9 @@ input[type="checkbox"] {
   }
   
   
-  
+  #find-next{
+    padding: 4rem 4%;
+  }
   .find-fav-product-card {
     flex-shrink: 0;
     display: inline-block;
