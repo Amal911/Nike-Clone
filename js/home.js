@@ -1,15 +1,18 @@
 // function for collapsing nav bar and show only on scroll up
 let lastScrollTop = 0;
 const navbar = document.querySelector('.navbar');
-const jordanNav= document.querySelector('.jordan-wrapper');
-
+const sticky = navbar.offsetTop;
 window.addEventListener('scroll', function () {
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+     if (window.scrollY >= sticky) {
+  navbar.classList.add("sticky")
+  } else {
+  navbar.classList.remove("sticky");
+  }
+    let scrollTop = window.scrollY || document.documentElement.scrollTop;
     if (scrollTop > lastScrollTop) {
         // Scroll down
-        navbar.style.top = '-66px';
-        // jordanNav.style.display = 'none';
-        // -66px
+        navbar.style.top = '-60px';
+
     } else {
         // Scroll up
         navbar.style.top = '0';
