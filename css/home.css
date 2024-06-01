@@ -1,13 +1,21 @@
 body {
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
-    padding-top: 28px;
 
-    /* adjust the padding value with respect to the space which nav bar occupies in your page */
 }
 
 /* navbar styles start */
 .navbar {
     transition: top 0.5s;
+   
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky {
+  padding-top: 10px;
 }
 
 .navbar a {
@@ -130,7 +138,7 @@ body {
 .nav-drop {
     background-color: #ffffff;
     padding: 0%;
-    margin-top: 30px;
+    /* padding-top: 10px; */
 
 
 }
@@ -157,7 +165,6 @@ body {
 .main-opt {
 
     display: none;
-
 }
 
 .main-fix {
