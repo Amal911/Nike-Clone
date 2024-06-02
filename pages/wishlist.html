@@ -30,149 +30,87 @@
     <link rel="stylesheet" href="https://use.typekit.net/zta2vvi.css" />
     <link rel="stylesheet" href="../assets/fonts/fontStylesheet.css" />
     <link rel="stylesheet" href="../css/wishlist.css" />
-    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
   </head>
   <body>
     <div class="" id="add-navbar">NAVBAR</div>
 
     <section id="favourites-nav">
       <div
-          id="favourites-secound-nav"
-          class="d-flex justify-content-between align-items-end"
-        >
-          <p id="favourites-nav-heading" class="">Favourites</p>
-          <button class="btn btn-outline-dark" id="favourites-edit-btn">
-            Edit
-          </button>
-        </div>
+        id="favourites-secound-nav"
+        class="d-flex justify-content-between align-items-end"
+      >
+        <p id="favourites-nav-heading" class="">Favourites</p>
+        <button class="btn btn-outline-dark" id="favourites-edit-btn">
+          Edit
+        </button>
+      </div>
     </section>
 
     <section id="favourites">
       <div>
         <div id="fav-container" class="">
-          <div class="fav-product-card">
-            <div class="fav-product-img-container">
-              <img
-                class="fav-product-image"
-                src="https://static.nike.com/a/images/f_jpg,b_rgb:F5F5F5,q_auto,e_sharpen:100,w_592/93d466da-e9d9-4bb6-9a48-c8b8ffdcb545/DM1124_300"
-                alt=""
-              />
+          <!-- <div class="fav-product-card">
+            <div class="likeBtn">
+              <a data-id="" class="cart-fav-btn">
+                <i class="fa-solid fa-heart"></i>
+              </a>
             </div>
-            <div class="fav-product-description d-flex justify-content-between">
-              <div>
-                <p class="fav-product-name">Nike Impact 4</p>
-                <p class="fav-product-calegory">Basketball Shoes</p>
+            <a href="./product.html?cat=${product.cat}?id=${product.id}">
+              <div class="fav-product-img-container">
+                <img class="fav-product-image" src="${product.imgUrl}" alt="" />
               </div>
-              <div  class="d-flex align-items-center">
-                <p class="fav-product-price">MRP: ₹ 8 495.00</p>
+              <div
+                class="fav-product-description d-flex justify-content-between"
+              >
+                <div>
+                  <p class="fav-product-name">${product.name}</p>
+                  <p class="fav-product-calegory">${product.category}</p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <p class="fav-product-price">MRP: ₹ ${product.price}</p>
+                </div>
               </div>
-            </div>
-            <button class="btn btn-outline-dark" id="favourites-edit-btn">
-              Select Size
-            </button>
-          </div>
-          <div class="fav-product-card">
-            <div class="fav-product-img-container">
-              <img
-                class="fav-product-image"
-                src="https://static.nike.com/a/images/f_jpg,b_rgb:F5F5F5,q_auto,e_sharpen:100,w_592/93d466da-e9d9-4bb6-9a48-c8b8ffdcb545/DM1124_300"
-                alt=""
-              />
-            </div>
-            <div class="fav-product-description d-flex justify-content-between">
-              <div>
-                <p class="fav-product-name">Nike Impact 4</p>
-                <p class="fav-product-calegory">Basketball Shoes</p>
-              </div>
-              <div  class="d-flex align-items-center">
-                <p class="fav-product-price">MRP: ₹ 8 495.00</p>
-              </div>
-            </div>
-            <button class="btn btn-outline-dark" id="favourites-edit-btn">
-              Select Size
-            </button>
-          </div>
-          <div class="fav-product-card">
-            <div class="fav-product-img-container">
-              <img
-                class="fav-product-image"
-                src="https://static.nike.com/a/images/f_jpg,b_rgb:F5F5F5,q_auto,e_sharpen:100,w_592/93d466da-e9d9-4bb6-9a48-c8b8ffdcb545/DM1124_300"
-                alt=""
-              />
-            </div>
-            <div class="fav-product-description d-flex justify-content-between">
-              <div>
-                <p class="fav-product-name">Nike Impact 4</p>
-                <p class="fav-product-calegory">Basketball Shoes</p>
-              </div>
-              <div  class="d-flex align-items-center">
-                <p class="fav-product-price">MRP: ₹ 8 495.00</p>
-              </div>
-            </div>
-            <button class="btn btn-outline-dark" id="favourites-edit-btn">
-              Select Size
-            </button>
-          </div>
-          <div class="fav-product-card">
-            <div class="fav-product-img-container">
-              <img
-                class="fav-product-image"
-                src="https://static.nike.com/a/images/f_jpg,b_rgb:F5F5F5,q_auto,e_sharpen:100,w_592/93d466da-e9d9-4bb6-9a48-c8b8ffdcb545/DM1124_300"
-                alt=""
-              />
-            </div>
-            <div class="fav-product-description d-flex justify-content-between">
-              <div>
-                <p class="fav-product-name">Nike Impact 4</p>
-                <p class="fav-product-calegory">Basketball Shoes</p>
-              </div>
-              <div class="d-flex align-items-center">
-                <p class="fav-product-price">MRP: ₹ 8 495.00</p>
-              </div>
-            </div>
-            <button class="btn btn-outline-dark" id="favourites-edit-btn">
-              Select Size
-            </button>
-          </div>
+              <button class="btn btn-outline-dark" id="favourites-edit-btn">
+                Select Size
+              </button>
+            </a>
+            
+          </div> -->
         </div>
       </div>
     </section>
-
-
-
-    
-    
     <section id="find-next">
       <div id="find-next-fav-header">
         <p id="find-next-fav-header-text">Find Your Next Favourite</p>
         <div class="d-flex justify-content-end" id="carosal-btn-container">
           <button class="btn carosal-arrow-btn" id="left">
-            <i class="fa-solid fa-chevron-left" ></i>
+            <i class="fa-solid fa-chevron-left"></i>
           </button>
-          <button class="btn carosal-arrow-btn"  id="right">
+          <button class="btn carosal-arrow-btn" id="right">
             <i class="fa-solid fa-chevron-right"></i>
           </button>
         </div>
       </div>
 
-    <div class="wrapper">
-      <ul class="carousel" id="fav-carousel">
-      </ul>
+      <div class="wrapper">
+        <ul class="carousel" id="fav-carousel"></ul>
+      </div>
+    </section>
+    <div id="add-footer"></div>
 
-    </div>
-  </section>
-    <section id="demo-sec"></section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
     <script src="../js/wishlist.js"></script>
-    <script src="../js/navTest.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script> -->
+    <script src="../js/navTest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

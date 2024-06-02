@@ -9,13 +9,13 @@ body {
     font-family: 'HelveticaNowDisplay';
     font-size: 40%;
     background-color: white;
-    padding: 3rem !important;
     background-size: cover;
 }
 
 section {
+padding: 2rem !important;
  font-size: large;
- margin-bottom: 5%;
+ /* margin-bottom: 5%; */
 }
 .landscape-image{
     position: relative;
@@ -83,28 +83,28 @@ section {
 }
 
 .center-logo img {
-    height: 80px; /* Adjust as necessary */
-    margin: 90px 0;
+    height: 80px;
+    margin: 20px 0;
 }
 
-.navbar {
+#navbar-section .navbar {
     justify-content: center;
 }
 
-.navbar-nav {
+#navbar-section .navbar-nav {
     display: flex;
     justify-content: center;
     flex-grow: 1;
 }
 
-.navbar-nav a {
+#navbar-section .navbar-nav a {
     /* font-weight: bold; */
     color: black !important;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.navbar-nav .nav-link:hover {
+#navbar-section .navbar-nav .nav-link:hover {
     color: gray !important;
 }
 

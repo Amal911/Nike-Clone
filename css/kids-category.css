@@ -6,7 +6,16 @@
     width: 100%;
 
 }
-
+#kids-navbar{
+    position: sticky;
+    top: 0;
+    padding: 0 5%;
+    background-color: #fff;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
 #kids-section-container{
     border-radius: none !important;
     padding: 1em;

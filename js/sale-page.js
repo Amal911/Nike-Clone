@@ -1,3 +1,11 @@
+let urlParams = new URLSearchParams(window.location.search);
+let categ = urlParams.get("cat");
+if (categ==null) {
+  categ="mens"
+}
+console.log(categ);
+
+
 document.getElementById('toggleSidebarBtn').addEventListener('click', function() {
     var sidebar = document.getElementById('sidebar-container');
     var toggleBtn = document.getElementById('toggleSidebarBtn');
@@ -15,12 +23,13 @@ document.getElementById('toggleSidebarBtn').addEventListener('click', function()
 });
 
 const fetchData = async (categ) => {
+  
   const result = await fetch(`http://localhost:3000/${categ}`);
   let data = await result.json();
   console.log(data);
   return data;
 };
-let categ = "kids";
+// categ = "kids";
 const loadData = async () => {
   const productContainer = document.getElementById("products-container");
   console.log(productContainer);

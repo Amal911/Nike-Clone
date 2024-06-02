@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="../assets/fonts/fontStylesheet.css" />
     <link rel="stylesheet" href="../css/product.css" />
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
   </head>
   <body>
     <div class="" id="add-navbar">NAVBAR</div>
@@ -41,7 +42,7 @@
             <div class="d-flex flex-column gap-2" id="product-sub-images"></div>
             <div id="product-main-img-container">
               <img
-                src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b318ce23-c490-448e-95d1-bc25761a0aca/gamma-force-shoes-CbTnH1.png"
+                src="/assets/images/home/nike-product-logo.png"
                 alt=""
                 id="product-main-img"
               />
@@ -53,7 +54,7 @@
             <p id="product-name">Nike Gamma Force</p>
             <p id="product-category">Women's Shoes</p>
             <br />
-            <p id="product-price">MRP : ₹ 8 495.00</p>
+            <p id="product-price">MRP : ₹ <span id="product-price-amount">8 495.00</span></p>
             <p id="product-tax">
               incl. of taxes <br />
               (Also includes all applicable duties)
@@ -214,7 +215,8 @@
       </div>
     </section>
 
-    <section id="demo-sec"></section>
+    <div id="add-footer"></div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

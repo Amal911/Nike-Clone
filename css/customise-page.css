@@ -1,12 +1,16 @@
 body{
     margin: 0;
 }
+#section-secondarynavbar{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
 .secondarynavbar{
     display: grid;
-    grid-template-columns: 1.2fr 1.8fr;
+    grid-template-columns: 1.5fr 1.5fr;
     align-items: baseline;
     padding: 26px 29px;
-    position: fixed;
     background-color: white;
     width: 100%;
     z-index: 5;

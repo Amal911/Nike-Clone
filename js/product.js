@@ -11,7 +11,7 @@ const productImgMouseOverEvent = () => {
   subImages.forEach((img) => {
     // console.log(img);
     img.addEventListener("mousemove", () => {
-      console.log("1");
+      // console.log("1");
       mainImg.src = img.src;
     });
   });
@@ -22,9 +22,10 @@ const fetchProductData = async () => {
   let data = await result.json();
   data = data[0];
   // console.log(data);
+  document.title = data.name;
   document.getElementById("product-name").innerText = data.name;
   document.getElementById("product-category").innerText = data.category;
-  document.getElementById("product-price").innerText = data.price;
+  document.getElementById("product-price-amount").innerText = data.price;
   document.getElementById("product-about").innerText = data.description;
   document.getElementById("product-colors").innerText = data.colors;
   //IMAGES
@@ -32,7 +33,7 @@ const fetchProductData = async () => {
   let imgThumbnailContainer = document.getElementById("product-sub-images");
   let thumbnailImages = data.images;
   for (key in thumbnailImages) {
-    console.log(thumbnailImages[key]);
+    // console.log(thumbnailImages[key]);
     let thumbnailImg = document.createElement("div");
     thumbnailImg.classList = "product-images-thumbnails";
     thumbnailImg.innerHTML = `
@@ -43,6 +44,55 @@ const fetchProductData = async () => {
     `;
     imgThumbnailContainer.appendChild(thumbnailImg);
   }
+  let addFavBtn = document.getElementById("favourite-btn");
+  let addCartBtn = document.getElementById("add-to-bag-btn");
+  data.cat = cat
+
+  addFavBtn.addEventListener("click", async () => {
+    const result = await fetch(`http://localhost:3000/wishlist`);
+    let wishlistItems = await result.json();
+    // console.log(wishlistItems);
+    let flag = 0;
+    wishlistItems.forEach((prod) => {
+      if (JSON.stringify(prod) === JSON.stringify(data)) {
+        flag=1;
+      }
+    });
+
+    if(flag==0){
+      fetch("http://localhost:3000/wishlist", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+    }
+
+  });
+  addCartBtn.addEventListener("click", async () => {
+    const result = await fetch(`http://localhost:3000/cart`);
+    let wishlistItems = await result.json();
+    // console.log(wishlistItems);
+    let flag = 0;
+    wishlistItems.forEach((prod) => {
+      if (JSON.stringify(prod) === JSON.stringify(data)) {
+        flag=1;
+      }
+    });
+
+    if(flag==0){
+      fetch("http://localhost:3000/cart", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+    }
+
+  });
+
 };
 fetchProductData().then(productImgMouseOverEvent);
 

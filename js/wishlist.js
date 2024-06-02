@@ -1,8 +1,78 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.getElementById('favourites-edit-btn').addEventListener('click',()=>{
+
+  const likeBtns= document.getElementsByClassName('likeBtn');
+  console.log(likeBtns);
+  for(let i=0;i<likeBtns.length;i++){
+    likeBtns[i].classList.toggle("showLikeBtn");
+    }
+  }
+);
+
+const likeBtnEventListener = ()=>{
+  const likeBtns= document.getElementsByClassName('likeBtn');
+  for(let i=0;i<likeBtns.length;i++){
+    // console.log(i);
+    likeBtns[i].addEventListener("click",()=>{
+      console.log(likeBtns[i].dataset.id);
+      let productId = likeBtns[i].dataset.id;
+      fetch(`http://localhost:3000/wishlist/${productId}`, {
+        method: "DELETE",
+      });
+    })
+  }
+}
+
+
+
+
+const fetchFavouriteData = async () => {
+  const result = await fetch("http://localhost:3000/wishlist");
+  let data = await result.json();
+  // console.log(userData);
+  const favouriteContainer = document.getElementById('fav-container');
+  data.forEach((product) => {
+    // console.log(product);
+    let productCard = document.createElement("div");
+    productCard.className = "fav-product-card";
+    productCard.innerHTML = `
+    <div class="likeBtn" data-id="${product.id}" >
+        <i class="fa-solid fa-heart"></i>
+    </div>
+    <a href="./product.html?cat=${product.cat}?id=${product.id}">
+    <div class="fav-product-img-container">
+      <img
+        class="fav-product-image"
+        src="${product.imgUrl}"
+        alt=""
+      />
+    </div>
+    <div class="fav-product-description d-flex justify-content-between">
+      <div>
+        <p class="fav-product-name">${product.name}</p>
+        <p class="fav-product-calegory">${product.category}</p>
+      </div>
+      <div class="d-flex align-items-center">
+        <p class="fav-product-price">MRP: ₹ ${product.price}</p>
+      </div>
+    </div>
+    <button class="btn btn-outline-dark" id="favourites-edit-btn">
+      Select Size
+    </button>
+    </a>
+        `;
+    favouriteContainer.appendChild(productCard);
+  });
+};
+
+fetchFavouriteData().then(likeBtnEventListener);
+
+
+
+
+const addButtonListener =  function () {
   const carousel = document.querySelector(".carousel");
   const arrowBtns = document.querySelectorAll("#carosal-btn-container button");
   const wrapper = document.querySelector(".wrapper");
-  //   console.log(arrowBtns);
   const firstCard = carousel.querySelector(".card");
   const firstCardWidth = firstCard.offsetWidth;
 
@@ -44,38 +114,17 @@ document.addEventListener("DOMContentLoaded", function () {
     carousel.classList.remove("dragging");
   };
 
-  const autoPlay = () => {
-    // Return if window is smaller than 800
-    if (window.innerWidth < 800) return;
-
-    // Calculate the total width of all cards
-    const totalCardWidth = carousel.scrollWidth;
-
-    // Calculate the maximum scroll position
-    const maxScrollLeft = totalCardWidth - carousel.offsetWidth;
-
-    // If the carousel is at the end, stop autoplay
-    if (carousel.scrollLeft >= maxScrollLeft) return;
-
-    // Autoplay the carousel after every 2500ms
-    timeoutId = setTimeout(() => (carousel.scrollLeft += firstCardWidth), 2500);
-  };
-
   carousel.addEventListener("mousedown", dragStart);
   carousel.addEventListener("mousemove", dragging);
   document.addEventListener("mouseup", dragStop);
   wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
-  // wrapper.addEventListener("mouseleave", autoPlay);
-
-  // Add event listeners for the arrow buttons to
-  // scroll the carousel left and right
   arrowBtns.forEach((btn) => {
     btn.addEventListener("click", () => {
       carousel.scrollLeft +=
         btn.id === "left" ? -firstCardWidth : firstCardWidth;
     });
   });
-});
+};
 
 const fetchData = async () => {
   const result = await fetch("http://localhost:3000/favourites");
@@ -107,4 +156,6 @@ const fetchData = async () => {
     carousel.appendChild(productCard);
   });
 };
-fetchData();
+
+
+fetchData().then(addButtonListener);

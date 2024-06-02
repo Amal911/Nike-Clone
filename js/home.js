@@ -130,11 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
         saleshoverSection.classList.remove('main-opt');
     });
 
-
-
-
-
-
 });
 
 

@@ -145,7 +145,7 @@ const feed = async () => {
   loadGridCard(shoesData);
 };
 const inStock = async () => {
-  feedData = filterData(shoesData, "Sold Out");
+  feedData = filterData(shoesData, "Buy");
   loadFeedCard(feedData);
   loadGridCard(feedData);
 };
