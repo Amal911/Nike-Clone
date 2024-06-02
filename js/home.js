@@ -130,12 +130,10 @@ document.addEventListener('DOMContentLoaded', () => {
         saleshoverSection.classList.remove('main-opt');
     });
 
-
-
-
-
-
 });
+
+
+
 // swiper function 
 document.addEventListener("DOMContentLoaded", function () {
     const carousel = document.querySelector(".carousel");

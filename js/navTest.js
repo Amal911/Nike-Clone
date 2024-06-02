@@ -1,4 +1,24 @@
 const navbarHtml = `
+
+<div class="jordan-wrapper" id=jordanNav>
+
+        <div class="jordan-nav px-5 bg-light">
+            <a href="index.html" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-top" src="./assets/images/home/air-jordan.svg" width="40"
+                    height="40"></a>
+            <div class="right-links d-flex gap-2">
+
+                <a href="./pages/find-a-store.html" class="jordan-links"> Find a store</a>
+                <div class="vr opacity-100"></div>
+                <a href="./pages/help-page.html" class="jordan-links"> Help</a>
+                <div class="vr opacity-100"></div>
+                <a href="./pages/signup-page.html" class="jordan-links"> Join Us</a>
+                <div class="vr opacity-100"></div>
+                <a href="./pages/login-page.html" class="jordan-links"> Sign In</a>
+            </div>
+        </div>
+    </div>
+
 <div class="navAndDrop" id="navAndDrop1">
 <nav class="navbar fixed-top navbar-expand-lg bg-white p-0">
     <div class="container">
@@ -17,32 +37,32 @@ const navbarHtml = `
 
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link" id="menDropDown">
+                    <a href="../pages/mens-category.html" class="nav-link" id="menDropDown">
                         Men
                     </a>
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link" id="womenDropDown">
+                    <a href="../pages/women-category.html" class="nav-link" id="womenDropDown">
                         Women
                     </a>
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link" id="kidsDropDown">
+                    <a href="../pages/kids-category.html" class="nav-link" id="kidsDropDown">
                         Kids
                     </a>
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link" id="salesDropDown">
+                    <a href="../pages/sale-page.html" class="nav-link" id="salesDropDown">
                         Sales
                     </a>
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link">
+                    <a href="../pages/customise-page.html" class="nav-link">
                         Customize
                     </a>
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link">
+                    <a href="../pages/snkrs.html" class="nav-link">
                         SNKRS
                     </a>
                 </li>
@@ -65,18 +85,27 @@ const navbarHtml = `
                 </div>
             </form>
 
-            <button type="btn-search" class="btn-nav2" id=favourite-icon>
-                <img class="nav-icon d-inline-block align-top m-2" src="../assets/images/home/favourite.svg"
-                    width="25" height="25">
-            </button>
-            <button type="btn-search" class="btn-nav2" id=profile-icon style="display: none;">
-                <img class=" nav-icon d-inline-block align-top m-2" src="../assets/images/home/profile.svg"
-                    width="25" height="25">
-            </button>
-            <button type="btn-search" class="btn-nav2" id=wishlist-icon>
-                <img class=" nav-icon d-inline-block align-top m-2" src="../assets/images/home/wishlist.svg"
-                    width="25" height="25">
-            </button>
+                        <a href="../pages/wishlist.html" class="m-auto">
+
+                            <button type="btn-search" class="btn-nav2" id=favourite-icon>
+                                <img class="nav-icon d-inline-block align-top m-2" src="../assets/images/home/favourite.svg"
+                                width="25" height="25">
+                            </button>
+                        </a>
+                        <a href="../pages/profile.html" class="m-auto">
+
+                            <button type="btn-search" class="btn-nav2" id=profile-icon style="display: none;">
+                                <img class=" nav-icon d-inline-block align-top m-2" src="../assets/images/home/profile.svg"
+                                width="25" height="25">
+                            </button>
+                        </a>
+                        <a href="../pages/cart.html" class="m-auto">
+
+                            <button type="btn-search" class="btn-nav2" id=wishlist-icon>
+                                <img class=" nav-icon d-inline-block align-top m-2" src="../assets/images/home/wishlist.svg"
+                                width="25" height="25">
+                            </button>
+                        </a>
             
             <button class="btn d-lg-none" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive" id="hamburger-icon">
@@ -2439,5 +2468,83 @@ aria-labelledby="offcanvasResponsiveLabel">
 
 
 `;
-
-document.getElementById('add-navbar').innerHTML = navbarHtml;
+const footerHtml = `
+<footer class="footer mt-auto py-3">
+    <div class="container-fluid footer-menu">
+        <div class="row">
+            <div class="col-md-3" id="footer-element">
+                <h6 class="footer-heading">Resources</h6>
+                <ul class="list-unstyled collapse-content">
+                    <li><a href="#">Find A Store</a></li>
+                    <li><a href="#">Become A Member</a></li>
+                    <li><a href="#">Send Us Feedback</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3" id="footer-element">
+                <h6 class="footer-heading">Help</h6>
+                <ul class="list-unstyled collapse-content">
+                    <li><a href="#">Get Help</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Contact Us On Nike.com Inquiries</a></li>
+                    <li><a href="#">Contact Us On All Other Inquiries</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3" id="footer-element">
+                <h6 class="footer-heading">Company</h6>
+                <ul class="list-unstyled collapse-content">
+                    <li><a href="#">About Nike</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3" id="fourthcolumn">
+                <div class="d-flex justify-content-end">
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+                        <path stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5" d="M21.75 12A9.75 9.75 0 0112 21.75M21.75 12A9.75 9.75 0 0012 2.25M21.75 12c0 2.071-4.365 3.75-9.75 3.75S2.25 14.071 2.25 12m19.5 0c0-2.071-4.365-3.75-9.75-3.75S2.25 9.929 2.25 12M12 21.75A9.75 9.75 0 012.25 12M12 21.75c2.9 0 5.25-4.365 5.25-9.75S14.9 2.25 12 2.25m0 19.5c-2.9 0-5.25-4.365-5.25-9.75S9.1 2.25 12 2.25M2.25 12A9.75 9.75 0 0112 2.25"></path>
+                    </svg>
+                    <span>India</span>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="footer-last">
+                <ul>
+                    <li><p>&copy; 2024 Nike, Inc. All rights reserved</p></li>
+                    <li>
+                        <div class="dropup">
+                            <a class="dropup-button">Guides</a>&nbsp;
+                            <span><img src="../assets/images/customise/down-arrow-svg.svg" alt="" style="height: 20px; width: 20px;"></span>
+                            <div class="dropup-content">
+                                <a class="dropdown-item" href="#">Nike Adapt</a>
+                                <a class="dropdown-item" href="#">Nike Air</a>
+                                <a class="dropdown-item" href="#">Nike Air Force 1</a>
+                                <a class="dropdown-item" href="#">Nike Air Max</a>
+                                <a class="dropdown-item" href="#">Nike FlyEase</a>
+                                <a class="dropdown-item" href="#">Nike Flyknit</a>
+                                <a class="dropdown-item" href="#">Nike Flyleather</a>
+                                <a class="dropdown-item" href="#">Nike Free</a>
+                                <a class="dropdown-item" href="#">Nike Joyride</a>
+                                <a class="dropdown-item" href="#">Nike Pegasus</a>
+                                <a class="dropdown-item" href="#">Nike React</a>
+                                <a class="dropdown-item" href="#">Nike Vaporfly</a>
+                                <a class="dropdown-item" href="#">Nike Zoom Fly</a>
+                                <a class="dropdown-item" href="#">Nike ZoomX</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Terms of Sale</a>&nbsp;</li>
+                    <li><a href="#">Terms of Use</a>&nbsp;</li>
+                    <li><a href="#">Nike Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+`;
+document.getElementById("add-navbar").innerHTML = navbarHtml;
+document.getElementById("add-footer").innerHTML = footerHtml;
