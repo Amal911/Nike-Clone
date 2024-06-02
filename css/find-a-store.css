@@ -1,0 +1,152 @@
+.row-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+#find-a-store h3{
+    margin-left: 12px;
+    padding:10% 0 10% 0;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 50px;
+}
+.search-bar button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+label {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    height: 60px;
+}
+
+.search-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #000;
+}
+
+input[type="search"] {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.filter button{
+    
+    width: 6.5em;
+    height: 2.5em;
+    border: solid 1.75px #bcb7b7;
+    border-radius: 30px;
+    outline: none;
+}
+.filter button:hover{
+    width: 6.5em;
+    height: 2.5em;
+    border: solid 1.75px #000000;
+    border-radius: 30px;
+}
+
+
+.filter span{
+    align-items: center;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-all-stores a{
+    color: #000000;
+}
+.store p{
+    color: #757171;
+}
+.store a{
+    text-decoration: none;
+    color: #000000;
+}
+.locator-list{
+    height: 50%;
+    overflow-y: scroll;  
+}
+.locator-list::-webkit-scrollbar { 
+
+} 
+.locator-list::-webkit-scrollbar-button { 
+    display: block; 
+} 
+
+
+.locator-list {
+    z-index: 9999;
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 13em;
+    padding: 1em;
+    margin: 1em auto;
+}
+.search-bar{
+    position: relative;
+}
+.search-bar label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+ 
+    font-size: 16px;
+    color: #111;
+    padding: 0 5px;
+    pointer-events: none;
+    transition: all  0.5s;
+    display: none;
+
+}
+.search-bar input:focus~label,
+.search-bar input:valid~label{
+    top: 0;
+    font-size: 12px;
+    background-color: white;
+    display: none;
+} 
+.search-bar input:focus~label{
+    display: block;
+    transform: translateY(-50%);
+    
+}
+.search-bar input:focus::placeholder {
+    color: transparent;
+}
+
+
+
+
+
+#filter-items a:hover{
+    text-decoration: underline;
+}
+
+#filter-items h5{
+    padding: 1%;
+}
+

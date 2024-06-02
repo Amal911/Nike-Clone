@@ -62,14 +62,15 @@ const shuffleArray = (array) => {
 };
 
 // To fetch the data from api
-const fetchData = async () => {
-  const result = await fetch("http://localhost:3000/snkrs");
+const fetchData = async (category) => {
+  const result = await fetch(`http://localhost:3000/${category}`);
   const data = await result.json();
   shoesData = shuffleArray(data);
   feed(shoesData);
 };
 
 // load the feed container
+let category = "snkrs";
 const loadFeedCard = (cardData) => {
   const feedContainer = document.getElementById("feed-container");
   deleteChild(feedContainer);
@@ -77,17 +78,25 @@ const loadFeedCard = (cardData) => {
   cardData.forEach((card) => {
     let feedCard = document.createElement("div");
     feedCard.innerHTML = `
-    <a href="snkrs-product-page">
-      <div class="card feed-card" style="width: 18rem">
-          <img src="${card.cardImage}" class="card-img-top" alt="feedCardImage"/>
+    <a href="./snkrs-product-page.html?cat=${category}&id=${card.id}">
+      <div class="card feed-card card-hover mb-4" style="width: 18rem">
+          <img src="${
+            card.cardImage
+          }" class="card-img-top" alt="feedCardImage"/>
 
           <div class="card-body card-title-p d-flex align-items-center flex-column">
             <p>${card.top_name}</p>
             <h3>${card.bottom_name}</h3>
           </div>
-          <div class="hover-button">
-            <a href="" class="button text-white">${card.status}</a>
-          </div>
+          ${
+            card.status === "Buy"
+              ? `<div class="hover-button">
+                  <a href="" class="button text-white">${card.status}</a>
+                </div>`
+              : `<div class="hover-button">
+                  <a href="" class="button-so text-white">${card.status}</a>
+                </div>`
+          }
         </div>      
       </a>
     `;
@@ -103,8 +112,8 @@ const loadGridCard = (cardData) => {
   cardData.forEach((card) => {
     let gridCard = document.createElement("div");
     gridCard.innerHTML = `
-    <a href="snkrs-product-page">
-      <div class="card grid-card" style="width: 18rem">
+    <a href="snkrs-product-page.html">
+      <div class="card grid-card card-hover" style="width: 18rem">
           <img
             src="${card.cardImage}"
             class="card-img-top"
@@ -119,7 +128,6 @@ const loadGridCard = (cardData) => {
 
 // To delete the child from feed and grid container
 const deleteChild = (container) => {
-  console.log(container);
   while (container.hasChildNodes()) {
     container.removeChild(container.firstChild);
   }
@@ -127,9 +135,7 @@ const deleteChild = (container) => {
 
 // filter data for In Stock and Upcoming
 const filterData = (datas, status) => {
-  console.log(datas);
   let filterData = datas.filter((data) => data.status == status);
-  console.log(filterData);
   return filterData;
 };
 
@@ -144,16 +150,14 @@ const inStock = async () => {
   loadGridCard(feedData);
 };
 const upcomming = async () => {
-  let feedData = await fetchData();
   feedData = filterData(shoesData, "Upcoming");
   loadFeedCard(feedData);
   loadGridCard(feedData);
 };
 
-fetchData();
+fetchData(category);
 
 const navBtns = document.getElementsByClassName("nav-link");
-console.log(navBtns);
 
 for (let i = 0; i < navBtns.length; i++) {
   navBtns[i].addEventListener("click", () => {

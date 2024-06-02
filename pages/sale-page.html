@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://www.nike.com/favicon.ico?v=1" rel="icon" type="image/x-icon" />
+    <link href="https://www.nike.com/apple-touch-icon.png" rel="apple-touch-icon" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/sale-page.css">
+    <link rel="stylesheet" href="../assets/fonts/fontStylesheet.css">
+    <title>Sale Products</title>
+</head>
+<body >
+    <section>
+
+    </section>
+    <div class="header-bar">
+        <!-- <div id="header-sticky"> -->
+            <div class="col-md-8 p-5" id="sale-text">Sale</div>
+            <div id="toggleSidebarBtn" class="col-md-2 d-flex"><span id="filter-text">Hide Filter</span>
+                <div><svg aria-hidden="true" id="iconBtn" class="icon-filter-ds" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M21 8.25H10m-5.25 0H3"></path><path stroke="currentColor" stroke-width="1.5" d="M7.5 6v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path><path stroke="currentColor" stroke-width="1.5" d="M3 15.75h10.75m5 0H21"></path><path stroke="currentColor" stroke-width="1.5" d="M16.5 13.5v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path></svg>
+                </div>
+            </div>
+                <!-- <div class="col-md-2">Sort By:</div> -->
+                <div class="col-md-2">
+                <a href="#" class="text-for-drop ms-2" id="dropdownLink">Sort By</a>
+                <select id="sortDropdown" class="hidden">
+                    <option value=""> </option>
+                    <option value="featured">Featured</option>
+                    <option value="newest">Newest</option>
+                    <option value="priceh">Price: High - Low</option>
+                    <option value="pricel">Price: Low - High</option>
+
+                </div>
+
+</select>
+
+            </div>
+
+        </div>
+        <!-- </div> -->
+    </div>
+    <div class="container-fluid">
+        <div class="d-flex">
+            <!-- Filters Sidebar -->
+            <div class="col-md-3" id="sidebar-container">
+                <nav class="navbar" id="sidebar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Category
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Men</a>
+                                <a class="dropdown-item" href="#">Women</a>
+                                <a class="dropdown-item" href="#">Kids</a>
+                                <a class="dropdown-item" href="#">Customise</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tops & T-Shirts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hoodies & Sweatshirts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Jackets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trousers & Tights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shorts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sports Bras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tracksuits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Socks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-1" href="#">Accessories & Equipment</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gender
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Men</a>
+                                <a class="dropdown-item" href="#">Women</a>
+                                <a class="dropdown-item" href="#">Kids</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Kids
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Boys</a>
+                                <a class="dropdown-item" href="#">Girls</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Shop by Price
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Under ₹ 2 500.00</a>
+                                <a class="dropdown-item" href="#">₹ 2 501.00 - ₹ 7 500.00</a>
+                                <a class="dropdown-item" href="#">₹ 7 501.00 - ₹ 12 999.00</a>
+                                <a class="dropdown-item" href="#">Over ₹ 13 000.00</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Brand
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Jordan</a>
+                                <a class="dropdown-item" href="#">NikeLab</a>
+                                <a class="dropdown-item" href="#">ACG</a>
+                                <a class="dropdown-item" href="#">Nike Sportswear</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sports
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Lifestyle</a>
+                                <a class="dropdown-item" href="#">Running</a>
+                                <a class="dropdown-item" href="#">Training & Gym</a>
+                                <a class="dropdown-item" href="#">Basketball</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Best For
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Wet Weather Conditions</a>
+                                <a class="dropdown-item" href="#">Winter Wear</a>
+                            </div>
+                        </li>
+                        <hr>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Features
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Side vents</a>
+                                <a class="dropdown-item" href="#">Reflective Design Details</a>
+                                <a class="dropdown-item" href="#">Packable Hood</a>
+                                <a class="dropdown-item" href="#">4-way Stretch</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Products Section -->
+            <div class="col-md-9" id="products">
+                <div class="row" id="products-container">
+                    <!-- <div class="col-md-4">
+                        <a href="">
+                            <div class="card mb-4">
+                                <img id="product-image" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/03141f2d-3ccd-49a3-9066-69a15695854c/dunk-low-retro-shoes-4vdSPt.png" class="card-img-top" alt="Nike Everyday">
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3" id="product-title">Nike Dunk Low Retro Premium</h5>
+                                    <p class="card-category pt-1" id="product-category">Men's Shoes</p>
+                                    <p class="card-price pt-1" id="product-price">MRP : <span id="card-price-mrp">₹10 795.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#">
+                            <div class="card mb-4">
+                                <img id="product-image" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0d4b64b0-0cf5-4642-b09c-7a32071d530b/air-max-270-shoes-V4DfZQ.png" class="card-img-top" alt="Nike Everyday">
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3" id="product-title">Nike Air Max 270</h5>
+                                    <p class="card-category pt-1" id="product-category">Women's Shoes</p>
+                                    <p class="card-price pt-1" id="product-price">MRP : <span id="card-price-mrp">₹13 995.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#">
+                            <div class="card mb-4">
+                                <img id="product-image" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c20afd60-b230-4815-bfd2-6768c875f6cd/air-force-1-07-shoes-0XGfD7.png" class="card-img-top" alt="Nike Everyday">
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3" id="product-title">Nike Air Force 1'07</h5>
+                                    <p class="card-category pt-1" id="product-category">Men's Shoes</p>
+                                    <p class="card-price pt-1" id="product-price">MRP : <span id="card-price-mrp">₹9 695.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#">
+                            <div class="card mb-4">
+                                <img id="product-image" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5ed772c6-363b-44c8-82ec-21ce3c4f6425/terminator-high-shoes-KBzHKT.png" class="card-img-top" alt="Nike Everyday">
+                                <div class="card-body">
+                                    <h5 class="card-title pt-3" id="product-title">Nike Terminator High</h5>
+                                    <p class="card-category pt-1" id="product-category">Men's Shoes</p>
+                                    <p class="card-price pt-1" id="product-price">MRP : <span id="card-price-mrp">₹12 795.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../js/sale-page.js"></script>
+</body>
+</html>

@@ -15,14 +15,14 @@
 
 }
 section{
-    padding: 1em;
+    padding:1em;
 }
 
  
 #nav-header{
     /* display: flex; */
     position:relative;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffff;
     color: black;
     /* justify-content: space-around; */
     align-self: center;
@@ -34,7 +34,7 @@ section{
     top: 0%;
     padding-top: 3%;
     width: 100%;
-    height: 15%;
+    height: 13%;
     position: fixed;
     display: flex;
     text-align: center;
@@ -53,17 +53,23 @@ section{
 
 
 #nav-header ul{
-    padding-left: 40%;
+    padding-left: 40%; 
     display: inline-flex;
     list-style: none;
 
 }
-#nav-header a{
+#nav-header .nav-bar a{
     text-decoration: none;
     color: black;
     padding: 0.5% 0;
     transition: color .2s ease-in-out;
     font-weight: 500;
+    
+}
+#nav-header .nav-bar a:hover{
+  
+    color: rgb(94, 94, 94);
+    
     
 }
 #nav-header li{
@@ -83,6 +89,15 @@ section{
     background-position: center;
     background-position: 30%;
 }
+.nav-header .video-link a{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-position: 30%;
+    z-index: 1;
+}
 
 
 
@@ -96,7 +111,7 @@ section{
     border-radius: 50px;
     background-color: black;
     cursor: pointer;
-    width: 110px;
+    width: 90px;
     text-align: center;
 
     justify-content: center; 
@@ -114,20 +129,18 @@ section{
 #home .description p{
     text-align: center;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
     font-weight: 500;
 
 }
 #home .description h3{
     text-align: center;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
     letter-spacing:-0.1cm;
     font-weight: 1000;
-    font-size: 4em;
+    font-size: 4.5em;
     line-height: 0.5cm;
 
 }
@@ -174,20 +187,18 @@ section{
 #featured .description p{
     text-align: center;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
     font-weight: 500;
 
 }
 #featured .description h3{
     text-align: center;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
     letter-spacing:-0.1cm;
     font-weight: 1000;
-    font-size: 4em;
+    font-size: 4.5em;
     line-height: 0.5cm;
 
 }
@@ -197,7 +208,11 @@ section{
 #trending{
     margin-left: 2%;
 }
-
+#popular-right-now{
+    padding-top: 0%;
+    margin-top:0%;
+    margin-left: 2%;
+}
 
 #trending img{
     position: relative;
@@ -210,16 +225,18 @@ section{
     display: flex;
     justify-content: center;
 }
-#trending .button{
+#trending .description button{
     margin-right: 6px;
-    width: 100px;
+    background-color: #000000;
+    color: #fff;
+    width: 70px;
     height: 40px;
     border-radius:50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
     cursor: pointer;
+    
 }
 .card-overlay-content .button p{
     color: white;
@@ -227,20 +244,18 @@ section{
 #trending .description p{
     text-align: center;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
     font-weight: 500;
 
 }
 #trending .description h3{
     text-align: center;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
     letter-spacing:-0.1cm;
     font-weight: 1000;
-    font-size: 4em;
+    font-size: 4.5em;
     line-height: 0.5cm;
 
 }
@@ -327,26 +342,33 @@ section{
 #dont-miss h5{
     color: #fff;
 }
-#dont-miss .picture-text button{
-    background-color:#fff;
-}
-#dont-miss .button p{
-    padding-top: 10%;
-    color: #000000;    
-}
 
-#trending .description .button{
-    /* margin-right: 6px; */
+
+.move-with-us .button{
     color: white;
-    width: 150px;
-    height: 40px;
-    border-radius:50px;
-    display: flex;
+    background-color: #000000;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    cursor: pointer;
+    height: 2.5em;
+
 }
+
+.move-with-us .video-container .landscape-video{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 1em;
+}
+.move-with-us span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
 #trending .description button:hover{
     background-color: #6a6d78;
 }
@@ -358,15 +380,6 @@ section{
 span{
     gap: 2%;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -509,21 +522,7 @@ span{
     border: none;
   }
   
-  /* .card .img {
-    background: green; 
-      width: 145px; 
-      height: 145px; 
-      border-radius: 50%; 
-  } */
-  
-  /* .card .img img { 
-      width: 140px; 
-      height: 140px; 
-      object-fit: cover; 
-      border-radius: 50%; 
-      border: 4px solid #fff; 
-  }  */
-  
+ 
   .card h2 {
     font-weight: 500;
     font-size: 1.56rem;
@@ -586,15 +585,18 @@ span{
         justify-content: start;
     }
 
-    #trending .description .button{
+    #trending .description .button {
         /* margin-right: 6px; */
-        width: 70px;
+        /* width: 70px; */
         height: 40px;
         border-radius:50px;
         display: flex;
         align-items: center;
         justify-content: start;
         
+    }
+    #trending .description .button p{
+        text-align: center;
     }
     #home span{
         gap: 5%;
@@ -625,32 +627,8 @@ span{
     #trending .description span{
         justify-content: center;
     }
-    #trending .description .button{
-        width: 130px;
-    }
+    
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -693,21 +671,29 @@ h2{
     left: 2em;
 }
 #dont-miss .picture-text .button{
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     /* padding: 10px 20px; */
-    background-color: #ffffff; 
-    color: white;
     border: none;
     border-radius: 40em;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     font-size: 1em;
 }
+#dont-miss .picture-text .button p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 #dont-miss .picture-text .button:hover{
     background-color: #6a6d78;
 }
+
+
+
 
 #shop-by-icon span{
     padding-top: 2%;
@@ -750,11 +736,14 @@ h2{
 
 }
 #shop-the-essentials h3{
+    margin-top: -40px;
     margin-left: 2%;
 }
 
 #shop-by-sport{
     margin-left: 3%;
+    margin-top: -60px;
+    margin-bottom: -200px;
 
 }
 
