@@ -22,9 +22,10 @@ const fetchProductData = async () => {
   let data = await result.json();
   data = data[0];
   // console.log(data);
+  document.title = data.name;
   document.getElementById("product-name").innerText = data.name;
   document.getElementById("product-category").innerText = data.category;
-  document.getElementById("product-price").innerText = data.price;
+  document.getElementById("product-price-amount").innerText = data.price;
   document.getElementById("product-about").innerText = data.description;
   document.getElementById("product-colors").innerText = data.colors;
   //IMAGES

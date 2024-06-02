@@ -1,3 +1,28 @@
+document.getElementById('favourites-edit-btn').addEventListener('click',()=>{
+
+  const likeBtns= document.getElementsByClassName('likeBtn');
+  console.log(likeBtns);
+  for(let i=0;i<likeBtns.length;i++){
+    likeBtns[i].classList.toggle("showLikeBtn");
+    }
+  }
+);
+
+const likeBtnEventListener = ()=>{
+  const likeBtns= document.getElementsByClassName('likeBtn');
+  for(let i=0;i<likeBtns.length;i++){
+    // console.log(i);
+    likeBtns[i].addEventListener("click",()=>{
+      console.log(likeBtns[i].dataset.id);
+      let productId = likeBtns[i].dataset.id;
+      fetch(`http://localhost:3000/wishlist/${productId}`, {
+        method: "DELETE",
+      });
+    })
+  }
+}
+
+
 
 
 const fetchFavouriteData = async () => {
@@ -10,6 +35,9 @@ const fetchFavouriteData = async () => {
     let productCard = document.createElement("div");
     productCard.className = "fav-product-card";
     productCard.innerHTML = `
+    <div class="likeBtn" data-id="${product.id}" >
+        <i class="fa-solid fa-heart"></i>
+    </div>
     <a href="./product.html?cat=${product.cat}?id=${product.id}">
     <div class="fav-product-img-container">
       <img
@@ -36,7 +64,8 @@ const fetchFavouriteData = async () => {
   });
 };
 
-fetchFavouriteData();
+fetchFavouriteData().then(likeBtnEventListener);
+
 
 
 

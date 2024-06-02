@@ -56,11 +56,27 @@ section {
 
 .fav-product-card {
   width: 32%;
+  position: relative;
   /* width: fit-content; */
 }
 .fav-product-card a{
   all: unset;
   cursor: pointer;
+}
+.fav-product-card .likeBtn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: color .2s;
+  display: none;
+}
+.fav-product-card .likeBtn:hover{
+  color: #474747;
+}
+.showLikeBtn{
+  display: block !important;
 }
 
 .fav-product-image {
