@@ -4,7 +4,7 @@ const navbarHtml = `
 
         <div class="jordan-nav px-5 bg-light">
             <a href="index.html" class="navbar-brand mb-0 h1">
-                <img class="d-inline-block align-top" src="./assets/images/home/air-jordan.svg" width="40"
+                <img class="d-inline-block align-top" src="../assets/images/home/air-jordan.svg" width="40"
                     height="40"></a>
             <div class="right-links d-flex gap-2">
 

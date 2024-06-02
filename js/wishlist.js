@@ -1,3 +1,45 @@
+
+
+const fetchFavouriteData = async () => {
+  const result = await fetch("http://localhost:3000/wishlist");
+  let data = await result.json();
+  // console.log(userData);
+  const favouriteContainer = document.getElementById('fav-container');
+  data.forEach((product) => {
+    // console.log(product);
+    let productCard = document.createElement("div");
+    productCard.className = "fav-product-card";
+    productCard.innerHTML = `
+    <a href="./product.html?cat=${product.cat}?id=${product.id}">
+    <div class="fav-product-img-container">
+      <img
+        class="fav-product-image"
+        src="${product.imgUrl}"
+        alt=""
+      />
+    </div>
+    <div class="fav-product-description d-flex justify-content-between">
+      <div>
+        <p class="fav-product-name">${product.name}</p>
+        <p class="fav-product-calegory">${product.category}</p>
+      </div>
+      <div class="d-flex align-items-center">
+        <p class="fav-product-price">MRP: ₹ ${product.price}</p>
+      </div>
+    </div>
+    <button class="btn btn-outline-dark" id="favourites-edit-btn">
+      Select Size
+    </button>
+    </a>
+        `;
+    favouriteContainer.appendChild(productCard);
+  });
+};
+
+fetchFavouriteData();
+
+
+
 const addButtonListener =  function () {
   const carousel = document.querySelector(".carousel");
   const arrowBtns = document.querySelectorAll("#carosal-btn-container button");
