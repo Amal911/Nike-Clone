@@ -3,31 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://www.nike.com/favicon.ico?v=1" rel="icon" type="image/x-icon" />
     <link href="https://www.nike.com/apple-touch-icon.png" rel="apple-touch-icon" type="image/png">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/sale-page.css">
     <link rel="stylesheet" href="../assets/fonts/fontStylesheet.css">
     <title>Sale Products</title>
-    <!-- <script src="../js/sale-page.js"></script> -->
 </head>
 <body >
     <section>
-    <!-- <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas sint pariatur quisquam corrupti quis aut ducimus incidunt vero omnis odio! Corporis quam veritatis iure tenetur ratione quod laboriosam facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio maxime iste placeat aperiam, sed veritatis ullam temporibus necessitatibus deleniti corporis, facilis quidem magni magnam qui deserunt dolore quaerat impedit omnis?. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, corporis nihil amet commodi eos distinctio sunt consectetur corrupti velit. Similique cumque totam repellat consequuntur ratione nam delectus est blanditiis eligendi.</excepturi></div> -->
+        <!-- navbar -->
     </section>
     <div class="header-bar">
         <!-- <div id="header-sticky"> -->
-            <div>Sale (714)</div>
-            <div>Hide Filter</div>
-            <svg aria-hidden="true" class="icon-filter-ds" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M21 8.25H10m-5.25 0H3"></path><path stroke="currentColor" stroke-width="1.5" d="M7.5 6v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path><path stroke="currentColor" stroke-width="1.5" d="M3 15.75h10.75m5 0H21"></path><path stroke="currentColor" stroke-width="1.5" d="M16.5 13.5v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path></svg>
-            <div>Sort By:</div>
+            <div class="col-md-8 p-5" id="sale-text">Sale</div>
+            <div id="toggleSidebarBtn" class="col-md-2 d-flex"><span id="filter-text">Hide Filter</span>
+                <div><svg aria-hidden="true" id="iconBtn" class="icon-filter-ds" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M21 8.25H10m-5.25 0H3"></path><path stroke="currentColor" stroke-width="1.5" d="M7.5 6v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path><path stroke="currentColor" stroke-width="1.5" d="M3 15.75h10.75m5 0H21"></path><path stroke="currentColor" stroke-width="1.5" d="M16.5 13.5v0a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd"></path></svg>
+                </div>
+            </div>
+                <!-- <div class="col-md-2">Sort By:</div> -->
+                <div class="col-md-2">
+                <a href="#" class="text-for-drop ms-2" id="dropdownLink">Sort By</a>
+                <select id="sortDropdown" class="hidden">
+                    <option value=""> </option>
+                    <option value="featured">Featured</option>
+                    <option value="newest">Newest</option>
+                    <option value="priceh">Price: High - Low</option>
+                    <option value="pricel">Price: Low - High</option>
+
+                </div>
+
+</select>
+
+            </div>
+
+        </div>
         <!-- </div> -->
     </div>
     <div class="container-fluid">
         <div class="d-flex">
             <!-- Filters Sidebar -->
             <div class="col-md-3" id="sidebar-container">
-                <nav class="navbar navbar-light bg-light " id="sidebar">
+                <nav class="navbar" id="sidebar">
                     <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Category
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Men</a>
+                                <a class="dropdown-item" href="#">Women</a>
+                                <a class="dropdown-item" href="#">Kids</a>
+                                <a class="dropdown-item" href="#">Customise</a>
+                            </div>
+                        </li>
+                        <hr>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Tops & T-Shirts</a>
                         </li>
@@ -53,11 +83,11 @@
                             <a class="nav-link" href="#">Socks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Accessories & Equipment</a>
+                            <a class="nav-link mb-1" href="#">Accessories & Equipment</a>
                         </li>
-                        <!-- Add more filters as needed -->
+                        <hr>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Gender
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -66,73 +96,72 @@
                                 <a class="dropdown-item" href="#">Kids</a>
                             </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kids</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shop By Price</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sale & Offers (1)</a>
-                        </li>
+                        <hr>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Gender
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Kids
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Men</a>
-                                <a class="dropdown-item" href="#">Women</a>
-                                <a class="dropdown-item" href="#">Kids</a>
+                                <a class="dropdown-item" href="#">Boys</a>
+                                <a class="dropdown-item" href="#">Girls</a>
                             </div>
                         </li>
+                        <hr>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Gender
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Shop by Price
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Men</a>
-                                <a class="dropdown-item" href="#">Women</a>
-                                <a class="dropdown-item" href="#">Kids</a>
+                                <a class="dropdown-item" href="#">Under ₹ 2 500.00</a>
+                                <a class="dropdown-item" href="#">₹ 2 501.00 - ₹ 7 500.00</a>
+                                <a class="dropdown-item" href="#">₹ 7 501.00 - ₹ 12 999.00</a>
+                                <a class="dropdown-item" href="#">Over ₹ 13 000.00</a>
                             </div>
                         </li>
+                        <hr>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Gender
+                                Brand
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Men</a>
-                                <a class="dropdown-item" href="#">Women</a>
-                                <a class="dropdown-item" href="#">Kids</a>
+                                <a class="dropdown-item" href="#">Jordan</a>
+                                <a class="dropdown-item" href="#">NikeLab</a>
+                                <a class="dropdown-item" href="#">ACG</a>
+                                <a class="dropdown-item" href="#">Nike Sportswear</a>
                             </div>
                         </li>
+                        <hr>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Gender
+                                Sports
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Men</a>
-                                <a class="dropdown-item" href="#">Women</a>
-                                <a class="dropdown-item" href="#">Kids</a>
+                                <a class="dropdown-item" href="#">Lifestyle</a>
+                                <a class="dropdown-item" href="#">Running</a>
+                                <a class="dropdown-item" href="#">Training & Gym</a>
+                                <a class="dropdown-item" href="#">Basketball</a>
                             </div>
                         </li>
+                        <hr>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Gender
+                                Best For
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Men</a>
-                                <a class="dropdown-item" href="#">Women</a>
-                                <a class="dropdown-item" href="#">Kids</a>
+                                <a class="dropdown-item" href="#">Wet Weather Conditions</a>
+                                <a class="dropdown-item" href="#">Winter Wear</a>
                             </div>
                         </li>
+                        <hr>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Gender
+                                Features
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Men</a>
-                                <a class="dropdown-item" href="#">Women</a>
-                                <a class="dropdown-item" href="#">Kids</a>
+                                <a class="dropdown-item" href="#">Side vents</a>
+                                <a class="dropdown-item" href="#">Reflective Design Details</a>
+                                <a class="dropdown-item" href="#">Packable Hood</a>
+                                <a class="dropdown-item" href="#">4-way Stretch</a>
                             </div>
                         </li>
                     </ul>
@@ -140,7 +169,7 @@
             </div>
 
             <!-- Products Section -->
-            <div class="col-md-9" id="products">
+            <div class="" id="products">
                 <div class="row">
                     <div class="col-md-4">
                         <a href="#">
@@ -190,168 +219,6 @@
                             </div>
                         </a>
                     </div>
-                    <!-- <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image2.jpg" class="card-img-top" alt="Nike Squad OTC">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Squad OTC</h5>
-                                <p class="card-text">₹947.00 MRP : ₹995.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image3.jpg" class="card-img-top" alt="Nike Squad OTC">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Squad OTC</h5>
-                                <p class="card-text">₹947.00 MRP : ₹995.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image4.jpg" class="card-img-top" alt="Nike Club">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Club</h5>
-                                <p class="card-text">₹947.00 MRP : ₹995.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image5.jpg" class="card-img-top" alt="Nike Everyday Plus Cushioned">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday Plus Cushioned</h5>
-                                <p class="card-text">₹1,037.00 MRP : ₹1,095.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image6.jpg" class="card-img-top" alt="Nike Sportswear">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Sportswear</h5>
-                                <p class="card-text">₹1,137.00 MRP : ₹1,195.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="path-to-image1.jpg" class="card-img-top" alt="Nike Everyday">
-                            <div class="card-body">
-                                <h5 class="card-title">Nike Everyday</h5>
-                                <p class="card-text">₹847.00 MRP : ₹895.00</p>
-                            </div>
-                        </div>
-                    </div> -->
 
                 </div>
             </div>
@@ -360,7 +227,7 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="../js/sale-page.js"></script>
 </body>
 </html>
