@@ -48,3 +48,126 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// Shuffle the fetched data
+let shoesData;
+const shuffleArray = (array) => {
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+};
+
+// To fetch the data from api
+const fetchData = async (category) => {
+  const result = await fetch(`http://localhost:3000/${category}`);
+  const data = await result.json();
+  shoesData = shuffleArray(data);
+  feed(shoesData);
+};
+
+// load the feed container
+let category = "snkrs";
+const loadFeedCard = (cardData) => {
+  const feedContainer = document.getElementById("feed-container");
+  deleteChild(feedContainer);
+
+  cardData.forEach((card) => {
+    let feedCard = document.createElement("div");
+    feedCard.innerHTML = `
+    <a href="./snkrs-product-page.html?cat=${category}&id=${card.id}">
+      <div class="card feed-card card-hover mb-4" style="width: 18rem">
+          <img src="${
+            card.cardImage
+          }" class="card-img-top" alt="feedCardImage"/>
+
+          <div class="card-body card-title-p d-flex align-items-center flex-column">
+            <p>${card.top_name}</p>
+            <h3>${card.bottom_name}</h3>
+          </div>
+          ${
+            card.status === "Buy"
+              ? `<div class="hover-button">
+                  <a href="" class="button text-white">${card.status}</a>
+                </div>`
+              : `<div class="hover-button">
+                  <a href="" class="button-so text-white">${card.status}</a>
+                </div>`
+          }
+        </div>      
+      </a>
+    `;
+    feedContainer.appendChild(feedCard);
+  });
+};
+
+// load the grid container
+const loadGridCard = (cardData) => {
+  const gridContainer = document.getElementById("grid-container");
+  deleteChild(gridContainer);
+
+  cardData.forEach((card) => {
+    let gridCard = document.createElement("div");
+    gridCard.innerHTML = `
+    <a href="snkrs-product-page.html">
+      <div class="card grid-card card-hover" style="width: 18rem">
+          <img
+            src="${card.cardImage}"
+            class="card-img-top"
+            alt="gridCardImage"
+          />
+        </div>
+      </a>
+    `;
+    gridContainer.appendChild(gridCard);
+  });
+};
+
+// To delete the child from feed and grid container
+const deleteChild = (container) => {
+  while (container.hasChildNodes()) {
+    container.removeChild(container.firstChild);
+  }
+};
+
+// filter data for In Stock and Upcoming
+const filterData = (datas, status) => {
+  let filterData = datas.filter((data) => data.status == status);
+  return filterData;
+};
+
+// switching between header tabs
+const feed = async () => {
+  loadFeedCard(shoesData);
+  loadGridCard(shoesData);
+};
+const inStock = async () => {
+  feedData = filterData(shoesData, "Sold Out");
+  loadFeedCard(feedData);
+  loadGridCard(feedData);
+};
+const upcomming = async () => {
+  feedData = filterData(shoesData, "Upcoming");
+  loadFeedCard(feedData);
+  loadGridCard(feedData);
+};
+
+fetchData(category);
+
+const navBtns = document.getElementsByClassName("nav-link");
+
+for (let i = 0; i < navBtns.length; i++) {
+  navBtns[i].addEventListener("click", () => {
+    tab = navBtns[i].innerHTML;
+    if (tab == "Feed") {
+      feed();
+    } else if (tab == "In Stock") {
+      inStock();
+    } else if (tab == "Upcoming") {
+      upcomming();
+    }
+  });
+}

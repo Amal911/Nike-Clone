@@ -87,9 +87,9 @@ line-height: 10px;
     border: none;
     text-align: center;
 }
-#card-img-top{
+.card-img-top{
     width: 100%;
-    height: auto;
+    height: 300px;
     object-fit: cover;
 }
 

@@ -1,8 +1,14 @@
 :root {
   --nav-color: #808080;
-  --snkrs-font: "Helvetica Now Display";
+  --snkrs-font: "Helvetica";
   --btn-color: #111;
   --hr: #e5e5e5;
+  --text-color: #111;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 hr {
   margin: 0;
@@ -64,6 +70,7 @@ ul {
   font-size: 13px;
   color: var(--nav-color);
 }
+
 .nav-link-hover a {
   color: var(--nav-color);
 }
@@ -164,16 +171,17 @@ ul {
 }
 #feed-container {
   display: flex;
-  padding-top: 2rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  height: 100vh;
+  flex-wrap: wrap;
+  padding: 2rem 1.5rem;
+}
+#feed-container a {
+  color: var(--text-color);
 }
 .feed-card {
   border: transparent;
   border-radius: 0;
   height: 33rem;
-  width: 26rem !important;
+  width: 25rem !important;
   position: relative;
   overflow: hidden;
   transition: transform 0.3s;
@@ -195,32 +203,31 @@ ul {
 }
 #grid-container {
   display: flex;
-  padding-top: 2rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  height: 100vh;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
 }
 .grid-card {
   border: transparent;
   border-radius: 0;
   height: 20.5rem;
-  width: 30rem !important;
+  width: 19rem !important;
   position: relative;
   overflow: hidden;
   transition: transform 0.3s;
+  padding-bottom: 1.5rem;
 }
 .grid-card img {
   height: 20.5rem;
   width: 18rem;
 }
-.card img {
+.card-hover img {
   transition: opacity 0.3s;
 }
 .card-body {
   padding: 15px;
   transition: opacity 0.3s;
 }
-.card:hover img {
+.card-hover:hover img {
   opacity: 0.5;
 }
 .card .hover-button {
@@ -241,7 +248,15 @@ ul {
   padding: 10px 20px;
   background-color: var(--btn-color);
   font-family: var(--snkrs-font);
-  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button-so {
+  padding: 10px 20px;
+  background-color: #666768;
+  font-family: var(--snkrs-font);
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -250,8 +265,8 @@ ul {
 .button:hover {
   background-color: var(--btn-color);
 }
-.footer-container {
-  height: 57vh;
+.button-so:hover {
+  background-color: #666768;
 }
 .sub-footer {
   display: flex;
@@ -268,7 +283,7 @@ ul {
   justify-content: start;
 }
 .country {
-  width: 10%;
+  width: 20%;
 }
 .copy {
   width: 90%;
@@ -305,22 +320,24 @@ ul {
 .menu-item {
   padding-bottom: 1rem;
   font-size: 12px;
+}
+.menu-item a {
   color: var(--nav-color);
 }
-.menu-item:hover {
+.menu-item:hover a {
   color: white;
   cursor: pointer;
 }
 .menu {
   padding-top: 1rem;
-  width: 15rem;
+  width: 11rem;
 }
 .social-links {
   padding-top: 1rem;
-  padding-left: 17rem;
+  padding-left: 14rem;
   display: flex;
   justify-content: space-evenly;
-  width: 43%;
+  width: 39%;
 }
 .link:hover {
   color: white;
@@ -353,9 +370,6 @@ ul {
   .header-container {
     height: 112px;
   }
-  .footer-container {
-    height: 74vh;
-  }
   .header-container,
   .navbar-a960,
   .footer-container,
@@ -366,9 +380,7 @@ ul {
   }
   .social-links {
     padding-left: 2rem;
-  }
-  #feed-container {
-    height: 120vh;
+    width: 30%;
   }
   .feed-card img {
     height: 22rem;
@@ -416,12 +428,11 @@ ul {
     padding-top: 1.5rem !important;
   }
   .social-links {
-    padding-top: 1rem;
-    padding-left: 0;
+    width: 47%;
+    padding-left: 3rem;
   }
   #feed-container {
     flex-wrap: wrap;
-    height: 253vh;
     padding-left: 2.5rem;
     padding-right: 0.5rem;
   }
@@ -483,7 +494,6 @@ ul {
   }
   #feed-container {
     padding-left: 1rem;
-    height: 210vh;
   }
   .feed-card {
     width: 18rem !important;
@@ -521,7 +531,6 @@ ul {
   }
   #grid-container {
     flex-wrap: wrap;
-    height: 190vh;
     padding-right: 0rem;
   }
   .grid-card {
@@ -531,9 +540,6 @@ ul {
   .grid-card img {
     height: 11rem;
     width: 8.5rem;
-  }
-  .footer-container {
-    height: 81vh;
   }
   .location {
     display: flex;
@@ -621,14 +627,12 @@ ul {
     top: 95%;
   }
   #feed-container {
-    height: 354vh;
     padding-left: 0rem;
     padding-right: 0;
   }
   #grid-container {
     padding-right: 0;
     padding-left: 0;
-    height: 100vh;
   }
   .grid-card {
     width: 11.5rem !important;
@@ -661,10 +665,6 @@ ul {
   }
   .menu-heading.active + .collapse-content {
     display: block;
-  }
-  
-  .footer-container {
-    height: 110vh;
   }
   .footer-menu {
     flex-direction: column;
