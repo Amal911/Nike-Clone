@@ -37,8 +37,8 @@
   </head>
   <body>
     <section id="profile-head">
-      <div class="profile-head-div">
-        <div>Profile</div>
+      <div class="profile-head-div d-flex">
+        <div class="text-secondary">Profile</div>
         <div>Inbox</div>
         <div>Orders</div>
         <div>Favourites</div>
@@ -56,7 +56,7 @@
     </section>
     <section id="interest">
       <h4>Interests</h4>
-      <ul class="nav nav-underline">
+      <ul class="nav-underline d-flex" id="interest-nav">
         <li class="nav-item">
           <a class="nav-link active interest-link" data-target="all-grid">All</a>
         </li>
@@ -90,7 +90,7 @@
               <h5>Add Interests</h5>
             </div>
           </button>
-          <!-- ...@#$%^&*()(*&^%$#@#$%^&*())........ -->
+          
           <div class="interest-products intnew">
             <img src="https://static.nike.com/a/images/t_default/2d4dadfe-7eef-45e8-b70e-5147fc81da5f/image.png" alt="">
             <div class="interest-product-head">
@@ -117,6 +117,13 @@
               <h5>Add Sports</h5>
             </div>
           </button>
+          <div class="interest-products intnew">
+            <img src="https://static.nike.com/a-test/images/t_default/3a931be1-7d42-4338-a225-2a30b60ab04d/image.jpg" alt="">
+            <div class="interest-product-head">
+                <h4 class="moving-txt">Basketball</h4>
+                <button class="btn btn-light"id="movingbtn">Shop</button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="interest-content" id="products-grid">
@@ -198,7 +205,7 @@
                                     <img src="https://static.nike.com/a-test/images/t_default,w_240/3a931be1-7d42-4338-a225-2a30b60ab04d/image.jpg" alt="">
                                     <h6>Basketball</h6>
                                 </div>
-                                <input type="checkbox">
+                                <input type="checkbox" checked>
                             </div>
                             <hr>
                             <div class="interest-list">
@@ -206,7 +213,7 @@
                                     <img src="https://static.nike.com/a/images/t_default,w_240/2d4dadfe-7eef-45e8-b70e-5147fc81da5f/image.png" alt="">
                                     <h6>A'ja Wilson</h6>
                                 </div>
-                                <input type="checkbox">
+                                <input type="checkbox" checked>
                             </div>
                             <hr>
                             <div class="interest-list">
@@ -250,7 +257,7 @@
                                     <img src="https://static.nike.com/a-test/images/t_default,w_240/3a931be1-7d42-4338-a225-2a30b60ab04d/image.jpg" alt="">
                                     <h6>Basketball</h6>
                                 </div>
-                                <input type="checkbox">
+                                <input type="checkbox" checked>
                             </div>
                             <hr>
                             
@@ -469,7 +476,7 @@
     </section>
     <section id="find-next">
         <div id="find-next-fav-header">
-          <p id="find-next-fav-header-text">Find Your Next Favourite</p>
+          <p id="find-next-fav-header-text">Favourites</p>
           <div class="d-flex justify-content-end" id="carosal-btn-container">
             <button class="btn carosal-arrow-btn" id="left">
               <i class="fa-solid fa-chevron-left" ></i>
@@ -486,6 +493,66 @@
   
       </div>
     </section>
+
+    <section id="profile-member-benefits">
+        <h4 class="pb-3">Member Benefits</h4>
+        <div class="member-cards">
+            <div class="card-details">
+                <img src="https://static.nike.com/a/images/w_1920,c_limit/wnvgdvk039burostgbdb/member-home-carousel.jpg" alt="">
+                <h5 class="py-3">Member-Only Products</h5>
+            </div>
+            <div class="card-details">
+                <img src="https://static.nike.com/a/images/w_1920,c_limit/gkq1c6xpvais2s9cvre6/member-home-carousel.jpg" alt="">
+                <h5 class="py-3">Free Returns With Every Order</h5>
+            </div>
+            <div class="card-details">
+                <img src="https://static.nike.com/a/images/w_1920,c_limit/dwchwjfhrmorbr1qapdx/member-home-carousel.jpg" alt="">
+                <h5 class="py-3">Exclusive Deals</h5>
+            </div>
+            <div class="card-details">
+                <img src="https://static.nike.com/a/images/w_1920,c_limit/70c351cb-82c0-49f6-b5b9-6941ed9754bc/member-home-carousel.jpg" alt="">
+                <h5 class="py-3">Free Running and Training Apps</h5>
+            </div>
+            <div class="card-details">
+                <img src="https://static.nike.com/a/images/w_1920,c_limit/mb8zpthvbkhnfympqhht/member-home-carousel.jpg" alt="">
+                <h5 class="py-3">Nike Events</h5>
+            </div>
+        </div>
+    </section>
+
+    <section id="nike-apps">
+        <h4 class="pb-3">Nike Apps</h4>
+        <div class="nike-app-cards gap-3">
+            
+            <div class="card">
+                <img src="https://www.nike.com/assets/experience/membership/profile/assets/nrc.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title d-flex gap-3">
+                        <img src="https://www.nike.com/assets/experience/membership/profile/assets/nrc.png" alt="" class="img-logo">
+                        <h6>Nike Run Club</h6>
+                    </div>
+                    <div class="card-text">
+                        <h6 class="text-secondary pt-2">Run: Find the motivation you need to run better and more often.</h6>
+                        <button class="btn btn-light mt-2">Download</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.nike.com/assets/experience/membership/profile/assets/ntc.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-title d-flex gap-3">
+                        <img src="https://www.nike.com/assets/experience/membership/profile/assets/ntc.png" alt="" class="img-logo">
+                        <h6>Nike Training Club</h6>
+                    </div>
+                    <div class="card-text">
+                        <h6 class="text-secondary pt-2">Train: Break a sweat to over 160 guided workouts.</h6>
+                        <button class="btn btn-light mt-2">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="../js/profile-page.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -10,6 +10,12 @@
     font-weight: 500;
     color: #111111;
 }
+.profile-head-div{
+    overflow-x: scroll;
+}
+.profile-head-div::-webkit-scrollbar{
+    display: none;
+}
 #profile-name-section{
     margin-top: 50px;
     padding: 50px 4%;
@@ -39,6 +45,15 @@
 #interest ul{
     border-bottom: 1px solid #d0d0d0;
 }
+#interest-nav{
+    overflow-x: scroll;
+}
+#interest-nav::-webkit-scrollbar{
+    display: none;
+}
+#interest-nav li{
+    list-style-type: none;
+}
 #interest a{
     padding: 18px 20px;
     font-size: 16.5px;
@@ -57,7 +72,7 @@ a.nav-link:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 16px;
-    height: 250px;
+    height: 278px;
 }
 #interest .all-interest{
     padding: 16px 0 25px 0;
@@ -87,9 +102,10 @@ a.nav-link:hover{
 }
 #interest .interest-products img{
     width: 100%;
+    height: 100%;
     filter: brightness(80%);
 }
-/* !@#$%^&*()_ */
+
 #interest .interest-products img:hover{
     width: 100%;
     filter: brightness(50%);
@@ -115,16 +131,7 @@ a.nav-link:hover{
       
 }
 
-/* !@#$%^&*()(*&^%$#@) */
 
-
-
-
-
-
-/* #interest .interest-products:hover .button{
-    display: block;
-} */
 #interest .interest-content-text{
     transition: transform 0.1s;
 }
@@ -192,13 +199,61 @@ input[type="checkbox"] {
 .modal-footer .cancel-btn:hover{
     border: 1.5px solid black;
 }
+#profile-member-benefits{
+    padding: 0 4%;
+    overflow-x: scroll;
+}
+#profile-member-benefits .member-cards{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 30%;
+    gap: 20px;
+}
+#profile-member-benefits .card-details img{
+    width: 100%;
+}
+#profile-member-benefits::-webkit-scrollbar {
+    height: 8px;
+}
+#profile-member-benefits::-webkit-scrollbar-thumb {
+    background-color: #888;  
+}
 
+#nike-apps{
+    padding: 40px 4% 80px 4%;
+}
+#nike-apps .card{
+    border: none;
+    border-radius: 0;
+    width: 280px;
+}
 
-
-
-
-
-
+#nike-apps .card-title{
+    align-items: center;
+}
+#nike-apps .card-text h6{
+    letter-spacing: 0.8px;
+}
+#nike-apps .card-text button{
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1.5px solid rgba(145, 145, 145, 0.618);
+    background-color: white;
+}
+#nike-apps .card-text button:hover{
+    border: 1.5px solid rgb(0, 0, 0);
+}
+#nike-apps .card-img-top{
+    width: 280px;
+}
+#nike-apps .img-logo{
+    width: 50px;
+}
+.nike-app-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
 /* Carousel */
 
 
@@ -269,18 +324,6 @@ input[type="checkbox"] {
     font-size: 1.31rem;
   }
   
-  /* @media screen and (max-width: 900px) {
-    .wrapper .carousel {
-      grid-auto-columns: calc((100% / 2) - 9px);
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .wrapper .carousel {
-      grid-auto-columns: 100%;
-    }
-  }
-  } */
 
 
 
@@ -349,8 +392,7 @@ input[type="checkbox"] {
     margin-bottom: 0;
     font-weight: 500;
   }
-  .find-next-fav-product-name {
-  }
+  
   .find-next-fav-product-category {
     margin-bottom: 0.6rem;
     color: #707072;
@@ -359,3 +401,49 @@ input[type="checkbox"] {
     width: 1000px;
   }
   
+@media screen and (max-width: 1000px) {
+  #interest .interest-grid{
+    height: 200px;
+    }
+} 
+
+  @media screen and (max-width: 700px) {
+    .nike-app-cards{
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+    .nike-app-cards::-webkit-scrollbar {
+        height: 8px;
+    }
+    .nike-app-cards::-webkit-scrollbar-thumb {
+        background-color: #888;  
+    }
+    #interest .interest-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 150px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    #profile-head .profile-head-div{
+        padding-left: 10px;
+        justify-content: start;
+    }
+    #interest .interest-grid{
+        grid-template-columns: 1fr 1fr;
+        height: 100px;
+    }
+    #interest{
+        margin-bottom: 300px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    #interest .interest-grid{
+        grid-template-columns: 1fr 1fr;
+        height: 100px;
+    }
+    #interest{
+        margin-bottom: 200px;
+    }
+  }
