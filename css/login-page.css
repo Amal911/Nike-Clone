@@ -1,0 +1,91 @@
+*{
+    font-family: 'Helvetica Now Display';
+}
+#login{
+    display: flex;
+    justify-content: center;
+}
+#login .container{
+    width: 540px;
+    height: 100vh;
+    padding: 20px 40px;
+}
+#login .container h1{
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+#login #change-button{
+    border: none;
+    color: rgb(102, 102, 102);
+    text-decoration: underline;
+    background-color: white;
+}
+
+#login p, #login p a{
+    font-size: 17px;
+    letter-spacing: 0.7px;
+    color: grey;
+}
+#login .button-continue{
+    display: flex;
+    justify-content: end;
+}
+
+#login .btn{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+#login .email-label{
+    position: relative;
+}
+#login .email-label label{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    transition: .5s;
+    color: rgb(108, 108, 108);
+}
+#login input{
+    padding: 16px 16px 16px 12px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100%;
+    outline: none;
+}
+#login input:focus~label,
+#login input:valid~label{
+    top: 0;
+    font-size: 12px;
+    background-color: white;
+    padding: 2px;
+    color: black;
+}
+.hidden {
+    display: none;
+    text-decoration: none;
+}
+
+#countryDropdown {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.result{
+    color:black !important; 
+    font-weight: 400;
+}
+.text-for-drop{
+    color:#555;
+    font-weight: 400;
+    
+}
+
+@media screen and (max-width: 376px) {
+#login .btn{
+    width: 100%;
+}
+}

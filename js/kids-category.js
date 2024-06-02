@@ -44,6 +44,7 @@ const popularRightNowFn = async () => {
             </div>`;
         carousel.appendChild(productCard);
     });
+    // attachCarouselEventListeners();
 };
 
 //Icons For Any Season Carousel Function
@@ -75,8 +76,6 @@ const iconsForAnySeasonFn = async () => {
     });
 };
 
-popularRightNowFn();
-iconsForAnySeasonFn();
 
 //function to add event listeners.
 const addData =async ()=>{
@@ -92,6 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
     carousels.forEach(wrapper => {
         const carousel = wrapper.querySelector(".carousel");
         const firstCard = carousel.querySelector(".card");
+        // const firstCardWidth = firstCard.offsetWidth;    
 
         let isDragging = false,
             startX,
