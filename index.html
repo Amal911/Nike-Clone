@@ -16,10 +16,11 @@
             integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://use.typekit.net/zta2vvi.css" />
-        <link rel="stylesheet" href="../assets/fonts/fontStylesheet.css" />
-        <link rel="stylesheet" href="../css/wishlist.css" />
+        <link rel="stylesheet" href="./assets/fonts/fontStylesheet.css" />
+        <link rel="stylesheet" href="./css/wishlist.css" />
         <link rel="stylesheet" href="./css/home.css" type="text/css">
         <link rel="stylesheet" href="./css/customise-page.css" />
+        <!-- <link rel="stylesheet" href="./css/signup-page.css"> -->
 
     </head>
 
@@ -2538,8 +2539,9 @@
     </section>
 
     <section id="find-next">
-        <div id="find-next-fav-header">
-            <p id="find-next-fav-header-text">Popular Right Now</p>
+        <div id="find-next-fav-header" class=" d-flex justify-content-between">
+            <!-- <p id="find-next-fav-header-text">Popular Right Now</p> -->
+            <h2>Popular Right Now</h2>
             <div class="d-flex justify-content-end" id="carosal-btn-container">
                 <button class="btn carosal-arrow-btn" id="left">
                     <i class="fa-solid fa-chevron-left"></i>
@@ -2549,7 +2551,7 @@
                 </button>
             </div>
         </div>
-
+        <!-- id="find-next-fav-header-text" -->
         <div class="wrapper">
 
             <ul class="carousel">
@@ -2654,7 +2656,7 @@
     </section>
 
     <section class="coming">
-        <p class="Display-flex  fs-4 fw-500">Don't Miss</p>
+        <p class="Display-flex  fs-4 fw-500 mt-5">Don't Miss</p>
         <img class="img-fluid index-image"
             src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/h_1595,c_limit/62fb9626-5192-4187-b1dd-f1817090c837/nike-just-do-it.jpg">
         <div class="m-5">
@@ -2670,6 +2672,64 @@
             </div>
 
         </div>
+    </section>
+
+    <section class="shop-by-sport-carousel" id="shop-by-sport">
+        <div class="shop-by-sport-header d-flex justify-content-between">
+            <h2>Shop By Sport</h2>
+            <div class="d-flex justify-content-end" id="carosal-btn-container">
+                <button class="btn carosal-arrow-btn" id="left">
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 26 26" role="img" width="24px" height="24px"
+                        fill="none">
+                        <path stroke="currentColor" stroke-width="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path>
+                    </svg>
+                </button>
+                <button class="btn carosal-arrow-btn" id="right">
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 26 26" role="img" width="24px" height="24px"
+                        fill="none">
+                        <path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="wrapper">
+            <ul class="carousel carousel-with-btn" id="shop-by-sport-carousel-ul" data-carousel-type="shop-by-sport">
+                <li class="card"><a href="#"></a>
+                    <img src="./assets/images/home/shopbysport1.jpg" alt="">
+                    <h5 class="pt-3">Nike Basketball</h5>
+                    <p>Styles made for your game</p>
+                    <a href="#" class="shop">Shop</a>
+                    </a>
+                </li>
+                <li class="card"><a href="#">
+                        <img src="./assets/images/home/shopbysport2.jpg" alt="">
+                        <h5 class="pt-3">Nike Golf</h5>
+                        <p>Conquer any course in style.</p>
+                        <a href="#" class="shop">Shop</a>
+                    </a></li>
+                <li class="card"><a href="#">
+                        <img src="./assets/images/home/shopbysport3.jpg" alt="">
+                        <h5 class="pt-3">Nike Trail</h5>
+                        <p>Gear that leads to wild places.</p>
+                        <a href="#" class="shop">Shop</a>
+                    </a></li>
+                <li class="card"><a href="#">
+                        <img src="./assets/images/home/shop.jpg" alt="">
+                        <h5 class="pt-3">Nike Tennis</h5>
+                        <p>Serve up in style.</p>
+                        <a href="#" class="shop">Shop</a>
+                    </a></li>
+                <li class="card"><a href="#">
+                        <img src="./assets/images/home/shopbysport5.jpg" alt="">
+                        <h5 class="pt-3">Nike Football</h5>
+                        <p>Bring mad style to the pitch with the latest gear.</p>
+                        <a href="#" class="shop">Shop</a>
+                    </a></li>
+
+            </ul>
+        </div>
+
+
     </section>
 
     <section id="member-benefits">
@@ -2694,7 +2754,7 @@
         </div>
 
         <div class="wrapper">
-            <ul class="carousel">
+            <ul class="carousel carousel-with-btn" data-carousel-type="member-benefits" id="member-benefits-carousel">
                 <li class="card card1">
                     <h6>Member Product</h6>
                     <h4>Your Exclusive Access</h4>
@@ -2821,6 +2881,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./js/home.js"></script>
+    <script src="./js/signup.-page.js"></script>
 
 
 

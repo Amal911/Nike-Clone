@@ -93,6 +93,7 @@ const addButtonListener = function () {
   });
 };
 
+
 const fetchData = async () => {
   const result = await fetch("http://localhost:3000/featured-nikestyle");
   let data = await result.json();
