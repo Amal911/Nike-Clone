@@ -1,0 +1,434 @@
+@import url('https://www.nike.com/static/ncss/4.3/dotcom/fonts/Nike-Futura.woff2');
+         
+* {
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: block;
+    font-family: 'HelveticaNowDisplay';
+    font-size: 40%;
+    background-color: white;
+    padding: 3rem !important;
+    background-size: cover;
+}
+h4{
+    font-weight: bold;
+
+}
+
+section {
+ font-size: large;
+ margin-bottom: 5%;
+}
+.landscape-image{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.landing-text{
+    text-align: center;
+    margin-top: 2%;
+}
+.landing-text h3{
+    font-weight: 1000;
+    font-size: 48px;
+    font-family: "Helvetica Now Display";
+    line-height: 45px;
+    text-align: center;
+
+}
+.landing-text p{
+    text-align: center;
+    margin-inline-start: 6rem;
+    margin-inline-end: 6rem;
+    font-size: 20px;
+    margin: 1px;
+
+}
+.landing-text button{
+    text-align: center;
+    background-color: black;
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+    margin: 1px;
+
+}
+
+/* shop Jordan Essentials */
+#essential{
+    font-family:  Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-btn {
+    background-color: #e5e5e5;
+  border-radius: 50%;
+  border: none !important;
+  font-size: 1.1rem;
+  height: 50px;
+  width: 50px;
+  margin-right: 8%;
+}
+
+.arrow-btn:hover {
+    color: #808080; 
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.popular-right-now-product-image {
+    width: 100%; 
+    object-fit: cover;
+}
+
+  .popular-right-now-product-name{
+    text-align: left;
+    font-size: 1.2rem;
+    /* font-weight: 500 !important; */
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif
+  }
+  .popular-right-now-product-category{
+    text-align: left;
+    font-size: 1.1rem;
+    /* font-weight: 300; */
+  }
+  .popular-right-now-product-price{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500 !important;
+
+  } 
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 360px;
+    gap: 10px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+ 
+.carousel::-webkit-scrollbar {
+    height: 8px;
+}
+.carousel::-webkit-scrollbar-thumb{
+    background-color: #707072;
+}
+ 
+.carousel :where(.card, .img) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+ 
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+ 
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+ 
+.carousel .card {
+    scroll-snap-align: start;
+    width: fit-content;
+    list-style: none;
+    background: #fff;
+    border-radius: 0px;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    padding-left: 1px;
+}
+/* ########################## */
+@media (orientation: landscape) {
+    #nav-header .nav-bar-men p{
+        margin-left: 2%;
+        position:fixed;
+    }
+
+    #nav-header ul{
+        position: fixed;
+    }
+
+    #nav-footer .footer-portrait{
+        display: none;
+    }
+
+    .portrait-image {
+        display: none;
+    }
+
+    .landscape-image {
+        display: block;
+        /* background-image: url('https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/ae0328dc-17b6-4e01-b110-7609b3404d16/image.png'); */
+
+    }
+    .portrait-video{
+        display: none;
+    }
+    .landscape-video{
+        display: block;
+    }
+}
+
+@media (orientation: portrait) {
+    #nav-header .nav-bar-men p{
+        margin-left: 8%;
+    }
+    #nav-header .nav-bar ul {
+        margin-left: 0%;
+        align-items: start;
+    }
+
+    #home .description p{
+        text-align: start;
+        display: block;
+        margin: 0;
+        font-weight: 500;
+    
+    }
+    #home .description span{
+        justify-content: start;
+        text-align: center;
+        display: flex;
+        margin: 0;
+        font-weight: 500;
+    
+    }
+    #home .description .button{
+        width: 20%;
+
+    }
+    
+    
+    #featured .description{
+        justify-content: start;
+        align-items: start;
+    }
+    #nav-footer .footer-portrait{
+        display: block;
+    }
+    #nav-footer #show-list{
+        display: none;
+    }
+    #nav-footer #hidden-list{
+        display: none;
+    }
+
+    .landscape-image {
+        display: none;
+    }
+
+    .portrait-image {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: transparent;
+
+    }
+    .landscape-video{
+        display: none;
+    }
+
+    .portrait-video{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        /* background-image: url('https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/14d3e92e-35ac-43f0-bc25-27e764d2f858/image.png'); */
+        background-size: cover;
+        background-position: center;
+
+    }
+}
+
+/* jordan gear for all  */
+
+.col{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.col h5{
+    /* font-weight: 1000; */
+    font-weight: bold;
+
+}
+/* Explore more from jordan */
+.cards-overlay {
+    position: absolute; 
+    bottom: 30px; 
+    left: 40px;
+    right: 0;
+    padding: 20px; 
+    box-sizing: border-box; 
+    text-align: left; 
+}
+
+.cards-img-overlay {
+    padding: 0;
+}    
+.cards-container.image-card {
+    position: relative;
+    overflow: hidden;
+    height: 100%; 
+}
+
+.card-img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.btn-primary-dark {
+    background-color: #111111;
+    border: none;
+    color: white;
+}
+.btn-primary-dark:hover{
+    opacity: 50%;
+    background-color: #111111;
+    color: white;
+
+}
+
+/* hover menu  */
+#nav-footer ul{
+    list-style: none;
+    gap: 10%;
+
+}
+
+#nav-footer a{
+    text-decoration: none;
+    color: #707072;
+    transition: color .2s ease-in-out;
+    font-weight: 6em;
+    font-size: 100%;
+
+}
+#nav-footer a:hover{
+    color: #000000;
+}
+#nav-footer li{
+    margin-top: 10px;
+
+    
+}
+
+
+#nav-footer .grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    min-width: 200px;
+    margin: 0 100px;
+    box-sizing: border-box;
+}
+
+
+#nav-footer h5 {
+    margin-bottom: 10px;
+
+}
+
+
+#nav-footer #hidden-list {
+    margin-top: -.4cm;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.2s, opacity 0.2s linear;
+
+  }
+  
+  #nav-footer #show-list:hover + #hidden-list,
+  #nav-footer #hidden-list:hover {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+  }
+
+  /* ##################### */
+  .center-logo-container {
+    text-align: center;
+    margin-bottom: 10px; /* Adjust as necessary */
+}
+
+.center-logo img {
+    height: 80px; /* Adjust as necessary */
+    margin: 10px 0;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-nav a {
+    /* font-weight: bold; */
+    color: black !important;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: gray !important;
+}
+
+#sticky-nav{
+    position: fixed top;
+}
+
+
+

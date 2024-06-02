@@ -5,7 +5,6 @@
     background-size: cover;
     width: 100%;
 
-
 }
 #kids-navbar{
     position: sticky;
@@ -19,6 +18,7 @@
 }
 #kids-section-container{
     border-radius: none !important;
+    padding: 1em;
 }
 #landing-text{
         text-align: center;
@@ -314,12 +314,10 @@ section {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 360px;
-    /* grid-auto-columns: calc((100% / 3));  */
     gap: 10px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    /* scrollbar-width: 0;  */
 }
  
 .carousel::-webkit-scrollbar {
