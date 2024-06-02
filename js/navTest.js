@@ -3,7 +3,7 @@ const navbarHtml = `
 <nav class="navbar fixed-top navbar-expand-lg bg-white p-0">
     <div class="container">
 
-        <a href="index.html" class="navbar-brand mb-0 h1">
+        <a href="../index.html" class="navbar-brand mb-0 h1">
 
             <img class="d-inline-block align-top" src="../assets/images/home/ticklogo.svg" width="50"
                 height="50">

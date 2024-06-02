@@ -126,7 +126,7 @@ body {
   background-color: #ffffff;
   position: absolute;
   width: 100%;
-  z-index: 100;
+  z-index: 1000;
   transition: top 0.3s;
 }
 
