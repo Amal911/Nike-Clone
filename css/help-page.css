@@ -74,6 +74,10 @@ body{
     margin-bottom: 2%;
 }
 
+#filter-text{
+    margin-right: 6%;
+}
+
 /* Completed */
 .quick-assists{
     margin-bottom: 2%;
