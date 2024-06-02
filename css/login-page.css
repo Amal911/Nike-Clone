@@ -41,14 +41,18 @@
 #login .input-label{
     position: relative;
 }
-#login .input-label label{
+
+
+.text-label{
     position: absolute;
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
     transition: .5s;
     color: rgb(108, 108, 108);
+    pointer-events: none;
 }
+
 #login input{
     padding: 16px 16px 16px 12px;
     border-radius: 10px;
@@ -61,8 +65,10 @@
     width: 40px !important;
     accent-color: black;
 }
-#login input:focus~label,
-#login input:valid~label{
+
+
+.signup-input:focus + .text-label,
+.signup-input:not(:placeholder-shown) + .text-label{
     top: 0;
     font-size: 12px;
     background-color: white;

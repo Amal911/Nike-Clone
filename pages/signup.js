@@ -19,6 +19,8 @@ let Email = document.getElementById('email-input');
 let Password = document.getElementById('password-input');
 let FirstName = document.getElementById('f-name');
 let LastName = document.getElementById('l-name');
+let Shopping_preference = document.getElementById('shopping-preference');
+let Dob = document.getElementById('dob');
 
 let createUser = evt => {
     evt.preventDefault();
@@ -26,13 +28,19 @@ let createUser = evt => {
     auth.createUserWithEmailAndPassword( Email.value, Password.value)
 
         .then((credentials) => {
+            console.log(FirstName,LastName,Dob,Shopping_preference);
             db.ref('UsersAuthList/' + credentials.user.uid).set({
-            // set(ref(db, 'UsersAuthList/' + credentials.user.uid), {
+                Email:Email.value,           
                 FirstName: FirstName.value,
+                Dob: Dob.value,
+                Shopping_preference: Shopping_preference.value,
                 LastName: LastName.value
-            });
-            console.log("registration success please log in")
-            window.location.href='./login.html'
+            }).then(()=>{
+                
+                console.log("registration success please log in")
+                window.location.href='./login.html'
+            })
+            
         })
         .catch((error) => {
             alert(error.message);
