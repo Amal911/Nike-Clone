@@ -20,6 +20,7 @@ const fetchData = async () => {
     const data = await result.json();
     return data;
 };
+
 //Popular Right Now Carousel Function
 const popularRightNowFn = async () => {
     const data = await fetchData();
@@ -136,6 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
 
 
 
