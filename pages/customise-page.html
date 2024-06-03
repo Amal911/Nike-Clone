@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike By You Customise</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://www.nike.com/favicon.ico?v=1"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://www.nike.com/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../assets/fonts/fontStylesheet.css" />
+    <link rel="stylesheet" href="../css/customise-page.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body>
+    <div id="add-navbar"></div>
+    
+    <section id="section-secondarynavbar">
+      <div class="secondarynavbar">
+        <p id="textnikemembership">Nike Membership</p>
+        <a href="/pages/signup-page.html" id="textsignup">Sign Up</a>
+      </div>
+    </section>
+
+    <section id="customise-video-box">
+      <div class="container-fluid" id="videobox">
+        <!-- <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/e52a042f-4951-436a-bd3c-7bfed8304706/image.jpg" alt=""> -->
+        <video
+          autoplay
+          muted
+          loop
+          onclick="this.paused ? this.play() : this.pause();"
+        >
+          <source
+            src="../assets/videos/Customise-page/segment5.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+
+    <section id="customise-firstcontent">
+      <div class="container text-center">
+        <h6>Nike By You</h6>
+        <h4>What If You Were a Shoe?</h4>
+        <div class="container" id="nikebyyoucontent">
+          Let's find out! Be just who you are by putting more youness in your
+          shoeness with Nike By You, Nike's co-creation service for Members. A
+          little more of this, a little less of that—just have fun customising a
+          shoe that feels more like you.
+        </div>
+        <div class="button">
+          <button id="shopbutton"><a href="/pages/sale-page.html">Shop</a></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="nikestyle-carousel" id="featured-nikestyle">
+      <div class="nikestyle-carousel-header">
+        <h2>Featured NBY Styles</h2>
+        <div
+          class="d-flex justify-content-end nav-btn-wraper"
+          id="carosal-btn-container"
+        >
+          <a href="#">Shop</a>
+          <button class="btn carosal-arrow-btn" id="left">
+            <!-- <i class="fa-solid fa-chevron-left" ></i> -->
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              viewBox="0 0 26 26"
+              role="img"
+              width="24px"
+              height="24px"
+              fill="none"
+            >
+              <path
+                stroke="currentColor"
+                stroke-width="1.5"
+                d="M15.525 18.966L8.558 12l6.967-6.967"
+              ></path>
+            </svg>
+          </button>
+          <button class="btn carosal-arrow-btn" id="right">
+            <!-- <i class="fa-solid fa-chevron-right"></i> --><svg
+              aria-hidden="true"
+              focusable="false"
+              viewBox="0 0 26 26"
+              role="img"
+              width="24px"
+              height="24px"
+              fill="none"
+            >
+              <path
+                stroke="currentColor"
+                stroke-width="1.5"
+                d="M8.474 18.966L15.44 12 8.474 5.033"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <ul class="carousel" id="nikestyle-carousel-ul"></ul>
+      </div>
+    </section>
+
+    <section id="customise-secondcontent">
+      <div class="container text-center">
+        <h4>Choose a So-You Shoe</h4>
+        <div class="container" id="choosesoyoushoe-content">
+          Whether you're remixing a classic into something never seen before or
+          simplifying the latest drop into a totally neutral palette, your
+          customisation journey starts with choosing a shoe. Luckily, we're
+          always adding newness so you can find the just-right way to express
+          your style.
+        </div>
+        <div class="button">
+          <button id="startcustomising-button">
+            <a href="#featured-nikestyle">Start Customising</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="customise-thirdcontent-video">
+      <!-- <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/13ca3849-22e8-44ec-8982-0c5ca051cd67/image.jpg" alt=""> -->
+      <video
+        id="first-customise"
+        muted
+        loop
+        onclick="this.paused ? this.play() : this.pause();"
+      >
+        <source
+          src="../assets/videos/Customise-page/First-customise.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </section>
+    <section id="customise-thirdcontent">
+      <div class="container text-center">
+        <h4>How to Nike By You</h4>
+        <div class="container" id="howtonikebyyou-content">
+          Spinning through all the curated colour palettes and premium material
+          options in the Nike By You builder is an experimentation session in
+          3D. Not sure where to start? We asked Nike designers for their best
+          tips and tricks in a series of fun, short videos to help you find that
+          so-you spark.
+        </div>
+        <div class="button">
+          <button id="explore-button"><a href="/pages/sale-page.html">Explore</a></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="customise-thirdcontent-video">
+      <!-- <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/b3b87b01-af57-4bf9-a175-5891fc92b10f/image.jpg" alt=""> -->
+      <video
+        id="second-customise"
+        muted
+        loop
+        onclick="this.paused ? this.play() : this.pause();"
+      >
+        <source
+          src="../assets/videos/Customise-page/second-customise.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </section>
+    <section id="customise-thirdcontent">
+      <div class="container text-center">
+        <h4>What's Your PiD?</h4>
+        <div class="container" id="howtonikebyyou-content">
+          Like your shoe signature, your Personal iD is any combo of letters and
+          numbers that rep you. Maybe it's a nickname, a mantra or your computer
+          password (wait, probably not a good idea). It can be almost anything!
+          Pick your PiD, and show the world who this signature shoe belongs to.
+        </div>
+        <div class="button">
+          <button id="customise-button"><a href="#featured-nikestyle">Customise</a></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="horizontal-image">
+      <img
+        src="https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_1217,c_limit/9946effb-0dfe-41c6-8b53-c4575250cd30/nike-by-you-custom-shoes.jpg"
+        alt=""
+      />
+    </section>
+
+    <section class="explorebenefits">
+      <div>
+        <h4>Explore More Benefits</h4>
+        <div class="member-benefit-cards">
+          <div class="member-cards card1">
+            <h5>Sports & Wellness Apps</h5>
+            <h3>Movement Where You Are</h3>
+            <button class="btn btn-light">Move</button>
+          </div>
+          <div class="member-cards card2">
+            <h5>Member Products</h5>
+            <h3>Your Exclusive</h3>
+            <button class="btn btn-light">Shop</button>
+          </div>
+          <div class="member-cards card3">
+            <h5>Member Rewards</h5>
+            <h3>How We Say Thank You</h3>
+            <button class="btn btn-light">Celebrate</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <div id="add-footer"></div>
+    <!-- <footer class="footer mt-auto py-3">
+      <div class="container-fluid footer-menu">
+        <div class="row">
+          <div class="col-md-3" id="footer-element">
+            <h6 class="footer-heading">Resources</h6>
+            <ul class="list-unstyled collapse-content">
+              <li><a href="#">Find A Store</a></li>
+              <li><a href="#">Become A Member</a></li>
+              <li><a href="#">Send Us Feedback</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3" id="footer-element">
+            <h6 class="footer-heading">Help</h6>
+            <ul class="list-unstyled collapse-content">
+              <li><a href="#">Get Help</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Payment Options</a></li>
+              <li><a href="#">Contact Us On Nike.com Inquiries</a></li>
+              <li><a href="#">Contact Us On All Other Inquiries</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3" id="footer-element">
+            <h6 class="footer-heading">Company</h6>
+            <ul class="list-unstyled collapse-content">
+              <li><a href="#">About Nike</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3" id="fourthcolumn">
+            <div class="d-flex justify-content-end">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 0 24 24"
+                role="img"
+                width="24px"
+                height="24px"
+                fill="none"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-miterlimit="10"
+                  stroke-width="1.5"
+                  d="M21.75 12A9.75 9.75 0 0112 21.75M21.75 12A9.75 9.75 0 0012 2.25M21.75 12c0 2.071-4.365 3.75-9.75 3.75S2.25 14.071 2.25 12m19.5 0c0-2.071-4.365-3.75-9.75-3.75S2.25 9.929 2.25 12M12 21.75A9.75 9.75 0 012.25 12M12 21.75c2.9 0 5.25-4.365 5.25-9.75S14.9 2.25 12 2.25m0 19.5c-2.9 0-5.25-4.365-5.25-9.75S9.1 2.25 12 2.25M2.25 12A9.75 9.75 0 0112 2.25"
+                ></path>
+              </svg>
+              <span>India</span>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="footer-last">
+            <ul>
+              <li><p>&copy; 2024 Nike, Inc. All rights reserved</p></li>
+              <li>
+                <div class="dropup">
+                  <a class="dropup-button">Guides</a>&nbsp;
+                  <span
+                    ><img
+                      src="../assets/images/customise/down-arrow-svg.svg"
+                      alt=""
+                      style="height: 20px; width: 20px"
+                  /></span>
+                  <div class="dropup-content">
+                    <a class="dropdown-item" href="#">Nike Adapt</a>
+                    <a class="dropdown-item" href="#">Nike Air</a>
+                    <a class="dropdown-item" href="#">Nike Air Force 1</a>
+                    <a class="dropdown-item" href="#">Nike Air Max</a>
+                    <a class="dropdown-item" href="#">Nike FlyEase</a>
+                    <a class="dropdown-item" href="#">Nike Flyknit</a>
+                    <a class="dropdown-item" href="#">Nike Flyleather</a>
+                    <a class="dropdown-item" href="#">Nike Free</a>
+                    <a class="dropdown-item" href="#">Nike Joyride</a>
+                    <a class="dropdown-item" href="#">Nike Pegasus</a>
+                    <a class="dropdown-item" href="#">Nike React</a>
+                    <a class="dropdown-item" href="#">Nike Vaporfly</a>
+                    <a class="dropdown-item" href="#">Nike Zoom Fly</a>
+                    <a class="dropdown-item" href="#">Nike ZoomX</a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">Terms of Sale</a>&nbsp;</li>
+              <li><a href="#">Terms of Use</a>&nbsp;</li>
+              <li><a href="#">Nike Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/customise-page.js"></script>
+
+    <script src="../js/navTest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/navbar.js"></script>
+  </body>
+</html>
