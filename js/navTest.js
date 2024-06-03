@@ -31,7 +31,7 @@ const navbarHtml = `
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav nav-underline">
                 <li class="nav-item active">
-                    <a href="#" class="nav-link" id="featureDropDown">
+                    <a href="" class="nav-link" id="featureDropDown">
                         New & Featured
                     </a>
 
@@ -129,23 +129,23 @@ const navbarHtml = `
                     <p class="drop-p">
                         New & Featured</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         New Arrivals</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Latest Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Latest Clothing</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         SNKRS Launch Calendar</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Get ‘Em in SNKRS</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Customise with Nike By You</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Bestsellers</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Member Exclusive</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Top Kicks Under ₹ 8 000.00</a></li>
 
             </ul>
@@ -156,19 +156,19 @@ const navbarHtml = `
                     <p class="drop-p">
                         Shop Icons</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Air Force 1</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link">
                         Air Jordan 1</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Air Max</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Dunk</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Cortez</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Blazer</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Pegasus</a></li>
 
 
@@ -180,13 +180,13 @@ const navbarHtml = `
                     <p class="drop-p">
                         New For Men</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Clothing</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Accessories</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Shop All New</a></li>
 
 
@@ -198,13 +198,13 @@ const navbarHtml = `
                     <p class="drop-p">
                         New For Women</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Clothing</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Accessories</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Shop All New</a></li>
 
 
@@ -216,13 +216,13 @@ const navbarHtml = `
                     <p class="drop-p">
                         New For Kids</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Clothing</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Accessories</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Shop All New</a></li>
 
 
@@ -240,23 +240,23 @@ const navbarHtml = `
                     <p class="drop-p">
                         Featured</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         New Releases</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Bestsellers</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Member Exclusive</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link">
                         Jordan </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Customise with Nike By You</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Sale</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Bestsellers</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Running Shoe Finder</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Sustainable Materials</a></li>
 
             </ul>
@@ -267,29 +267,29 @@ const navbarHtml = `
                     <p class="drop-p">
                         Shoes</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         All Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Newest Sneakers</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link">
                         Jordan </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Lifestyle</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Running</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Gym and Training</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Basketball</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Football </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Sandals and Slides</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Last Sizes Available</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Customise with Nike By You</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Top Picks Under 8 000.00</a></li>
 
 
@@ -301,21 +301,21 @@ const navbarHtml = `
                     <p class="drop-p">
                         Clothing</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         All Clothing</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Tops and T-Shirts</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Shorts</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Pants and Leggings</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Hoodies and Sweatshirts</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Jackets and Gilets</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Jerseys and Kits</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Jordan</a></li>
 
 
@@ -327,21 +327,21 @@ const navbarHtml = `
                     <p class="drop-p">
                         Shop By Sport</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Running</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Basketball</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Football</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Golf</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Tennis</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Gym and Training</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Yoga</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Skateboarding</a></li>
 
 
@@ -359,27 +359,27 @@ const navbarHtml = `
                     <p class="drop-p">
                         Featured</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         New Releases</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Bestsellers</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Member Exclusive</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link">
                         Jordan </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Lifestyle Running</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Bra and Legging Duos</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Customise with Nike By You</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Sale</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Find Your Feel - Nike Leggings</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Running Shoe Finder</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Sustainable Materials</a></li>
 
             </ul>
@@ -390,31 +390,31 @@ const navbarHtml = `
                     <p class="drop-p">
                         Shoes</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         All Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Newest Sneakers</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Platform Sneakers </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Lifestyle</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link">
                         Jordan</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Running</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Gym and Training</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Sandals and Slides </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Basketball</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Football</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Last Sizes Available</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Customise with Nike By You</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Top Picks Under 8 000.00</a></li>
 
 
@@ -426,29 +426,29 @@ const navbarHtml = `
                     <p class="drop-p">
                         Clothing</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         All Clothing</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Performance Essentials</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Tops and T-Shirts</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Sports Bras</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Pants and Leggings</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Shorts</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Hoodies and Sweatshirts</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Jackets and Gilets</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Skirts and Dresses</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Modest Wear</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Nike Maternity</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Plus Size</a></li>
 
 
@@ -460,21 +460,21 @@ const navbarHtml = `
                     <p class="drop-p">
                         Shop By Sport</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Yoga</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Running</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Gym and Training</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Basketball</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Tennis</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Golf</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Football</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Skateboarding</a></li>
 
 
@@ -492,21 +492,21 @@ const navbarHtml = `
                     <p class="drop-p">
                         Featured</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         New Releases</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Newest Sneakers</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Easy On & Off</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Bestsellers </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Member Exclusive</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link">
                         Jordan</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Bags and Backpacks</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Sale</a></li>
 
 
@@ -518,25 +518,25 @@ const navbarHtml = `
                     <p class="drop-p">
                         Boys' Shoes</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         All Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Older Boys (7-14 years)</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Younger Boys (4-7 years) </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Babies and Toddlers (0-4 years)</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Lifestyle</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link">
                         Jordan</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Running</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Basketball </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Football</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Sandals and Slides</a></li>
 
 
@@ -549,25 +549,25 @@ const navbarHtml = `
                     <p class="drop-p">
                         Girls' Shoes</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         All Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Older Girls (7-14 years)</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Younger Girls (4-7 years) </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Babies and Toddlers (0-4 years)</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Lifestyle</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link">
                         Jordan</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Running</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Basketball </a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Football</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Sandals and Slides</a></li>
 
 
@@ -579,13 +579,13 @@ const navbarHtml = `
                     <p class="drop-p">
                         Accessories and Equipment</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         All Accessories and Equipment</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Bags and Backpacks</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Socks</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Hats and Headwear</a></li>
             </ul>
         </div>
@@ -601,13 +601,13 @@ const navbarHtml = `
                     <p class="drop-p">
                         Sale</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Shop All Sale</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Shoes Sale</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Clothing Sale</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html" class="drop-link">
                         Accessories & Equipment Sale</a></li>
             </ul>
         </div>
@@ -617,9 +617,9 @@ const navbarHtml = `
                     <p class="drop-p">
                         Men's Sale</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=mens" class="drop-link">
                         Clothing</a></li>
 
             </ul>
@@ -630,9 +630,9 @@ const navbarHtml = `
                     <p class="drop-p">
                         Women's Sale</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=womens" class="drop-link">
                         Clothing</a></li>
             </ul>
         </div>
@@ -642,9 +642,9 @@ const navbarHtml = `
                     <p class="drop-p">
                         Kids' Sale</p>
                 </li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Shoes</a></li>
-                <li class="drop-child active"><a href="#" class="drop-link">
+                <li class="drop-child active"><a href="/pages/sale-page.html?cat=kids" class="drop-link">
                         Clothing</a></li>
 
             </ul>
@@ -723,7 +723,7 @@ aria-labelledby="offcanvasResponsiveLabel">
         </li>
         <li class="nav-item active">
             <div class="nav-row-div">
-                <a href="#" class="nav-link d-flex justify-content-between pb-2" id="salesDropDown">
+                <a href="/pages/customise-page.html" class="nav-link d-flex justify-content-between pb-2" id="salesDropDown">
                     Customise</p>
 
                 </a>
@@ -731,7 +731,7 @@ aria-labelledby="offcanvasResponsiveLabel">
         </li>
         <li class="nav-item active">
             <div class="nav-row-div">
-                <a href="#" class="nav-link d-flex justify-content-between pt-2" id="salesDropDown">
+                <a href="/pages/snkrs.html" class="nav-link d-flex justify-content-between pt-2" id="salesDropDown">
                     <p class="nav-a-text">SNKRS</p>
 
                 </a>
@@ -740,7 +740,7 @@ aria-labelledby="offcanvasResponsiveLabel">
     </ul>
     
     <div class="d-flex flex-row pt-3 pb-3">   
-        <a href="#" class="nav-link">            
+        <a href="/pages/jordan-home.html" class="nav-link">            
         <img class="d-inline-block align-top" src="../assets/images/home/air-jordan.svg" width="30" height="30">
         <p class="d-inline-block fw-bold ps-3"> Jordan</p></a>
 
@@ -750,13 +750,17 @@ aria-labelledby="offcanvasResponsiveLabel">
 
     <p class="nav-desc">Become a Nike Member for the best products, inspiration and stories in sport.<a href="#"
             class="text-black fw-bold" style="text-decoration:none">Learn more</a> </p>
-    <div class="btn-wrap pb-5">
-        <button type="btn" class="button-na button-a button-big button-rouded">Join Us</button>
-        <button type="btn" class="button-naw button-a button-big button-rouded"> Sign In </button>
+    <div class="btn-wrap pb-5">        
+        <button type="btn" class="button-na button-a button-big button-rouded">
+            <a href="./pages/signup.html"style="text-decoration: none; color:white">Join Us</a>
+        </button>
+        <button type="btn" class="button-naw button-a button-big button-rouded">
+            <a href="./pages/login.html"style="text-decoration: none; color:black">Sign In</a>
+        </button>
     </div>
 
     <div class="d-flex flex-row pt-1 pb-1 align-items-center">
-        <a href="#" class="ss-nav-bottom" style="text-decoration: none;">
+        <a href="/pages/help-page/html" class="ss-nav-bottom" style="text-decoration: none;">
             <img class="d-inline-block justify-content-center d-inline-block"
                 src="../assets/images/home/help.svg" width="25" height="25">
             <p class="fw-500 ps-3 justify-content-center d-inline-block text-black"
@@ -765,7 +769,7 @@ aria-labelledby="offcanvasResponsiveLabel">
 
     </div>
     <div class="d-flex flex-row pt-1 pb-1 align-items-center">
-        <a href="#" class="ss-nav-bottom" style="text-decoration: none;">
+        <a href="/pages/cart.html" class="ss-nav-bottom" style="text-decoration: none;">
             <img class="d-inline-block justify-content-center d-inline-block" src="../assets/images/home/bag.svg"
                 width="25" height="25">
             <p class="fw-500 ps-3 justify-content-center d-inline-block text-black"
@@ -774,7 +778,7 @@ aria-labelledby="offcanvasResponsiveLabel">
 
     </div>
     <div class="d-flex flex-row pt-1 pb-1 align-items-center">
-        <a href="#" class="ss-nav-bottom" style="text-decoration: none;">
+        <a href="/pages/cart.html" class="ss-nav-bottom" style="text-decoration: none;">
             <img class="d-inline-block justify-content-center d-inline-block"
                 src="../assets/images/home/orders.svg" width="25" height="25">
             <p class="fw-500 ps-3 justify-content-center d-inline-block text-black"
@@ -783,7 +787,7 @@ aria-labelledby="offcanvasResponsiveLabel">
 
     </div>
     <div class="d-flex flex-row pt-1 pb-1 align-items-center">
-        <a href="#" class="ss-nav-bottom" style="text-decoration: none;">
+        <a href="/pages/find-a-store.html" class="ss-nav-bottom" style="text-decoration: none;">
             <img class="d-inline-block justify-content-center d-inline-block"
                 src="../assets/images/home/store.svg" width="25" height="25">
             <p class="fw-500 ps-3 justify-content-center d-inline-block text-black"
@@ -894,23 +898,23 @@ aria-labelledby="offcanvasResponsiveLabel">
         <li class="drop-child active color-dark">
             <p class="nav-a-text fw-500 fs-5">New & Featured</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 New Arrivals</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Latest Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Latest Clothing</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 SNKRS Launch Calendar</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Get ‘Em in SNKRS</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Customise with Nike By You</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Bestsellers</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Member Exclusive</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Top Kicks Under ₹ 8 000.00</a></li>
 
     </ul>
@@ -938,19 +942,19 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shop Icons</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Air Force 1</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Air Jordan 1</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Air Max</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Dunk</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Cortez</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Blazer</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Pegasus</a></li>
 
 
@@ -979,13 +983,13 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 New For Men</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Clothing</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Accessories</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Shop All New</a></li>
 
 
@@ -1014,13 +1018,13 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 New For Women</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Clothing</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Accessories</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Shop All New</a></li>
 
 
@@ -1049,13 +1053,13 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 New For Kids</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Clothing</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Accessories</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Shop All New</a></li>
 
 
@@ -1184,23 +1188,23 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Featured</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 New Releases</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Bestsellers</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Member Exclusive</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Customise with Nike By You</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Sale</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Bestsellers</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Running Shoe Finder</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Sustainable Materials</a></li>
 
     </ul>
@@ -1228,17 +1232,17 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Jordan</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 All Jordan</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 new Jordan</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan Clothing </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan Basketball</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan Lifestyle</a></li>
     </ul>
 </div>
@@ -1265,29 +1269,29 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shoes</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 All Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Newest Sneakers</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Lifestyle</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Running</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Gym and Training</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Basketball</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Football </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Sandals and Slides</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Last Sizes Available</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Customise with Nike By You</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Top Picks Under Rs.10,000</a></li>
     </ul>
 </div>
@@ -1313,21 +1317,21 @@ aria-labelledby="offcanvasResponsiveLabel">
         <p class="nav-a-text fw-500 fs-5">
             Clothing</p>
     </li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
             All Clothing</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
             Tops and T-Shirts</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
             Shorts</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
             Pants and Leggings</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
             Hoodies and Sweatshirts</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
             Jackets and Gilets</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
             Jerseys and Kits</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
             Jordan</a></li>
 </ul>
 </div>
@@ -1353,13 +1357,13 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Accessories and Equipment</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 All Accessories and Equipment</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Bags and Backpacks</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Socks</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Hats and headwear</a></li>
 
 
@@ -1389,21 +1393,21 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shop By Sport</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Running</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Basketball</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Football</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Golf</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Tennis</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Gym and Training</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Yoga</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Skateboarding</a></li>
 
 
@@ -1432,19 +1436,19 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shop By Brand</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Nike Sportwear</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 NikeLab</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Nike By You</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 ACG</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 NBA</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Nike SB</a></li>
 
 
@@ -1563,23 +1567,23 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Featured</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 New Releases</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Bestsellers</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Member Exclusive</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Customise with Nike By You</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Sale</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Bestsellers</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Running Shoe Finder</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Sustainable Materials</a></li>
 
     </ul>
@@ -1607,31 +1611,31 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shoes</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 All Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Newest Sneakers</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Platform Sneakers </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Lifestyle</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Running</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Gym and Training</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Sandals and Slides</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Basketball</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Football </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Last Sizes Available</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Customise with Nike By You</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Top Picks Under Rs.10,000</a></li>
     </ul>
 </div>
@@ -1657,29 +1661,29 @@ aria-labelledby="offcanvasResponsiveLabel">
         <p class="nav-a-text fw-500 fs-5">
             Clothing</p>
     </li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             All Clothing</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Performance Essentials</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Tops and T-Shirts</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Sports Bras</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Pants and Leggings</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Shorts</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Hoodies and Sweatshirts</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Jackets and Gilets</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Skirts and Dresses</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Modest Wear</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Nike Maternity</a></li>
-    <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+    <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
             Plus Size</a></li>
 
 
@@ -1707,13 +1711,13 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Accessories and Equipment</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 All Accessories and Equipment</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Bags and Backpacks</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Socks</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Hats and headwear</a></li>
 
 
@@ -1743,21 +1747,21 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shop By Sport</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Yoga</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Running</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Gym and Training</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Basketball</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Tennis</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Golf</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Football</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Skateboarding</a></li>
 
 
@@ -1786,19 +1790,19 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shop By Brand</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Nike Sportwear</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 NikeLab</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Nike By You</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 ACG</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 NBA</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Nike SB</a></li>
 
 
@@ -1939,21 +1943,21 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Featured</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 New Releases</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Newest Sneakers</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Easy On & Off</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Bestsellers </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Member Exclusive</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Bags and Backpacks</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Sale</a></li>
 
 
@@ -1982,11 +1986,11 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Kids By Age</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Older Kids(7-14 years)</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Younger Kids(4-7 years)</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Babies & Toddlers(0-4)</a></li>
 
 
@@ -2017,25 +2021,25 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Boys' Shoes</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 All Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Older Boys (7-14 years)</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Younger Boys (4-7 years) </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Babies and Toddlers (0-4 years)</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Lifestyle</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=jordan-shoes" class="drop-link-ss">
                 Jordan</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Running</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Basketball </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Football</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Sandals and Slides</a></li>
 
 
@@ -2065,15 +2069,15 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Boys' Clothing</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Tops and T-shirts</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Hoodies and Sweatshirts</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Pants and Leggins</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Shorts </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 All Boys' Clothing</a></li>
 
     </ul>
@@ -2101,25 +2105,25 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Girls' Shoes</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 All Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Older Girls (7-14 years)</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Younger Girls (4-7 years) </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Babies and Toddlers (0-4 years)</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Lifestyle</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Jordan</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Running</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Basketball </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Football</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Sandals and Slides</a></li>
     </ul>
 </div>
@@ -2146,17 +2150,17 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Girls' Clothing</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Tops and T-Shirts</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Sports Bras</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Hoodies and Sweatshirts</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Pants and Leggings </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Shorts</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 All Girls' Clothing</a></li>
 
     </ul>
@@ -2184,13 +2188,13 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Accessories and Equipment</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 All Accessories and Equipment</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Bags and Backpacks</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Socks</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Hats and Headwear</a></li>
     </ul>
 
@@ -2218,15 +2222,15 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shop By Sport</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Football</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Running</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Basketball</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Gym and Training </a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Tennis</a></li>
     </ul>
 </div>
@@ -2331,13 +2335,13 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Sale</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Shop All Sale</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Shoes Sale</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Clothing Sale</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Accessories & Equipment Sale</a></li>
     </ul>
 </div>
@@ -2364,13 +2368,13 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Shop by Discount</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 Shop All Sale</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 40% off and up</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 30% off and up</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html" class="drop-link-ss">
                 20% off and up</a></li>
     </ul>
 </div>
@@ -2397,9 +2401,9 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Men's Sale</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=mens" class="drop-link-ss">
                 Clothing</a></li>
 
     </ul>
@@ -2427,9 +2431,9 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Women's Sale</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=womens" class="drop-link-ss">
                 Clothing</a></li>
 
     </ul>
@@ -2457,9 +2461,9 @@ aria-labelledby="offcanvasResponsiveLabel">
             <p class="nav-a-text fw-500 fs-5">
                 Kids' Sale</p>
         </li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Shoes</a></li>
-        <li class="drop-child-ss"><a href="#" class="drop-link-ss">
+        <li class="drop-child-ss"><a href="/pages/sale-page.html?cat=kids" class="drop-link-ss">
                 Clothing</a></li>
 
     </ul>
@@ -2475,15 +2479,15 @@ const footerHtml = `
             <div class="col-md-3" id="footer-element">
                 <h6 class="footer-heading">Resources</h6>
                 <ul class="list-unstyled collapse-content">
-                    <li><a href="#">Find A Store</a></li>
-                    <li><a href="#">Become A Member</a></li>
+                    <li><a href="/pages/find-a-store.html">Find A Store</a></li>
+                    <li><a href="/pages/signup.html">Become A Member</a></li>
                     <li><a href="#">Send Us Feedback</a></li>
                 </ul>
             </div>
             <div class="col-md-3" id="footer-element">
                 <h6 class="footer-heading">Help</h6>
                 <ul class="list-unstyled collapse-content">
-                    <li><a href="#">Get Help</a></li>
+                    <li><a href="/pages/help-page.html">Get Help</a></li>
                     <li><a href="#">Order Status</a></li>
                     <li><a href="#">Delivery</a></li>
                     <li><a href="#">Returns</a></li>
