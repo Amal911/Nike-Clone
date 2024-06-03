@@ -139,4 +139,25 @@ const addButtonListener= function () {
     });
   };
   fetchData().then(addButtonListener);
+
+  
+
+let UserCreds = JSON.parse(sessionStorage.getItem('user-creds'));
+let UserInfo = JSON.parse(sessionStorage.getItem('user-info'));
+let showingmail = document.getElementById('disp')
+let checkcred = () => {
+    if (!sessionStorage.getItem("user-creds")) {
+
+        console.log("checkred exception on case occured login again ");
+        // change showingmail with your output tag id
+        showingmail.innerHTML = `${UserInfo.FirstName} ${UserInfo.LastName}`;
+    }
+    else {
+      console.log("login cred info fethched");
+
+        showingmail.innerHTML = `${UserInfo.FirstName} ${UserInfo.LastName}`;
+
+    }
+}
+window.addEventListener('load', checkcred);
   

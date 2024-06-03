@@ -205,7 +205,6 @@ section {
 
     .landscape-image {
         display: block;
-        /* background-image: url('https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/ae0328dc-17b6-4e01-b110-7609b3404d16/image.png'); */
 
     }
     .portrait-video{
@@ -281,7 +280,6 @@ section {
         position: relative;
         width: 100%;
         height: 100vh;
-        /* background-image: url('https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/14d3e92e-35ac-43f0-bc25-27e764d2f858/image.png'); */
         background-size: cover;
         background-position: center;
 
@@ -397,11 +395,11 @@ section {
   /* ##################### */
   .center-logo-container {
     text-align: center;
-    margin-bottom: 10px; /* Adjust as necessary */
+    margin-bottom: 10px; 
 }
 
 .center-logo img {
-    height: 80px; /* Adjust as necessary */
+    height: 80px; 
     margin: 10px 0;
 }
 
@@ -430,5 +428,57 @@ section {
     position: fixed top;
 }
 
+/* footer bugfix */
+p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.footer a {
+    color: rgb(108, 117, 125);
+    text-decoration: none;
+    font-size: 16px;
 
+}
+span{
+    font-size: 16px;
+
+}
+
+/* sticky navbar portion */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    transition: top 0.3s;
+    background-color: white; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  #main-nav {
+    transition: top 0.3s;
+    width: 100%;
+  }
+  
+  .navbar-section {
+    width: 100%; 
+  }
+  
+
+#main-nav, #sticky-nav {
+    transition: top 0.3s;
+  }
+ 
+  
+  #main-nav {
+    transition: top 0.3s;
+  }
 

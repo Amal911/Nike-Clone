@@ -13,7 +13,7 @@ const likeBtnEventListener = ()=>{
   for(let i=0;i<likeBtns.length;i++){
     // console.log(i);
     likeBtns[i].addEventListener("click",()=>{
-      console.log(likeBtns[i].dataset.id);
+      // console.log(likeBtns[i].dataset.id);
       let productId = likeBtns[i].dataset.id;
       fetch(`http://localhost:3000/wishlist/${productId}`, {
         method: "DELETE",
@@ -149,7 +149,7 @@ const fetchData = async () => {
                 <p class="find-next-fav-product-name">${product.name}</p>
                 <p class="find-next-fav-product-category">${product.category}</p>
               </div>
-              <p class="find-next-fav-product-price">${product.price}</p>
+              <p class="find-next-fav-product-price">MRP: ₹ ${product.price}</p>
             </div>
           </div>
         `;

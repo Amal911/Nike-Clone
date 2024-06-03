@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const pauseBtn = document.getElementById('pause-btn');
   const muteBtn = document.getElementById('mute-btn');
   const watchBtn = document.getElementById('watch-btn');
-  const closeBtn = document.getElementById('close-btn'); // Close button element
+  const closeBtn = document.getElementById('close-btn'); 
   const progressBar = document.querySelector('.progress-bar div');
   const currentTimeElem = document.getElementById('current-time');
   const durationElem = document.getElementById('duration');
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     if (playWithSound) {
       isWatched = true;
-      closeBtn.style.display = 'block'; // Display close button when video starts playing with sound
+      closeBtn.style.display = 'block';
     }
   };
 
@@ -70,8 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
     overlayButtons.classList.remove('hidden');
     video.classList.add('hidden');
     controls.classList.add('hidden');
-    closeBtn.style.display = 'none'; // Hide close button when returning to thumbnail state
-    isWatched = false; // Reset watched state
+    closeBtn.style.display = 'none'; 
+    isWatched = false; 
   });
 
   playBtn.addEventListener('click', () => {
@@ -121,3 +121,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
   });
 });
+
+

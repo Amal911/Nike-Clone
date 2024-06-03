@@ -39,7 +39,7 @@ const popularRightNowFn = async () => {
                         <p class="popular-right-now-product-name">${product.name}</p>
                         <p class="popular-right-now-product-category">${product.category}</p>
                     </div>
-                    <p class="popular-right-now-product-price">${product.price}</p>
+                    <p class="popular-right-now-product-price">MRP: ₹ ${product.price}</p>
                 </div>
             </div>`;
         carousel.appendChild(productCard);

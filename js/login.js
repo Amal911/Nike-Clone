@@ -89,7 +89,7 @@ let loginUser = evt => {
                         // let Signout = ()=>{
                         //     sessionStorage.removeItem('user-creds');
                         //     sessionStorage.removeItem('user-info');
-                        //     windows.location.href='newlogin.html';
+                        //     windows.location.href='/pages/newlogin.html';
                         // }
 
                         // let checkcred = () =>{

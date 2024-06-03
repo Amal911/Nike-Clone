@@ -1,74 +1,205 @@
 {
   "favourites": [
     {
-      "id": "1",
+      "id": "F1",
       "name": "Nike Dunk Low SE",
+      "price": 9207,
       "category": "Women's Shoes",
-      "price": "MRP : ₹ 9 207.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/819e1729-b5fa-4c31-8df5-12bf73bc6cc4/dunk-low-se-shoes-7fnM7D.png"
+      "description": "These classic Dunks get a metamorphous refresh inspired by the merging of digital and physical worlds. Jewel-like hardware, holographic accents and a special JDI dubrae add the finishing touch so you can take centre stage in style.",
+      "colors":"Bronzine/Playful Pink/Alabaster/Coconut Milk",
+      "style":"FD8683-700",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/819e1729-b5fa-4c31-8df5-12bf73bc6cc4/dunk-low-se-shoes-7fnM7D.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bd0b1d9e-b3ec-4cc9-801b-0c3381a1c033/dunk-low-se-shoes-7fnM7D.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b3e9fce-1f5e-401b-8c34-6340dc639b11/dunk-low-se-shoes-7fnM7D.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b5f513ef-2263-438c-bdb3-a44e9ae4a22b/dunk-low-se-shoes-7fnM7D.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/39d2f2e6-8210-4d18-a020-b2aaec9d7abb/dunk-low-se-shoes-7fnM7D.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/58a542ff-279f-412a-8cee-3dec6ae72efb/dunk-low-se-shoes-7fnM7D.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/db611a77-c677-406a-9182-140ef80726dc/dunk-low-se-shoes-7fnM7D.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b20cd9ad-123b-4241-a571-248f572f07d4/dunk-low-se-shoes-7fnM7D.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/07f57a5b-9166-4cd9-beb2-737d73c497ae/dunk-low-se-shoes-7fnM7D.png"
+      }
     },
     {
-      "id": "2",
+      "id": "F2",
       "name": "Nike Air Force 1 PLT.AF.ORM",
+      "price": 8257,
       "category": "Women's Shoes",
-      "price": "MRP : ₹ 8 257.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/91f481e7-5887-454a-8d04-c485c70052fe/air-force-1-pltaform-shoes-pwWPHX.png"
+      "description": "Let classic, easy-to-wear AF-1 style rise to the occasion with the Nike Air Force 1 PLT.AF.ORM. Its elegantly shaped and lifted midsole delivers a proud, new voice to the hoops franchise. The leather on the upper breaks in easily and ages to soft perfection while the sculpted collar and pillowy heel keep it comfy. Captivate your audience.",
+      "colors":"White/White/White/Summit White",
+      "style":"DJ9946-100",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/91f481e7-5887-454a-8d04-c485c70052fe/air-force-1-pltaform-shoes-pwWPHX.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/918f6742-85b3-4840-9df6-f44c56ca1350/air-force-1-pltaform-shoes-pwWPHX.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f6bdbe17-e7cb-48ee-adad-fd3e0ef9d8e6/air-force-1-pltaform-shoes-pwWPHX.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/38a87522-91e0-4157-b4e9-1c1cd32a1014/air-force-1-pltaform-shoes-pwWPHX.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/73731052-5664-4eb0-8fa3-b9bf0ebfb6e7/air-force-1-pltaform-shoes-pwWPHX.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c30e26af-0663-4daf-8890-d736e00accad/air-force-1-pltaform-shoes-pwWPHX.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cfc1136f-5819-4594-ac2e-a1505cb0ae50/air-force-1-pltaform-shoes-pwWPHX.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e48fffec-4a2c-4d4b-8ad9-d5f2f5fbf4d6/air-force-1-pltaform-shoes-pwWPHX.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e3745488-8f3c-492b-ae6f-bc9ab74a9d73/air-force-1-pltaform-shoes-pwWPHX.png"
+      }
     },
     {
-      "id": "3",
+      "id": "F3",
       "name": "Air Jordan 1 Mid",
+      "price": 11495,
       "category": "Shoes",
-      "price": "MRP : ₹ 11 495.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9666574d-f12c-46c8-b04b-fc50b3581e91/air-jordan-1-mid-shoes-BpARGV.png"
+      "description":"Inspired by the original AJ1, the Air Jordan 1 Mid offers fans a chance to follow in MJ's footsteps. Fresh colour trims the clean, classic materials, imbuing modernity into a classic design.",
+      "colors":"White/White/White",
+      "style":"554724-136",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9666574d-f12c-46c8-b04b-fc50b3581e91/air-jordan-1-mid-shoes-BpARGV.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/25416b62-0224-466e-aa79-cf1cfbf173fc/air-jordan-1-mid-shoes-BpARGV.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d99f85b0-28a5-41d0-b454-f0b740b9b347/air-jordan-1-mid-shoes-BpARGV.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b6204ed8-ef3b-49a6-91de-a78915d832c1/air-jordan-1-mid-shoes-BpARGV.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5a839e60-727c-4410-b885-092f6914b9fb/air-jordan-1-mid-shoes-BpARGV.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/eba3a957-42a6-41cf-bf2b-6f03b42e8396/air-jordan-1-mid-shoes-BpARGV.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0b360a80-877b-4491-9c96-470ac3f4aae9/air-jordan-1-mid-shoes-BpARGV.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8226eaa6-d9a0-4919-9c95-1ad54487b75c/air-jordan-1-mid-shoes-BpARGV.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9609043c-e2ac-4f16-a1fa-952c26212845/air-jordan-1-mid-shoes-BpARGV.png"
+      }
     },
     {
-      "id": "4",
+      "id": "F4",
       "name": "Jordan Nu Retro 1 Low",
+      "price": 9195,
       "category": "Men's Shoes",
-      "price": "MRP : ₹ 9 195.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a7ef34f4-4883-41ff-abe5-fe27c57866d7/jordan-nu-retro-1-low-shoes-8294mJ.png"
+      "description":"Twenty years later and these low tops are back. Inspired by the original Wings logo and design of the Jordan 1, these all-day, everyday shoes are ready for whatever. Rock 'em with some baggy jeans, skate in 'em or just look fly—it's up to you. Smooth leather uppers and a big embossed logo will help you stand out whether you're dressed up or down.",
+      "colors":"Black/White/Varsity Red",
+      "style":"DV5141-006",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a7ef34f4-4883-41ff-abe5-fe27c57866d7/jordan-nu-retro-1-low-shoes-8294mJ.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/69ca2ef6-ed14-4ceb-98c7-5fd74129260a/jordan-nu-retro-1-low-shoes-8294mJ.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/df23d22c-49fb-42d4-b1c8-d7ae331c4532/jordan-nu-retro-1-low-shoes-8294mJ.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/748c15cd-59ce-47bd-b0d8-59cf29833a04/jordan-nu-retro-1-low-shoes-8294mJ.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c295bb76-0f85-45e4-8a16-df7bb3706751/jordan-nu-retro-1-low-shoes-8294mJ.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/38785512-d937-48dc-a1e1-7f20184a8d65/jordan-nu-retro-1-low-shoes-8294mJ.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/73f88f82-7a66-4508-aca0-58ab9722c910/jordan-nu-retro-1-low-shoes-8294mJ.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d651b0ec-0867-4f26-b9c2-382cdbc2d421/jordan-nu-retro-1-low-shoes-8294mJ.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/41ec6d7a-3bc0-40ff-949a-d1faaab2e440/jordan-nu-retro-1-low-shoes-8294mJ.png"
+      }
     },
     {
-      "id": "5",
+      "id": "F5",
       "name": "Nike Air Force 1 '07",
+      "price": 8195,
       "category": "Women's Shoes",
-      "price": "MRP : ₹ 8 195.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/e777c881-5b62-4250-92a6-362967f54cca/air-force-1-07-shoes-NMmm1B.png"
+      "description":"The radiance lives on in the Nike Air Force 1 '07, the basketball original that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.",
+      "colors":"White/White",
+      "style":"CW2288-111",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/e777c881-5b62-4250-92a6-362967f54cca/air-force-1-07-shoes-NMmm1B.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/00375837-849f-4f17-ba24-d201d27be49b/air-force-1-07-shoes-WrLlWX.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3cc96f43-47b6-43cb-951d-d8f73bb2f912/air-force-1-07-shoes-WrLlWX.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/33533fe2-1157-4001-896e-1803b30659c8/air-force-1-07-shoes-WrLlWX.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a0a300da-2e16-4483-ba64-9815cf0598ac/air-force-1-07-shoes-WrLlWX.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/82aa97ed-98bf-4b6f-9d0b-31a9f907077b/air-force-1-07-shoes-WrLlWX.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ef92df87-6098-4fa5-bc88-7107492febcf/air-force-1-07-shoes-WrLlWX.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/120a31b0-efa7-41c7-9a84-87b1e56ab9c3/air-force-1-07-shoes-WrLlWX.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1c1e5f55-99c2-4522-b398-2352e01ba566/air-force-1-07-shoes-WrLlWX.png"
+      }
     },
     {
-      "id": "6",
+      "id": "F6",
       "name": "Air Jordan 1 Low",
+      "price": 8295,
       "category": "Women's Shoes",
-      "price": "MRP : ₹ 8 295.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/192bd1e3-9fd1-4f94-9f0e-799e443357e9/air-jordan-1-low-shoes-459b4T.png"
+      "description":"Always in, always fresh. The Air Jordan 1 Low sets you up with a piece of Jordan history and heritage that's comfortable all day. Choose your colours, then step out in the iconic profile that's built with a high-end mix of materials and encapsulated Air in the heel.",
+      "colors":"Anthracite/Sail/Jade Smoke",
+      "style":"DC0774-001",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/192bd1e3-9fd1-4f94-9f0e-799e443357e9/air-jordan-1-low-shoes-459b4T.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8e475055-a3cf-464f-8bd5-23ff8dc0f243/air-jordan-1-low-shoes-459b4T.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6c5db0c6-6ace-47e5-bc50-8b3a116297ff/air-jordan-1-low-shoes-459b4T.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/390e464c-bb34-42c5-8464-6890dd5b593e/air-jordan-1-low-shoes-459b4T.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b7764fbd-4db3-4c20-b77e-090dd17052bd/air-jordan-1-low-shoes-459b4T.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1151b0fb-16c7-49e3-9d18-3be255778b8f/air-jordan-1-low-shoes-459b4T.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/98f66fa2-e0e9-40e8-9c5d-d71ce1136b45/air-jordan-1-low-shoes-459b4T.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/98f74d0a-11fb-444c-8706-8c8b9510f758/air-jordan-1-low-shoes-459b4T.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/07f8a7bc-514b-4f79-9848-b5172d54ec50/air-jordan-1-low-shoes-459b4T.png"
+      }
     },
     {
-      "id": "7",
+      "id": "F7",
       "name": "Nike Dunk Low",
+      "price": 6695,
       "category": "Older Kids' Shoes",
-      "price": "MRP : ₹ 6 695.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/24e6bbc2-64af-4449-ace6-09d154a69484/dunk-low-older-shoes-mxH1lh.png"
+      "description":"The Nike Dunk Low returns covered in crisp material overlays with heritage-inspired colour blocking.A cool combination of soft colours gives this makeup a classic feel.Check out the outsole—the speckles are there because it's made from about 15% Nike Grind.",
+      "colors":"Pink Glaze/White/Pomegranate/Pink Glaze",
+      "style":"DO6485-600",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/24e6bbc2-64af-4449-ace6-09d154a69484/dunk-low-older-shoes-mxH1lh.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/751039f1-6f90-494c-8f95-de2e988dde88/dunk-low-older-shoes-mxH1lh.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9d38414-dbf7-49ad-954a-7472a671d977/dunk-low-older-shoes-mxH1lh.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3ae26ccc-a511-4856-83d6-251916287421/dunk-low-older-shoes-mxH1lh.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d878d9f2-50eb-473b-af38-97f0c90fe4e7/dunk-low-older-shoes-mxH1lh.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c28aaaab-0690-4740-9eb4-d5a6ad00b876/dunk-low-older-shoes-mxH1lh.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2a2cbb34-64ec-46e5-b02c-5300dce7cf9b/dunk-low-older-shoes-mxH1lh.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/450a4f6b-5353-4fa9-bac3-4983fe4b295f/dunk-low-older-shoes-mxH1lh.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3388f4be-f70d-4bf0-bca0-f4fb33acfb8a/dunk-low-older-shoes-mxH1lh.png"
+      }
     },
     {
-      "id": "8",
+      "id": "F8",
       "name": "Nike Dunk Low",
+      "price": 8295,
       "category": "Women's Shoes",
-      "price": "MRP : ₹ 8 295.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/d14fc386-1067-4a72-961e-9f8134680703/dunk-low-shoes-r8QXCd.png"
+      "description":"Created for the hardwood but taken to the streets, the '80s b-ball icon returns with perfectly shined overlays and classic team colours. With its iconic hoops design, the Nike Dunk Low channels '80s vintage back onto the streets while its padded, low-cut collar lets you take your game anywhere—in comfort.",
+      "colors":"White/White/Black",
+      "style":"DD1503-101",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/d14fc386-1067-4a72-961e-9f8134680703/dunk-low-shoes-r8QXCd.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/af53d53d-561f-450a-a483-70a7ceee380f/dunk-low-shoes-r8QXCd.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/228255b3-c351-46dc-82cd-61892fb818f2/dunk-low-shoes-r8QXCd.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4776d6e3-b45d-4846-92e3-130c069db578/dunk-low-shoes-r8QXCd.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cba88e5c-710c-48bd-8ada-adf6ecbc2dd4/dunk-low-shoes-r8QXCd.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a2efb8df-29b1-4dfd-851c-7adefc70b59e/dunk-low-shoes-r8QXCd.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/daf248ed-1484-44de-bff4-23a0991755eb/dunk-low-shoes-r8QXCd.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3af4a9b9-2039-4941-b5bf-186f7a518e78/dunk-low-shoes-r8QXCd.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45fe911f-9c85-4012-9c72-5ac8b582591b/dunk-low-shoes-r8QXCd.png",
+        "9": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e6994db8-2236-497e-bc24-739c92fec6fd/dunk-low-shoes-r8QXCd.png",
+        "10": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a5201891-9da3-4d6e-a5d3-e043cd4a8c0a/dunk-low-shoes-r8QXCd.png"
+      }
     },
     {
-      "id": "9",
+      "id": "F9",
       "name": "Nike Dunk Low Retro",
+      "price": 8295,
       "category": "Men's Shoe",
-      "price": "MRP : ₹ 8 295.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/a3e7dead-1ad2-4c40-996d-93ebc9df0fca/dunk-low-retro-shoe-66RGqF.png"
+      "description":"Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colours. This basketball icon channels '80s vibes with premium leather in the upper that looks good and breaks in even better. Modern footwear technology helps bring the comfort into the 21st century.",
+      "colors":"White/White/Black",
+      "style":"DD1391-100",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/a3e7dead-1ad2-4c40-996d-93ebc9df0fca/dunk-low-retro-shoe-66RGqF.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1bcbca4-e853-4df7-b329-5be3c61ee057/dunk-low-retro-shoe-66RGqF.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e863ca32-5f23-49eb-9ee6-da62958650f9/dunk-low-retro-shoe-66RGqF.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2c25c676-832d-453f-9cd9-dd6b492d7636/dunk-low-retro-shoe-66RGqF.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2f7301c8-1550-4207-8360-0490266cf821/dunk-low-retro-shoe-66RGqF.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b8083f2f-0933-4c11-9438-5497d751ce62/dunk-low-retro-shoe-66RGqF.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ebd299fe-f5b4-45c6-9bf5-88bce1dc9878/dunk-low-retro-shoe-66RGqF.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b64e38ae-4c2b-446d-9378-d100a190f847/dunk-low-retro-shoe-66RGqF.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ff34d958-eebb-44b0-b5b8-1f2e6cc9a7ae/dunk-low-retro-shoe-66RGqF.png"
+      }
     },
     {
-      "id": "10",
+      "id": "F10",
       "name": "Nike Life",
+      "price": 5697,
       "category": "Men's Carpenter Trousers",
-      "price": "MRP : ₹ 5 697.00",
-      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/3225dde3-c1a2-4696-9441-fd28b9faf31b/life-carpenter-trousers-cK2f7Q.png"
+      "description":"Part of our Nike Life collection, these carpenter trousers are made for all the things you do in life outside of sport. Sturdy and tough, the cotton twill fabric still breaks in with wear. A relaxed-fitting, straight-leg design helps you tackle all your daily tasks in comfort. The 7-pocket, workwear-inspired look brings a heavy dose of function to your wardrobe.",
+      "colors":"Black/Black",
+      "style":"FB7199-010",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/3225dde3-c1a2-4696-9441-fd28b9faf31b/life-carpenter-trousers-cK2f7Q.png",
+      "images":{
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6880275d-a8ec-4ec9-9e98-346161a0f5c3/life-carpenter-trousers-cK2f7Q.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d4518dda-b73c-46c6-986a-72eaa92ac488/life-carpenter-trousers-cK2f7Q.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2ad0f6da-1d9e-4877-b4f7-09bd6bb04e08/life-carpenter-trousers-cK2f7Q.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/245c0aa9-9dbf-4102-a503-b9a8d6eb296d/life-carpenter-trousers-cK2f7Q.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6345ab9c-793d-481e-bb14-c84f9285729f/life-carpenter-trousers-cK2f7Q.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/811c2180-cce6-4304-b4bf-7c46e2a181db/life-carpenter-trousers-cK2f7Q.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9e1f41d3-3c02-4f2c-86a3-27813a1e720d/life-carpenter-trousers-cK2f7Q.png"
+      }
     }
   ],
   "product": [
@@ -115,7 +246,7 @@
     {
       "id": "3",
       "name": "Nike Air Max Plus",
-      "price": "MRP : ₹ 15 995.00",
+      "price": 15995.00,
       "category": "Men's Shoes",
       "description": "Let your attitude have the edge with flame-like caging that adds heat to the streets while airy mesh keeps you cool. The Air Max Plus gives you a tuned Nike Air experience that offers premium stability and unbelievable cushioning.",
       "colors": "Colour Shown: Dark Obsidian/Monarch/Black/White",
@@ -847,74 +978,190 @@
   ],
   "featured-nikestyle": [
     {
-      "id": "1",
+      "id": "NS1",
       "name": "Nike Dunk Low By You",
+      "price":  10795,
       "category": "Custom Shoes",
-      "price": "MRP : ₹ 10,555",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/8cbb6c3e-bf4a-43a0-96f7-18a10d722f02/custom-nike-dunk-low-by-you-su24.png"
+      "description":"Our icon, your way. Whether you're on the go or going out on the town, this Dunk has just the right amount of flash to keep you shining. Smooth or pebbled leather is combined with reflective design options on the Swoosh logo and backtab for a look that's so you. Add some vintage style with inscription elements and tongue presets that reference original Be True To Your School aesthetics. Don't forget to finish your look with 12 different lace colour choices.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: FV9524-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/8cbb6c3e-bf4a-43a0-96f7-18a10d722f02/custom-nike-dunk-low-by-you-su24.png",
+      "images": {
+        "1": "https://api.nike.com/customization/images/v2?vn=1&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "2": "https://api.nike.com/customization/images/v2?vn=2&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "3": "https://api.nike.com/customization/images/v2?vn=3&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "4": "https://api.nike.com/customization/images/v2?vn=4&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "5": "https://api.nike.com/customization/images/v2?vn=5&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "6": "https://api.nike.com/customization/images/v2?vn=6&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "7": "https://api.nike.com/customization/images/v2?vn=7&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "8": "https://api.nike.com/customization/images/v2?vn=9&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA"
+      }
     },
     {
-      "id": "2",
-      "name": "Nike Air Force 1 Low By You",
-      "category": "Custom Men's Shoes",
-      "price": "MRP: ₹11,895",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/1defaebe-cdc7-49ec-8530-acd53889a052/hispl-quxm-tvxus.png"
-    },
-    {
-      "id": "3",
+      "id": "NS2",
       "name": "Nike Air Force 1 Low By You",
       "category": "Custom Shoes",
-      "price": "MRP : ₹ 11,895",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/bd156e13-4888-4999-926e-727b32e8bfd7/hispl-quxm-tvxus.png"
+      "price": 11895,
+      "description":"Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: DV3892-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/1defaebe-cdc7-49ec-8530-acd53889a052/hispl-quxm-tvxus.png",
+      "images": {
+        "1": "https://api.nike.com/customization/images/v2?vn=1&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "2": "https://api.nike.com/customization/images/v2?vn=2&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "3": "https://api.nike.com/customization/images/v2?vn=3&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "4": "https://api.nike.com/customization/images/v2?vn=4&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "5": "https://api.nike.com/customization/images/v2?vn=5&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "6": "https://api.nike.com/customization/images/v2?vn=6&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA"
+      }
     },
     {
-      "id": "4",
+      "id": "NS3",
+      "name": "Nike Air Force 1 Low By You",
+      "category": "Custom Shoes",
+      "price": 11895,
+      "description":"Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: DV3907-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/bd156e13-4888-4999-926e-727b32e8bfd7/hispl-quxm-tvxus.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bd156e13-4888-4999-926e-727b32e8bfd7/custom-nike-air-force-1-low-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/6e7772bf-264e-40fc-b259-bf0fe6aaedcc/custom-nike-air-force-1-low-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/58604f2c-5ee7-4642-b58d-fdd744415754/custom-nike-air-force-1-low-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/531d8398-3863-4beb-a3a5-81fb3082bd7c/custom-nike-air-force-1-low-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/34feed5a-e1e9-47fb-af9b-44908bba8152/custom-nike-air-force-1-low-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/353fbcff-ae4d-4a4c-af9f-7b0ce4a6c01c/custom-nike-air-force-1-low-by-you.png"
+      }
+    },
+    {
+      "id": "NS4",
       "name": "Nike Air Force 1 Low By You",
       "category": "Custom Women's Shoes",
-      "price": "MRP : ₹ 11,895",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/7107b5de-78e1-43f8-899e-232a88c8bd53/hispl-quxm-tvxus.png"
+      "price": 11895,
+      "description":"Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: DV3907-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/7107b5de-78e1-43f8-899e-232a88c8bd53/hispl-quxm-tvxus.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7107b5de-78e1-43f8-899e-232a88c8bd53/custom-nike-air-force-1-low-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7107b5de-78e1-43f8-899e-232a88c8bd53/custom-nike-air-force-1-low-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2510bf3e-4207-4694-a0a6-189e2f7ff2d4/custom-nike-air-force-1-low-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5fb96d97-8fc8-4812-be25-e976c46634a0/custom-nike-air-force-1-low-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3fd8d427-65fa-4bfa-a31b-4b84a097a4e9/custom-nike-air-force-1-low-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1803d2a8-1f28-46b3-9da2-c6f9ab5079f0/custom-nike-air-force-1-low-by-you.png"
+      }
     },
     {
-      "id": "5",
+      "id": "NS5",
       "name": "Nike Dunk Low Unlocked By You",
       "category": "Custom Shoes",
-      "price": "MRP : ₹ 14,995",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/ec93b093-f277-441f-973a-4d5797cd1369/custom-dunk-low-unlocked-by-you.png"
+      "price": 14995,
+      "description":"Cheetah and tiger and croc—oh my! It's time to design the Dunk of your dreams. The left and right shoes can be customised independently (excluding character personalisation), so let your imagination go wild. Velvet cheetah and tiger prints in a '90s-inspired colour palette mix with a textural croc suede for the ultimate maximalist look. Don't forget your shoelery for the finishing touch.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: FJ2253-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/ec93b093-f277-441f-973a-4d5797cd1369/custom-dunk-low-unlocked-by-you.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2c7b65b4-26ce-4279-a0fd-9620a9be25fb/custom-dunk-low-unlocked-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7ba5fe89-198d-4567-b991-df38b9c3e3ea/custom-dunk-low-unlocked-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bf4294b4-dd65-4406-ad67-62b6f5a42150/custom-dunk-low-unlocked-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/13172251-a787-44c4-a073-ee1393210140/custom-dunk-low-unlocked-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/51e46f19-14a9-4355-9111-f3bc0f6edb0f/custom-dunk-low-unlocked-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5ac0e811-a602-4fc1-a6fd-9f099a9a7d5c/custom-dunk-low-unlocked-by-you.pngA"
+      }
     },
     {
-      "id": "6",
+      "id": "NS6",
       "name": "Nike Dunk Low Unlocked By You",
       "category": "Custom Shoes",
-      "price": "MRP : ₹ 14,995",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/2c7b65b4-26ce-4279-a0fd-9620a9be25fb/custom-dunk-low-unlocked-by-you.png"
+      "price": 14995,
+      "description":"Cheetah and tiger and croc—oh my! It's time to design the Dunk of your dreams. The left and right shoes can be customised independently (excluding character personalisation), so let your imagination go wild. Velvet cheetah and tiger prints in a '90s-inspired colour palette mix with a textural croc suede for the ultimate maximalist look. Don't forget your shoelery for the finishing touch.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: FJ2253-900",
+      "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e7e1336e-1489-49e1-97d9-b723462a6dd6/custom-dunk-low-unlocked-by-you.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e7e1336e-1489-49e1-97d9-b723462a6dd6/custom-dunk-low-unlocked-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/02970f3e-5bab-4c95-899c-a681dc4a8ac8/custom-dunk-low-unlocked-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/02970f3e-5bab-4c95-899c-a681dc4a8ac8/custom-dunk-low-unlocked-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ed7ff6f9-0688-498d-a59d-09dcd0f00329/custom-dunk-low-unlocked-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d7b09231-987a-4f77-8628-d6a8657b565f/custom-dunk-low-unlocked-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f3dd247a-9a8f-4939-9bd1-493fe8165125/custom-dunk-low-unlocked-by-you.png"
+      }
     },
     {
-      "id": "7",
+      "id": "NS7",
       "name": "Nike G.T. Cut Academy By You",
       "category": "Custom Basketball Shoes",
-      "price": "MRP : ₹ 10,795",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/5ef7c8f7-c103-4654-ab0c-62419ded889f/custom-nike-gt-cut-academy.png"
+      "price": 10795,
+      "description":"Whether you're playing in the gym, at the park or on your driveway, lace up in the G.T. Cut Academy. This customisable version gives you a stunning array of colours and finishes to choose from, so your game can take centre stage. Designed to help you create space for step-back jumpers, back-door cuts and other game-changing plays, its sticky multi-court traction helps you stop in an instant and shift gears at will—wherever your next game is calling you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colou",
+      "style": "Style: FZ0574-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/5ef7c8f7-c103-4654-ab0c-62419ded889f/custom-nike-gt-cut-academy.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5ef7c8f7-c103-4654-ab0c-62419ded889f/custom-nike-gt-cut-academy.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7e0e9de7-dd6a-4ad4-9d16-541506ba2a64/custom-nike-gt-cut-academy.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1a87880b-d799-4fe1-b062-23cc7b0098db/custom-nike-gt-cut-academy.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e6fdc9ff-a32a-4c3e-87b8-2b2da8c548b2/custom-nike-gt-cut-academy.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5208313e-e10f-4192-872d-651be7598216/custom-nike-gt-cut-academy.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dc55fdaf-5b80-490a-9aed-0bb9336bd195/custom-nike-gt-cut-academy.png",
+        "7": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/85375fb4-7404-44c4-b285-4648807fbd30/custom-nike-gt-cut-academy.png",
+        "8": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/881ec01a-5ba2-4438-8068-435a63d5297b/custom-nike-gt-cut-academy.png"
+      }
     },
     {
-      "id": "8",
+      "id": "NS8",
       "name": "Nike Phantom Luna 2 Elite By You",
       "category": "Custom FG High-Top Football Boot",
-      "price": "MRP : ₹ 26,995",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/893b13a4-3a10-4947-b72d-960034bb1d86/custom-phantom-luna-2-elite-by-you.png"
+      "price": 26995,
+      "description":"Obsessed with perfecting your craft? Let the Phantom Luna 2 Elite By You help your game shine bright. With eye-popping underfoot plates, gritty graphics and a plethora of dazzling colours, your skills will catch the gazes of every onlooker both on the pitch and in the stands. With revolutionary Nike Gripknit covering the striking area of the boot, and Nike Cyclone 360 traction guiding your unscripted agility in the open pitch, it's created with goals in mind.",
+      "colors": "Colour Shown: White/Whiter",
+      "style": "Style: FQ8803-100",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/893b13a4-3a10-4947-b72d-960034bb1d86/custom-phantom-luna-2-elite-by-you.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/893b13a4-3a10-4947-b72d-960034bb1d86/custom-phantom-luna-2-elite-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/70713833-930e-45d2-9223-8d6f5de5b5a9/custom-phantom-luna-2-elite-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/47cefeff-e44f-4982-9fb7-3e019559f4ea/custom-phantom-luna-2-elite-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/270a4f1e-c58e-4cba-8b10-4b99d17a02fe/custom-phantom-luna-2-elite-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ecef778f-8425-4d33-85e8-b618aeb3b905/custom-phantom-luna-2-elite-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0470c7ff-5c1f-4b46-89e5-6dcf9b1ecb7c/custom-phantom-luna-2-elite-by-you.png",
+        "7": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/96657273-22fa-4c09-9066-f366bac25041/custom-phantom-luna-2-elite-by-you.png"
+      }
     },
     {
-      "id": "9",
+      "id": "NS9",
       "name": "Nike Mercurial Vapor 15 Elite By You",
       "category": "Custom Firm-Ground Football Boot",
-      "price": "MRP : ₹ 24,895",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/a6195f4a-c153-43a9-8c35-c1e4ee6d80f5/custom-mercurial-vapor-15-elite-shoes-by-you.png"
+      "price": 24895,
+      "description":"Express your creative side with an array of vibrant, eye-catching colours that are tuned for your distinct, brash style. With special design details from eccentric colour options to personalised messages and an updated graphic, there's no limit to your creativity on or off the pitch. Loaded with a Zoom Air unit, you can put the pedal down in the final minutes of a match—when it matters most. Fast is in the Air.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour",
+      "style": "Style: FN6749-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/a6195f4a-c153-43a9-8c35-c1e4ee6d80f5/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a6195f4a-c153-43a9-8c35-c1e4ee6d80f5/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e4f3e441-aada-4dc7-9988-7d316494f46f/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/68a6422c-01ab-4492-9284-5a4394cc4c2a/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/c362c248-ff55-471f-b95a-6af29260ef09/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1a70c89b-b7d3-4547-923c-c55ab6dbde8e/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/497fa734-7fbb-49e5-822d-246561cced65/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "7": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/762004bc-e54f-43d6-9d7f-d4a0ae0ced96/custom-mercurial-vapor-15-elite-shoes-by-you.png"
+      }
     },
     {
-      "id": "10",
+      "id": "NS10",
       "name": "Nike Air Force 1 Mid By You",
       "category": "Men's Custom Shoes",
-      "price": "MRP : ₹ 12,795",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/0c7f91e6-4cf2-4bb5-991e-c19390a2b5de/custom-nike-air-force-1-mid-by-you-shoes.png"
+      "price": 12795,
+      "description":"Let your design shine in satin, keep it classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional Gum option for the sole mean your design is destined to be one of a kind, just like you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: DZ3640-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/0c7f91e6-4cf2-4bb5-991e-c19390a2b5de/custom-nike-air-force-1-mid-by-you-shoes.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0c7f91e6-4cf2-4bb5-991e-c19390a2b5de/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/4e2ee28a-b5bd-428c-a98c-afa24696668b/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/389a2e8c-edf7-42f7-91aa-21766b3b3c49/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/76e9cb96-104c-4c92-8305-f6e8016e089f/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/93dd9ebb-b133-4b8c-ad66-78d725e6a856/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/96b696ff-3580-4ad0-ba92-b2610d8ccd17/custom-nike-air-force-1-mid-by-you-shoes.png"
+      }
     }
   ],
   "kids-category": {
@@ -1082,7 +1329,7 @@
       "description": "This iteration of the AJ1 re-imagines Mike's first signature model with a fresh mix of colours. Premium materials, soft cushioning and a padded ankle collar offer total support and celebrate the shoe that started it all.",
       "colors": "Black/Fire Red/White/Cement Grey",
       "style": "DQ8423-006",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/249c583f-a18f-4fe7-be1a-4f0b41550483/air-jordan-1-low-older-shoes-xLzJc6.png",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/91af5cd0-6111-4fc0-ac0c-1a080687d08f/air-more-uptempo-cl-older-shoes-HfJmMl.png",
       "images": {
         "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/91af5cd0-6111-4fc0-ac0c-1a080687d08f/air-more-uptempo-cl-older-shoes-HfJmMl.png",
         "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/91af5cd0-6111-4fc0-ac0c-1a080687d08f/air-more-uptempo-cl-older-shoes-HfJmMl.png",
@@ -1102,7 +1349,7 @@
       "description": "Zion's third signature shoe celebrates the dedication he puts in to crafting his singular game. Packed with court-ready tech, it's designed for ballers who are masters of both land and air. Stay low and contained, then explode skywards, with a cushioned return to earth. The Zion 3 helps hold you down—so you can fly your own way.",
       "colors": "Black/White/Varsity Red",
       "style": "FB4412-006",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/622d9c69-3cd7-4dff-ad4d-7fb732747414/air-jordan-1-mid-older-shoes-wqHdzW.png",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9daac470-9317-4cc2-b627-778e02e3d2ea/air-force-1-older-shoes-pPqnSp.png",
       "images": {
         "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9daac470-9317-4cc2-b627-778e02e3d2ea/air-force-1-older-shoes-pPqnSp.png",
         "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2d7adefe-10a1-46dd-8ef2-fcb781a29826/air-force-1-older-shoes-pPqnSp.png",
@@ -1122,7 +1369,7 @@
       "description": "Pulled out of the vault, these low tops are back. Inspired by the original Wings logo and design of the AJ1, these all-day, everyday shoes are ready for whatever. Smooth leather uppers and a big embossed logo will help you stand out, however you style 'em.",
       "colors": "Black/White/Varsity Red",
       "style": "FB4412-006",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_381,c_limit/0570af1d-2e79-42a6-ba8a-1365e397f033/jordan-spizike-low-older-shoes-40FbDq.png",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a62336c9-68b2-413c-a1e1-effb5d8d4dca/air-force-1-mid-easyon-se-older-shoes-dn5Z4M.png",
       "images": {
         "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a62336c9-68b2-413c-a1e1-effb5d8d4dca/air-force-1-mid-easyon-se-older-shoes-dn5Z4M.png",
         "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1681188a-a524-4a62-bbe5-d9a1aa4ff6b2/air-force-1-mid-easyon-se-older-shoes-dn5Z4M.png",
@@ -1170,7 +1417,7 @@
         "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/11a8c52c-6264-4c4f-865c-581bb2948483/air-max-plus-older-shoes-rQhBJR.png",
         "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9a6ec745-4e3a-4e20-9e09-36c802207afa/air-max-plus-older-shoes-rQhBJR.png",
         "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5245cd87-3492-4116-8eda-a9d3120acf43/air-max-plus-older-shoes-rQhBJR.png",
-        "4": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6bf7fd67-83b9-40be-b936-ae1390749b9d/jordan-nu-retro-1-low-older-shoes-tsJ6f8.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f73db2b9-f129-4914-aeb2-6edfd60f917a/air-max-plus-older-shoes-rQhBJR.png",
         "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/91cc581a-6c16-441f-8d06-810c8cdf9fdd/air-max-plus-older-shoes-rQhBJR.png",
         "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f3d2f76-1cb6-41e7-9c60-f31a32fec1f1/air-max-plus-older-shoes-rQhBJR.png",
         "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/271088bc-57ab-40a9-8f4a-af9ccec7cd56/air-max-plus-older-shoes-rQhBJR.png",
@@ -1439,7 +1686,29 @@
       }
     }
   ],
-  "wishlist": [],
+  "wishlist": [
+    {
+      "id": "M1",
+      "name": "Nike Air Force 1 '07 LV8",
+      "price": 10795,
+      "category": "Men's Shoes",
+      "description": "Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction is paired with golf-inspired details for style that tracks whether you're on court or on the go.",
+      "colors": "Colour Shown: White/Medium Soft Pink/Malachite/White",
+      "style": "Style: HF1937-100",
+      "imgUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/22cce236-9223-4916-abd8-ad7267d9f4ac/air-force-1-07-lv8-shoes-g2c8Rd.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/22cce236-9223-4916-abd8-ad7267d9f4ac/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d38decfd-9b87-4a52-8b42-d7d575632584/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/91068b0f-9ec5-481d-b31c-5c34201db49d/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8e7de3a9-12d5-4774-92b6-92dec631b7d1/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "5": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4fbfde04-ab8b-4f21-a03f-8b3fd5f463fb/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "6": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a03052d9-d7c4-45d3-bdae-808811357bb8/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "7": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9cde9d5-92fe-4e8b-b77f-4c62d3f9f1c5/air-force-1-07-lv8-shoes-g2c8Rd.png",
+        "8": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d83775af-b20d-4768-ab39-f8ab91a55cac/air-force-1-07-lv8-shoes-g2c8Rd.png"
+      },
+      "cat": "mens"
+    }
+  ],
   "cart": [],
   "jordan-home": {
     "popular-right-now": [
