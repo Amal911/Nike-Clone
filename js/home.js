@@ -198,3 +198,31 @@ const addButtonEventListener = function () {
     });
   };
   addButtonEventListener()
+
+ 
+let UserCreds = JSON.parse(sessionStorage.getItem('user-creds'));
+let UserInfo = JSON.parse(sessionStorage.getItem('user-info'));
+let showingmail = document.getElementById('disp');
+let DispLogout = document.getElementById('disp-logout');
+let Disp_loggedIn = document.getElementById('disp-loggedIn');
+let ToBeHided1 = document.getElementById('to-be-hidden1');
+let ToBeHided2 = document.getElementById('to-be-hidden2');
+
+let checkcred = () => {
+    if (!sessionStorage.getItem("user-creds")) {
+ 
+        console.log("checkred exception on case occured login again ");
+        showingmail.innerHTML = `${UserInfo.FirstName}`;
+    }
+    else {
+        Disp_loggedIn.style.display='block';
+        
+        showingmail.innerHTML = `Hi, ${UserInfo.FirstName} <img src="../assets/images/home/profile.svg" class="ms-2" height="20px">`;
+        console.log("user-cred loaded");
+        ToBeHided1.style.display='none';
+        ToBeHided2.style.display='none';
+        DispLogout.style.display='none';
+ 
+    }
+}
+window.addEventListener('load', checkcred);

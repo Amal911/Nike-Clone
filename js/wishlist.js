@@ -13,7 +13,7 @@ const likeBtnEventListener = ()=>{
   for(let i=0;i<likeBtns.length;i++){
     // console.log(i);
     likeBtns[i].addEventListener("click",()=>{
-      console.log(likeBtns[i].dataset.id);
+      // console.log(likeBtns[i].dataset.id);
       let productId = likeBtns[i].dataset.id;
       fetch(`http://localhost:3000/wishlist/${productId}`, {
         method: "DELETE",

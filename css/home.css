@@ -167,6 +167,7 @@ body {
     display: none;
 }
 
+
 .main-fix {
     background-color: #ffffff;
     position: absolute;
@@ -376,6 +377,10 @@ swiper-slide {
 
 .right-links {
     justify-content: space-between;
+}
+.jordan-p {
+    justify-content: center;
+    align-content: center;
 }
 
 .vr {
@@ -685,6 +690,9 @@ swiper-slide {
         margin-bottom: 0;
         width: 40%;
 
+    }
+    .jordan-wrapper{
+        display: none;
     }
 
     .coming {
