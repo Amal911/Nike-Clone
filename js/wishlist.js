@@ -149,7 +149,7 @@ const fetchData = async () => {
                 <p class="find-next-fav-product-name">${product.name}</p>
                 <p class="find-next-fav-product-category">${product.category}</p>
               </div>
-              <p class="find-next-fav-product-price">${product.price}</p>
+              <p class="find-next-fav-product-price">MRP: ₹ ${product.price}</p>
             </div>
           </div>
         `;

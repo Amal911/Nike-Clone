@@ -121,7 +121,7 @@ const fetchData = async () => {
                 <p class="nikestyle-carousel-card-details-customise">Customise</p>
                   <p class="nikestyle-carousel-card-details-name">${product.name}</p>
                   <p class="nikestyle-carousel-card-details-category">${product.category}</p>
-                  <p class="nikestyle-carousel-card-details-price">${product.price}</p>
+                  <p class="nikestyle-carousel-card-details-price">MRP: ₹ ${product.price}</p>
               </div>
             </div>
           `;
