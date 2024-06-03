@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const carousel = document.querySelector(".carousel");
     const arrowBtns = document.querySelectorAll("#carosal-btn-container button");
     const wrapper = document.querySelector(".wrapper");
-  console.log(arrowBtns);
+//   console.log(arrowBtns);
     const firstCard = carousel.querySelector(".card");
     const firstCardWidth = firstCard.offsetWidth;
  

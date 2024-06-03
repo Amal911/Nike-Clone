@@ -37,9 +37,14 @@
                 <div class="vr opacity-100"></div>
                 <a href="./pages/help-page.html" class="jordan-links"> Help</a>
                 <div class="vr opacity-100"></div>
-                <a href="./pages/signup-page.html" class="jordan-links"> Join Us</a>
-                <div class="vr opacity-100"></div>
-                <a href="./pages/login-page.html" class="jordan-links"> Sign In</a>
+                <a href="./pages/signup-page.html" class="jordan-links" id="to-be-hidden2"> Join Us</a>
+                <div class="vr opacity-100" id="to-be-hidden1"></div>
+                <a href="./pages/login.html" class="jordan-links">
+                    <p id="disp-logout" class="jordan-p m-auto">Sign In</p>
+                </a>
+                <a href="./pages/profile-page.html" class="jordan-links" style="display:none" id="disp-loggedIn">
+                    <p id="disp" class="jordan-p m-auto">Sign In</p>
+                </a>
             </div>
         </div>
     </div>
@@ -117,22 +122,22 @@
                         <a href="../pages/wishlist.html" class="m-auto">
 
                             <button type="btn-search" class="btn-nav2" id=favourite-icon>
-                                <img class="nav-icon d-inline-block align-top m-2" src="./assets/images/home/favourite.svg"
-                                width="25" height="25">
+                                <img class="nav-icon d-inline-block align-top m-2"
+                                    src="./assets/images/home/favourite.svg" width="25" height="25">
                             </button>
                         </a>
                         <a href="../pages/profile.html" class="m-auto">
 
                             <button type="btn-search" class="btn-nav2" id=profile-icon style="display: none;">
-                                <img class=" nav-icon d-inline-block align-top m-2" src="./assets/images/home/profile.svg"
-                                width="25" height="25">
+                                <img class=" nav-icon d-inline-block align-top m-2"
+                                    src="./assets/images/home/profile.svg" width="25" height="25">
                             </button>
                         </a>
                         <a href="./pages/cart.html" class="m-auto">
 
                             <button type="btn-search" class="btn-nav2" id=wishlist-icon>
-                                <img class=" nav-icon d-inline-block align-top m-2" src="./assets/images/home/wishlist.svg"
-                                width="25" height="25">
+                                <img class=" nav-icon d-inline-block align-top m-2"
+                                    src="./assets/images/home/wishlist.svg" width="25" height="25">
                             </button>
                         </a>
 
@@ -2496,6 +2501,7 @@
         </div>
 
     </div>
+
 
     <section class="hor-slide bg-light pt-0">
         <swiper-container class="mySwiper" navigation="false" space-between="30" centered-slides="false"
