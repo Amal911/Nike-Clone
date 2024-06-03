@@ -978,74 +978,190 @@
   ],
   "featured-nikestyle": [
     {
-      "id": "1",
+      "id": "NS1",
       "name": "Nike Dunk Low By You",
+      "price":  10795,
       "category": "Custom Shoes",
-      "price": "MRP : ₹ 10,555",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/8cbb6c3e-bf4a-43a0-96f7-18a10d722f02/custom-nike-dunk-low-by-you-su24.png"
+      "description":"Our icon, your way. Whether you're on the go or going out on the town, this Dunk has just the right amount of flash to keep you shining. Smooth or pebbled leather is combined with reflective design options on the Swoosh logo and backtab for a look that's so you. Add some vintage style with inscription elements and tongue presets that reference original Be True To Your School aesthetics. Don't forget to finish your look with 12 different lace colour choices.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: FV9524-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/8cbb6c3e-bf4a-43a0-96f7-18a10d722f02/custom-nike-dunk-low-by-you-su24.png",
+      "images": {
+        "1": "https://api.nike.com/customization/images/v2?vn=1&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "2": "https://api.nike.com/customization/images/v2?vn=2&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "3": "https://api.nike.com/customization/images/v2?vn=3&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "4": "https://api.nike.com/customization/images/v2?vn=4&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "5": "https://api.nike.com/customization/images/v2?vn=5&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "6": "https://api.nike.com/customization/images/v2?vn=6&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "7": "https://api.nike.com/customization/images/v2?vn=7&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA",
+        "8": "https://api.nike.com/customization/images/v2?vn=9&bi=7ce930e6-dd21-4908-ae69-4beac289602b&bs=1715706632590&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFaDpBZgTgbIAwAQABA+wKEDNA8HgP8ANA9gHIDK9AuQG8BrA0gOUDDYAAkBbALLUAjgESAOQDIAyQEmA3QHUAGwA0AQwFiAAgGoNAEK4AkgIIEAfgC0AtQBuAuwH1aAPACHMgFEA9wDnAMIAUka0ALwsAB4A3gBfAEeOAL0ABgBqAPwAewAjANw4VkYAYv7AAPMALQBVWvTpAK8A2wDfJVLhABMA7f7CFhbOAJKCACw+AEEAkQA2gekA8gBjAIhGAIYApABgAFAAl+62AAcWAMcAmvZkAMtGAIUAnwBxAEYAUwCuEAAqLQAMgcMgGAAOAG0AH3Ua4AOdsAA6sAACgAodQgagAtOiAP0ALwAIABsD5yACUCC8ACWAEwfABlAEWYAA8gCsAGeAIQADhSABdEZjEQBGvpHCwAToA9QodgBVgBcvKkAGDrgBzACmAEVBAAqakaTYAFXCmUJqx84Xchq8AHddQAsgAlzgAGdcji6tQr0QAHgDWAF-BeS1SCAHwACoAMABKhoqZxkakKiQQFhEHwHYAAQAAZ3AAHAAdEekIAmBAADEAP5kAFOFXUAE1IJONgAUgKk83pElWAEsAIH9jQgaH9mTAAB2ADQK3WADh6ekpvjUBoAdnmLwAJqW+p72qSKwAaYL6qydREoFftPDUACibf1bAAJAB6ABxBRQmhCAAHCBnaZxPX7F0AFKwPSAAT91KEFfwDwAR4OSEPlECsZCQAArgAXut3SmABVA4LgANLlAAeABoDc6NIgAhABjcd-xYAA9X85QrdEkmoABPAAdN4yGLZCEgAeMoPEuFhAYAH9iQAQbwP5xlaOA4EoCoAB8AAiADM2Q3eksAPQoPgAMPyKQeAAWGERiAHHMQ+QDqW5OBwgANxRAAFgBOeCAGKABXFlMDgAAuTxTPEQ09ABiDQAEgJAAGa0+C2TUH4AFBxIAUYAIh+VwAC2zIAZ2CCKABkADu4imUt3UFJM2pIXJGz0ABNw0LjlEM6L+XlhGC5CEGImAiAAdYAHeLG8BmKFc6gkJcEBSMLEQADAALoAEQqcS5HAhQuDMygCAPAg5TlYBbFuQoQyq4l5i0gABkBgAAJHoBTQjiQH+MJC5HIwFAdBOEycsRAgAAsLHq6lHMYdIPyTTLKrrQU4AUOoAEybwOD5AYAK3SLgDDiABrpd+L+JAAGYVXUwoJBMv5dQAH+hCNS2JLgjnoVncnUxlEQAJVG1n8mbaLHHoG8vN-cJrmYrCAHfckyIxNg+YAqygIA"
+      }
     },
     {
-      "id": "2",
-      "name": "Nike Air Force 1 Low By You",
-      "category": "Custom Men's Shoes",
-      "price": "MRP: ₹11,895",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/1defaebe-cdc7-49ec-8530-acd53889a052/hispl-quxm-tvxus.png"
-    },
-    {
-      "id": "3",
+      "id": "NS2",
       "name": "Nike Air Force 1 Low By You",
       "category": "Custom Shoes",
-      "price": "MRP : ₹ 11,895",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/bd156e13-4888-4999-926e-727b32e8bfd7/hispl-quxm-tvxus.png"
+      "price": 11895,
+      "description":"Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: DV3892-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.5/h_365,c_limit/1defaebe-cdc7-49ec-8530-acd53889a052/hispl-quxm-tvxus.png",
+      "images": {
+        "1": "https://api.nike.com/customization/images/v2?vn=1&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "2": "https://api.nike.com/customization/images/v2?vn=2&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "3": "https://api.nike.com/customization/images/v2?vn=3&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "4": "https://api.nike.com/customization/images/v2?vn=4&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "5": "https://api.nike.com/customization/images/v2?vn=5&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA",
+        "6": "https://api.nike.com/customization/images/v2?vn=6&bi=9331b08a-6f4f-4d39-a82d-d78dc74a8568&bs=1714434742048&bgc=f5f5f5&qlt=90&wid=864&designs=PgaIEAAFUEAMAFqAZBZgdgI4AwAQABA+wKQDmAcAJ8DyAlwLgByA1QLsDbAegGpMAWAOGwAGAVgAkAGwkAuhACqAfQG8AsgEngABIADADADfAMIAiAM4DTAdADxAXICZagPkB4APbmAewB6SbgL0cCABNAKkA7QAPAG4ABQAaAMSxAD8ArwBTAFkAYgAKpgC8AP4APgB03oUALABSAPoAqgBPADkAAgCPAEV4ACcApv4Alf4A8wChAJqlAMUANxgA9AB3TgDBvBJ0AF4AYAASagArYwDDAHEADQBjSmTdAKIA0ACwAL94AOEAgABCABj-ABmYYAA5YADyAKUAUDcwQAISkALQAEoABNCLhg8rVDFxzABNi4ADgAgmRDABlgATABbimCMQAXs5gAD9AA8AJ0AFT+AFQANoAawwBwADhddAAYWnVCZiR4HZoAL5UfIA2EoACkANoAzhMAFYuAAjABmAGYARgA7wAudYAVoAjQAaaFqADIfzRABRGvaADIAMgAiWqAHWzWk0AA1AHFydIAEwHACL7wAtoi4AA3gCRACdYfxoeYAIUAY4DzURYIAmFQAJxJ+JFgBXAA-iiwADoAcgAiF8AAsANAAz2AWQAtgAV0nn-AAG7MIABbyWvJAcABaDAoPoA4ABlWb6ACUZwAjktHiQeQBDeqtgBRdQARIYcAAy08ACWIAAZqTABLABxkc5AAWJDbpSQAIfmf8ACQAChpwADprJRYhAABuAB1awiIAVwANPKABCG40RzIdFwTCiRFA60IOvEgEwAQYAai+bohFCEthi+clrXMD0C1eD0SHCaFaJLAATIt2gAIwAdYAJXtHMABAw0oOBRVJEBakdAMAEDSQBYFEUaABfPJgQAboAUc0aEXVaN09gAeu8dClgYABT608HsO9Tx7AB72Jii7PJhV1LgAGzHleaERDgj8AW-BM+gAf+kKjhWMBAch+F10uFMFeAAPBLAByrlrF0QxChLJtOllakACx9QOJQADXYgAdl4zCgQYIkriTNIiwo21nmvN0AHdSVPFhujSNwMjcA8AAjDVAm5WjRNAKIARVtV4AAp-zGXg3MXfQcybTDSXpAYLjwdZaJHQUPJETRDH-e1tHMU84IQABJfwMC5XUwF4ZC8iHMF5gAQ4BABIEjzGnWljGOCiAAv2niChaVJaofRcfGDIAaRDRIAH4Lg5FJ4kMdYBwOWVNGnEiAF16goIsAD5vCQa8t0FaIfRarTNFmML-1bAA-KCpgCrSFGKeYUQmFI72qOKFBDMXiiYaRykMJRyTFgAkpNHk6dKUntZ4lAAdOhA4JsFKAgA"
+      }
     },
     {
-      "id": "4",
+      "id": "NS3",
+      "name": "Nike Air Force 1 Low By You",
+      "category": "Custom Shoes",
+      "price": 11895,
+      "description":"Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: DV3907-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/bd156e13-4888-4999-926e-727b32e8bfd7/hispl-quxm-tvxus.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bd156e13-4888-4999-926e-727b32e8bfd7/custom-nike-air-force-1-low-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/6e7772bf-264e-40fc-b259-bf0fe6aaedcc/custom-nike-air-force-1-low-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/58604f2c-5ee7-4642-b58d-fdd744415754/custom-nike-air-force-1-low-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/531d8398-3863-4beb-a3a5-81fb3082bd7c/custom-nike-air-force-1-low-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/34feed5a-e1e9-47fb-af9b-44908bba8152/custom-nike-air-force-1-low-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/353fbcff-ae4d-4a4c-af9f-7b0ce4a6c01c/custom-nike-air-force-1-low-by-you.png"
+      }
+    },
+    {
+      "id": "NS4",
       "name": "Nike Air Force 1 Low By You",
       "category": "Custom Women's Shoes",
-      "price": "MRP : ₹ 11,895",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/7107b5de-78e1-43f8-899e-232a88c8bd53/hispl-quxm-tvxus.png"
+      "price": 11895,
+      "description":"Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: DV3907-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/7107b5de-78e1-43f8-899e-232a88c8bd53/hispl-quxm-tvxus.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7107b5de-78e1-43f8-899e-232a88c8bd53/custom-nike-air-force-1-low-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7107b5de-78e1-43f8-899e-232a88c8bd53/custom-nike-air-force-1-low-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2510bf3e-4207-4694-a0a6-189e2f7ff2d4/custom-nike-air-force-1-low-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5fb96d97-8fc8-4812-be25-e976c46634a0/custom-nike-air-force-1-low-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3fd8d427-65fa-4bfa-a31b-4b84a097a4e9/custom-nike-air-force-1-low-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1803d2a8-1f28-46b3-9da2-c6f9ab5079f0/custom-nike-air-force-1-low-by-you.png"
+      }
     },
     {
-      "id": "5",
+      "id": "NS5",
       "name": "Nike Dunk Low Unlocked By You",
       "category": "Custom Shoes",
-      "price": "MRP : ₹ 14,995",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/ec93b093-f277-441f-973a-4d5797cd1369/custom-dunk-low-unlocked-by-you.png"
+      "price": 14995,
+      "description":"Cheetah and tiger and croc—oh my! It's time to design the Dunk of your dreams. The left and right shoes can be customised independently (excluding character personalisation), so let your imagination go wild. Velvet cheetah and tiger prints in a '90s-inspired colour palette mix with a textural croc suede for the ultimate maximalist look. Don't forget your shoelery for the finishing touch.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: FJ2253-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/ec93b093-f277-441f-973a-4d5797cd1369/custom-dunk-low-unlocked-by-you.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2c7b65b4-26ce-4279-a0fd-9620a9be25fb/custom-dunk-low-unlocked-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7ba5fe89-198d-4567-b991-df38b9c3e3ea/custom-dunk-low-unlocked-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bf4294b4-dd65-4406-ad67-62b6f5a42150/custom-dunk-low-unlocked-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/13172251-a787-44c4-a073-ee1393210140/custom-dunk-low-unlocked-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/51e46f19-14a9-4355-9111-f3bc0f6edb0f/custom-dunk-low-unlocked-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5ac0e811-a602-4fc1-a6fd-9f099a9a7d5c/custom-dunk-low-unlocked-by-you.pngA"
+      }
     },
     {
-      "id": "6",
+      "id": "NS6",
       "name": "Nike Dunk Low Unlocked By You",
       "category": "Custom Shoes",
-      "price": "MRP : ₹ 14,995",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/2c7b65b4-26ce-4279-a0fd-9620a9be25fb/custom-dunk-low-unlocked-by-you.png"
+      "price": 14995,
+      "description":"Cheetah and tiger and croc—oh my! It's time to design the Dunk of your dreams. The left and right shoes can be customised independently (excluding character personalisation), so let your imagination go wild. Velvet cheetah and tiger prints in a '90s-inspired colour palette mix with a textural croc suede for the ultimate maximalist look. Don't forget your shoelery for the finishing touch.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: FJ2253-900",
+      "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e7e1336e-1489-49e1-97d9-b723462a6dd6/custom-dunk-low-unlocked-by-you.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e7e1336e-1489-49e1-97d9-b723462a6dd6/custom-dunk-low-unlocked-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/02970f3e-5bab-4c95-899c-a681dc4a8ac8/custom-dunk-low-unlocked-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/02970f3e-5bab-4c95-899c-a681dc4a8ac8/custom-dunk-low-unlocked-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ed7ff6f9-0688-498d-a59d-09dcd0f00329/custom-dunk-low-unlocked-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d7b09231-987a-4f77-8628-d6a8657b565f/custom-dunk-low-unlocked-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f3dd247a-9a8f-4939-9bd1-493fe8165125/custom-dunk-low-unlocked-by-you.png"
+      }
     },
     {
-      "id": "7",
+      "id": "NS7",
       "name": "Nike G.T. Cut Academy By You",
       "category": "Custom Basketball Shoes",
-      "price": "MRP : ₹ 10,795",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/5ef7c8f7-c103-4654-ab0c-62419ded889f/custom-nike-gt-cut-academy.png"
+      "price": 10795,
+      "description":"Whether you're playing in the gym, at the park or on your driveway, lace up in the G.T. Cut Academy. This customisable version gives you a stunning array of colours and finishes to choose from, so your game can take centre stage. Designed to help you create space for step-back jumpers, back-door cuts and other game-changing plays, its sticky multi-court traction helps you stop in an instant and shift gears at will—wherever your next game is calling you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colou",
+      "style": "Style: FZ0574-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/5ef7c8f7-c103-4654-ab0c-62419ded889f/custom-nike-gt-cut-academy.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5ef7c8f7-c103-4654-ab0c-62419ded889f/custom-nike-gt-cut-academy.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7e0e9de7-dd6a-4ad4-9d16-541506ba2a64/custom-nike-gt-cut-academy.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1a87880b-d799-4fe1-b062-23cc7b0098db/custom-nike-gt-cut-academy.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e6fdc9ff-a32a-4c3e-87b8-2b2da8c548b2/custom-nike-gt-cut-academy.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5208313e-e10f-4192-872d-651be7598216/custom-nike-gt-cut-academy.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dc55fdaf-5b80-490a-9aed-0bb9336bd195/custom-nike-gt-cut-academy.png",
+        "7": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/85375fb4-7404-44c4-b285-4648807fbd30/custom-nike-gt-cut-academy.png",
+        "8": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/881ec01a-5ba2-4438-8068-435a63d5297b/custom-nike-gt-cut-academy.png"
+      }
     },
     {
-      "id": "8",
+      "id": "NS8",
       "name": "Nike Phantom Luna 2 Elite By You",
       "category": "Custom FG High-Top Football Boot",
-      "price": "MRP : ₹ 26,995",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/893b13a4-3a10-4947-b72d-960034bb1d86/custom-phantom-luna-2-elite-by-you.png"
+      "price": 26995,
+      "description":"Obsessed with perfecting your craft? Let the Phantom Luna 2 Elite By You help your game shine bright. With eye-popping underfoot plates, gritty graphics and a plethora of dazzling colours, your skills will catch the gazes of every onlooker both on the pitch and in the stands. With revolutionary Nike Gripknit covering the striking area of the boot, and Nike Cyclone 360 traction guiding your unscripted agility in the open pitch, it's created with goals in mind.",
+      "colors": "Colour Shown: White/Whiter",
+      "style": "Style: FQ8803-100",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/893b13a4-3a10-4947-b72d-960034bb1d86/custom-phantom-luna-2-elite-by-you.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/893b13a4-3a10-4947-b72d-960034bb1d86/custom-phantom-luna-2-elite-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/70713833-930e-45d2-9223-8d6f5de5b5a9/custom-phantom-luna-2-elite-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/47cefeff-e44f-4982-9fb7-3e019559f4ea/custom-phantom-luna-2-elite-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/270a4f1e-c58e-4cba-8b10-4b99d17a02fe/custom-phantom-luna-2-elite-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ecef778f-8425-4d33-85e8-b618aeb3b905/custom-phantom-luna-2-elite-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0470c7ff-5c1f-4b46-89e5-6dcf9b1ecb7c/custom-phantom-luna-2-elite-by-you.png",
+        "7": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/96657273-22fa-4c09-9066-f366bac25041/custom-phantom-luna-2-elite-by-you.png"
+      }
     },
     {
-      "id": "9",
+      "id": "NS9",
       "name": "Nike Mercurial Vapor 15 Elite By You",
       "category": "Custom Firm-Ground Football Boot",
-      "price": "MRP : ₹ 24,895",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/a6195f4a-c153-43a9-8c35-c1e4ee6d80f5/custom-mercurial-vapor-15-elite-shoes-by-you.png"
+      "price": 24895,
+      "description":"Express your creative side with an array of vibrant, eye-catching colours that are tuned for your distinct, brash style. With special design details from eccentric colour options to personalised messages and an updated graphic, there's no limit to your creativity on or off the pitch. Loaded with a Zoom Air unit, you can put the pedal down in the final minutes of a match—when it matters most. Fast is in the Air.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour",
+      "style": "Style: FN6749-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/a6195f4a-c153-43a9-8c35-c1e4ee6d80f5/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a6195f4a-c153-43a9-8c35-c1e4ee6d80f5/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e4f3e441-aada-4dc7-9988-7d316494f46f/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/68a6422c-01ab-4492-9284-5a4394cc4c2a/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/c362c248-ff55-471f-b95a-6af29260ef09/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1a70c89b-b7d3-4547-923c-c55ab6dbde8e/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/497fa734-7fbb-49e5-822d-246561cced65/custom-mercurial-vapor-15-elite-shoes-by-you.png",
+        "7": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/762004bc-e54f-43d6-9d7f-d4a0ae0ced96/custom-mercurial-vapor-15-elite-shoes-by-you.png"
+      }
     },
     {
-      "id": "10",
+      "id": "NS10",
       "name": "Nike Air Force 1 Mid By You",
       "category": "Men's Custom Shoes",
-      "price": "MRP : ₹ 12,795",
-      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/0c7f91e6-4cf2-4bb5-991e-c19390a2b5de/custom-nike-air-force-1-mid-by-you-shoes.png"
+      "price": 12795,
+      "description":"Let your design shine in satin, keep it classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional Gum option for the sole mean your design is destined to be one of a kind, just like you.",
+      "colors": "Colour Shown: Multi-Colour/Multi-Colour/Multi-Colour",
+      "style": "Style: DZ3640-900",
+      "imgUrl": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_357,c_limit/0c7f91e6-4cf2-4bb5-991e-c19390a2b5de/custom-nike-air-force-1-mid-by-you-shoes.png",
+      "images": {
+        "1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0c7f91e6-4cf2-4bb5-991e-c19390a2b5de/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/4e2ee28a-b5bd-428c-a98c-afa24696668b/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/389a2e8c-edf7-42f7-91aa-21766b3b3c49/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "4": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/76e9cb96-104c-4c92-8305-f6e8016e089f/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "5": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/93dd9ebb-b133-4b8c-ad66-78d725e6a856/custom-nike-air-force-1-mid-by-you-shoes.png",
+        "6": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/96b696ff-3580-4ad0-ba92-b2610d8ccd17/custom-nike-air-force-1-mid-by-you-shoes.png"
+      }
     }
   ],
   "kids-category": {
