@@ -1,7 +1,6 @@
 const fetchData = async (categ) => {
   const result = await fetch("http://localhost:3000/mens-category");
   let data = await result.json();
-  // console.log(data[categ]);
   return data[categ];
 };
 
@@ -34,19 +33,16 @@ const addButtonEventListener = function () {
     const dragging = (e) => {
       if (!isDragging) return;
 
-      // Calculate the new scroll position
       const newScrollLeft = startScrollLeft - (e.pageX - startX);
 
       if (
         newScrollLeft <= 0 ||
         newScrollLeft >= carousel.scrollWidth - carousel.offsetWidth
       ) {
-        // If so, prevent further dragging
         isDragging = false;
         return;
       }
 
-      // Otherwise, update the scroll position of the carousel
       carousel.scrollLeft = newScrollLeft;
     };
 
@@ -104,7 +100,6 @@ const loadData = async function () {
   carousel = document.getElementById("shop-by-icon-carousel");
   console.log(data);
   data.forEach((product) => {
-    // console.log(product);
     let productCard = document.createElement("li");
     productCard.className = "card ";
     productCard.innerHTML = `
@@ -125,7 +120,6 @@ const loadData = async function () {
   data = await fetchData("shop-by-sport");
   carousel = document.getElementById("shop-by-sport-carousel");
   data.forEach((product) => {
-    // console.log(product);
     let productCard = document.createElement("li");
     productCard.className = "card ";
     productCard.innerHTML = `
