@@ -5,6 +5,11 @@
 
 }
 
+a{
+    text-decoration: none;
+    
+}
+
 #body{
     overflow: auto;
     display: block;
@@ -321,15 +326,17 @@ section{
     background-color:#6a6d78;
 }
 #trending-women .button p{
-    padding-top: 10%;
+    padding-top: 0.5em;
     color: #000000;
     
 }
 #trending-women .card-overlay-content{
-    position: absolute;
+    position: relative;
     text-align: start;
+    width: 500px;
     bottom: 6em;
-    left: 4em;
+    left: 2em;
+    right: 0;
 }
 
 #dont-miss img{
@@ -352,6 +359,9 @@ section{
     justify-content: center;
     height: 2.5em;
 
+}
+.move-with-us .button:hover{
+    background-color: #6a6d78;
 }
 
 .move-with-us .video-container .landscape-video{
@@ -466,7 +476,7 @@ span{
  
   
   .wrapper .carousel {
-    height:600px;
+    /* height:200px; */
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 360px;
@@ -665,9 +675,8 @@ h2{
 }
 
 #dont-miss .picture-text{
-    position: absolute;
     text-align: start;
-    bottom: 2em;
+    bottom: 4em;
     left: 2em;
 }
 #dont-miss .picture-text .button{
@@ -729,6 +738,7 @@ h2{
 
 .texts{
     text-align: start;
+    margin-top: 2em;
 }
 
 #shop-the-essentials{
@@ -736,7 +746,7 @@ h2{
 
 }
 #shop-the-essentials h3{
-    margin-top: -40px;
+    /* margin-top: -40px; */
     margin-left: 2%;
 }
 
@@ -756,7 +766,7 @@ h2{
 }
 
 #popular-right-now img{
-    height: 80%;
+    /* height: 80%; */
     width: 100%;
 }
 
@@ -871,7 +881,7 @@ h2{
 .carousel .card {
     scroll-snap-align: start;
     width: fit-content;
-    height: 500px; 
+    /* height: 500px;  */
     list-style: none;
     background: #fff;
     border-radius: 8px;
