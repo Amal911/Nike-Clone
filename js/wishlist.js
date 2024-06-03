@@ -136,6 +136,7 @@ const fetchData = async () => {
     let productCard = document.createElement("li");
     productCard.className = "card carousel-card";
     productCard.innerHTML = `
+    <a href="./product.html?cat=favourites&id=${product.id}" style="all: unset;">
         <div class="find-fav-product-card">
             <div>
               <img
@@ -152,6 +153,7 @@ const fetchData = async () => {
               <p class="find-next-fav-product-price">MRP: ₹ ${product.price}</p>
             </div>
           </div>
+          </a>
         `;
     carousel.appendChild(productCard);
   });
