@@ -45,7 +45,7 @@ const loadData = async () => {
                 <div class="card-body">
                     <h5 class="card-title pt-3" id="product-title">${product.name}</h5>
                     <p class="card-category pt-1" id="product-category">${product.category}</p>
-                    <p class="card-price pt-1" id="product-price">MRP : <span id="card-price-mrp">${product.price}</span></p>
+                    <p class="card-price pt-1" id="product-price">MRP : <span id="card-price-mrp">MRP: ₹ ${product.price}</span></p>
                 </div>
             </div>
         </a>

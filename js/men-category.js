@@ -93,7 +93,7 @@ const loadData = async function () {
     <div class="texts text-dark">
       <p><b>${product.name}</b></p>
       <p>${product.category}</p>
-      <p><b>${product.price}</b></p>
+      <p><b>MRP: ₹ ${product.price}</b></p>
     </div>
 </div>
         `;
